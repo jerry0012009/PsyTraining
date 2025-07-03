@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>心理测量游戏平台</title>
+    <link rel="stylesheet" href="template.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="game-platform">
+        <!-- 顶部控制栏 -->
+        <div class="control-bar">
+            <div class="control-left">
+                <button id="back-btn" class="btn btn-back">
+                    <i class="fas fa-arrow-left"></i>
+                    返回
+                </button>
+                <h1 id="game-title" class="game-title">Snake游戏</h1>
+            </div>
+            <div class="control-right">
+                <div class="timer-display">
+                    <i class="fas fa-clock"></i>
+                    <span id="timer">00:00</span>
+                </div>
+                <button id="pause-btn" class="btn btn-pause">
+                    <i class="fas fa-play"></i>
+                    开始训练
+                </button>
+                <button id="end-btn" class="btn btn-end" disabled>
+                    <i class="fas fa-stop"></i>
+                    结束训练
+                </button>
+            </div>
+        </div>
+
+        <!-- 游戏容器 -->
+        <div class="game-container">
+            <div id="game-content" class="game-content">
+                <!-- 游戏内容将在这里加载 -->
+            </div>
+        </div>
+
+        <!-- 底部信息栏 -->
+        <div class="info-bar">
+            <div class="session-info">
+                <span>训练状态: <span id="game-status">准备中</span></span>
+            </div>
+            <div class="score-info">
+                <span>训练时长: <span id="timer-copy">00:00</span></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="template.js"></script>
+</body>
+</html> 

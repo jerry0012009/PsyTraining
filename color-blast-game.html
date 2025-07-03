@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Blast - 心理测量训练</title>
+    <link rel="stylesheet" href="game-template/template.css">
+    <link rel="stylesheet" href="games/color-blast/game.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="game-platform">
+        <!-- 顶部控制栏 -->
+        <div class="control-bar">
+            <div class="control-left">
+                <button id="back-btn" class="btn btn-back">
+                    <i class="fas fa-arrow-left"></i>
+                    返回
+                </button>
+                <h1 id="game-title" class="game-title">Color Blast</h1>
+            </div>
+            <div class="control-right">
+                <div class="timer-display">
+                    <i class="fas fa-clock"></i>
+                    <span id="timer">00:00</span>
+                </div>
+                <button id="pause-btn" class="btn btn-pause">
+                    <i class="fas fa-play"></i>
+                    开始训练
+                </button>
+                <button id="end-btn" class="btn btn-end" disabled>
+                    <i class="fas fa-stop"></i>
+                    结束训练
+                </button>
+            </div>
+        </div>
+
+        <!-- 游戏容器 -->
+        <div class="game-container">
+            <div id="game-content" class="game-content">
+                <!-- Color Blast游戏内容 -->
+                <div class="color-blast-container">
+                    <div class="game-info">
+                        <div class="score-display">
+                            <h3>得分: <span id="color-blast-score">0</span></h3>
+                            <p>生命: <span id="color-blast-lives">3</span></p>
+                        </div>
+                    </div>
+                    <div class="game-canvas-container">
+                        <canvas id="color-blast-canvas" width="960" height="540"></canvas>
+                    </div>
+                    <div class="game-controls">
+                        <p class="control-hint">
+                            <span class="key">←</span> <span class="key">→</span> 移动 |
+                            <span class="key">空格</span> 射击 | 
+                            <span class="key">R</span> 重新开始
+                        </p>
+                    </div>
+                </div>
+                <!-- 游戏说明 -->
+                <div class="game-instruction">
+                    <p><strong>🎮 游戏说明</strong></p>
+                    <p>
+                        <span class="key">←</span>
+                        <span class="key">→</span>
+                        控制移动 | 
+                        <span class="key">空格</span> 射击
+                    </p>
+                    <p>💥 消灭敌人，避免被击中</p>
+                    <p>📊 训练结束后控制台将输出详细的游戏数据</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部信息栏 -->
+        <div class="info-bar">
+            <div class="session-info">
+                <span>训练状态: <span id="game-status">准备中</span></span>
+            </div>
+            <div class="score-info">
+                <span>训练时长: <span id="timer-copy">00:00</span></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="game-template/template.js"></script>
+    <script src="games/color-blast/game.js"></script>
+</body>
+</html> 
