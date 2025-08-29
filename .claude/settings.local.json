@@ -16,7 +16,8 @@
       "Bash(then echo \"Missing save.md: $dir\")",
       "Bash(start index.html)",
       "Bash(git config:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
