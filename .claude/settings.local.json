@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(md5sum:*)",
+      "Bash(git clone:*)",
+      "Bash(cat:*)",
+      "Bash(python:*)",
+      "Bash(python:*)",
+      "Bash(curl:*)",
+      "Bash(mkdir:*)",
+      "Bash(dir)",
+      "Bash(for dir in */)",
+      "Bash(do if [ ! -f \"$dirsave.md\" ])",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(then echo \"Missing save.md: $dir\")",
+      "Bash(start index.html)",
+      "Bash(git config:*)",
+      "Bash(node:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
