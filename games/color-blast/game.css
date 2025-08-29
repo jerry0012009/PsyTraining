@@ -1,0 +1,116 @@
+/* Color Blast游戏样式 */
+.color-blast-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 960px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.score-display h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #4cffd7;
+}
+
+.score-display p {
+    font-size: 1rem;
+    color: #e74c3c;
+}
+
+.game-canvas-container {
+    position: relative;
+    border: 2px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#color-blast-canvas {
+    display: block;
+    background: #111;
+    max-width: 100%;
+    height: auto;
+}
+
+.game-controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.control-hint {
+    color: #ccc;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.key {
+    display: inline-block;
+    background: #222;
+    background: linear-gradient(#222, #000);
+    line-height: 1.3em;
+    border-radius: 3px;
+    font-family: monospace;
+    padding: 2px 6px;
+    margin: 0 2px;
+    color: #4cffd7;
+}
+
+/* 游戏状态提示 */
+.game-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 100;
+}
+
+.game-message h3 {
+    color: #4cffd7;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.game-message p {
+    color: #ccc;
+    margin: 5px 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 1000px) {
+    #color-blast-canvas {
+        width: 100%;
+        height: auto;
+    }
+    
+    .game-info {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .color-blast-container {
+        padding: 10px;
+    }
+    
+    .control-hint {
+        font-size: 0.8rem;
+    }
+} 

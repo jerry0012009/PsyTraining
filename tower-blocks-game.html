@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Blocks - 心理测量训练</title>
+    <link rel="stylesheet" href="game-template/template.css">
+    <link rel="stylesheet" href="games/tower-blocks/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
+</head>
+<body>
+    <div class="game-platform">
+        <!-- 顶部控制栏 -->
+        <div class="control-bar">
+            <div class="control-left">
+                <button id="back-btn" class="btn btn-back">
+                    <i class="fas fa-arrow-left"></i>
+                    返回
+                </button>
+                <h1 id="game-title" class="game-title">Tower Blocks</h1>
+            </div>
+            <div class="control-right">
+                <div class="timer-display">
+                    <i class="fas fa-clock"></i>
+                    <span id="timer">00:00</span>
+                </div>
+                <button id="pause-btn" class="btn btn-pause">
+                    <i class="fas fa-play"></i>
+                    开始训练
+                </button>
+                <button id="end-btn" class="btn btn-end" disabled>
+                    <i class="fas fa-stop"></i>
+                    结束训练
+                </button>
+            </div>
+        </div>
+
+        <!-- 游戏容器 -->
+        <div class="game-container">
+            <div id="game-content" class="game-content">
+                <!-- Tower Blocks游戏内容 -->
+                <div id="container">
+                    <div id="score">0</div>
+                    <div id="game"></div>
+                    <div id="instructions">点击或按空格键放置方块</div>
+                    <div class="game-over">
+                        <h2>游戏结束</h2>
+                        <p>你做得很棒！</p>
+                        <p>点击或按空格键重新开始</p>
+                    </div>
+                    <div class="game-ready">
+                        <div id="start-button">开始</div>
+                        <div></div>
+                    </div>
+                </div>
+                
+                <!-- 游戏说明 -->
+                <div class="game-instruction">
+                    <p><strong>🎮 游戏说明</strong></p>
+                    <p>
+                        <span class="key">空格</span> 或 
+                        <span class="key">点击</span> 
+                        放置方块
+                    </p>
+                    <p>🎯 尽可能精确地叠放方块，建造更高的塔</p>
+                    <p>💡 支持多轮游戏模式，系统自动记录数据</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部信息栏 -->
+        <div class="info-bar">
+            <div class="session-info">
+                <span>训练状态: <span id="game-status">准备中</span></span>
+            </div>
+            <div class="score-info">
+                <span>当前得分: <span id="current-score">0</span></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="game-template/template.js"></script>
+    <script src="games/tower-blocks/script.js"></script>
+</body>
+</html> 

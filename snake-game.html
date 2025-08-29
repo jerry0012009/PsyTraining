@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake游戏 - 心理测量训练</title>
+    <link rel="stylesheet" href="game-template/template.css">
+    <link rel="stylesheet" href="games/snake/game.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="game-platform">
+        <!-- 顶部控制栏 -->
+        <div class="control-bar">
+            <div class="control-left">
+                <button id="back-btn" class="btn btn-back">
+                    <i class="fas fa-arrow-left"></i>
+                    返回
+                </button>
+                <h1 id="game-title" class="game-title">Snake游戏</h1>
+            </div>
+            <div class="control-right">
+                <div class="timer-display">
+                    <i class="fas fa-clock"></i>
+                    <span id="timer">00:00</span>
+                </div>
+                <button id="pause-btn" class="btn btn-pause">
+                    <i class="fas fa-play"></i>
+                    开始训练
+                </button>
+                <button id="end-btn" class="btn btn-end" disabled>
+                    <i class="fas fa-stop"></i>
+                    结束训练
+                </button>
+            </div>
+        </div>
+
+        <!-- 游戏容器 -->
+        <div class="game-container">
+            <div id="game-content" class="game-content">
+                <!-- Snake游戏内容 -->
+                <div class="snake-game-container">
+                    <div class="wrapper">
+                        <button id="replay">
+                            <i class="fas fa-play"></i>
+                            RESTART
+                        </button>
+                        <div id="canvas">
+                            <!-- Canvas will be created by JavaScript -->
+                        </div>
+                        <div id="ui">
+                            <h2>SCORE</h2>
+                            <span id="score">00</span>
+                        </div>
+                    </div>
+                    <div id="author">
+                        <h1>SNAKE</h1> 
+                        <span>by Fariat</span>
+                    </div>
+                </div>
+                
+                <!-- 游戏说明 -->
+                <div class="game-instruction">
+                    <p><strong>🎮 游戏说明</strong></p>
+                    <p>
+                        <span class="key">↑</span>
+                        <span class="key">↓</span>
+                        <span class="key">←</span>
+                        <span class="key">→</span>
+                        控制移动 | 
+                        <span class="key">空格</span> 重新开始
+                    </p>
+                    <p>🐍 控制贪吃蛇吃食物，避免撞到自己</p>
+                    <p>💡 支持多轮游戏模式，系统自动记录数据</p>
+                    <p>📊 训练结束后控制台将输出详细的游戏数据</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部信息栏 -->
+        <div class="info-bar">
+            <div class="session-info">
+                <span>训练状态: <span id="game-status">准备中</span></span>
+            </div>
+            <div class="score-info">
+                <span>当前得分: <span id="current-score">0</span></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="game-template/template.js"></script>
+    <script src="games/snake/game.js"></script>
+</body>
+</html> 
