@@ -1,0 +1,14 @@
+{
+    "name": "什么缺失了？（闪电模式）",
+    "template":"phaser",
+    "exp_id": "whats-missing-lightning",
+    "contributors": [
+                     "Jonathan Nicholas",
+                     "Christian Battista",
+                     "Vanessa Sochat"
+                    ],
+    "time":10,
+    "instructions": "按照说明来玩这个游戏。",
+    "description": "一个测试解决问题技能的有趣游戏。",
+    "url": "https://www.github.com/expfactory-experiments/whats-missing-lightning"
+}

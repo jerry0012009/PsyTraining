@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body style="display: block;">
+    <div class="step-container">
+        <h1 class="title">
+            指导说明
+        </h1>
+        <p id="content">在这个任务中，你将看到一张人脸图像，中间有一个情绪词。请按下与<b>文字情绪类别</b>对应的按键：
+            <b>（愤怒、悲伤、开心、恐惧）</b><br>请尽量忽略面部表情。
+        </p>
+        <div id="imageContainer">
+        </div>
+
+        <div class="button-group">
+            <button id="angry" class="button" onclick="checkEmotion('ANGRY');">愤怒</button>
+            <button id="happy" class="button" onclick="checkEmotion('HAPPY');">开心</button>
+            <button id="sad" class="button" onclick="checkEmotion('SAD');">悲伤</button>
+            <button id="scared" class="button" onclick="checkEmotion('SCARED');">恐惧</button>
+        </div>
+
+    </div>
+    <script src='./js/jquery-3.3.1.min.js'></script>
+    <script src="./js/experiment.js"></script>
+</body>
+
+</html>

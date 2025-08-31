@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>加法禅心 - 认知训练游戏</title>
+       
+        <script src='js/phaser.min.js'></script>
+        <script src='js/jquery.min.js'></script>
+        <script src='js/box2d-plugin-full.min.js'></script>
+        <script src='js/Boot.js'></script>
+        <script src='js/Preloader.js'></script>
+        <script src='js/Menu.js'></script>
+        <script src='js/Instructions.js'></script>
+        <script src='js/Run.js'></script>
+        <script src='js/problems.js'></script>
+    </head>
+    <body>
+    <script type="text/javascript">
+
+    this.data = {}
+    this.taskdata = []
+
+    function inputData(field, value) {
+        this.data[field] = value
+    }
+
+
+    function sendData(trial) {
+
+        inputData('trial', trial)
+        this.taskdata.push(this.data);
+       
+        if (data.finished == 1) {
+
+           // Serialize the data
+           var promise = new Promise(function(resolve, reject) {
+                var data = "text/json;charset=utf-8," + JSON.stringify(this.taskdata);
+                resolve(data);
+           })
+
+           promise.then(function(data) {
+
+               $.ajax({
+                       type: "POST",
+                        url: '/save',
+                        data: { "data": data },
+                        success: function(){ document.location = "/next" },
+                        dataType: "application/json",
+
+                        // Endpoint not running, local save
+                        error: function(err) {
+
+                            if (err.status == 200){
+                                document.location = "/next";
+                            } else {
+                    
+                               setTimeout(function() { 
+                                   var a = document.createElement('a');
+                                       a.title = "Download"
+                                       a.id = "download"
+                                       a.type = "button"
+                                       a.download = 'add-it-up-zen_result.json';
+                                       a.href = 'data:' + data;
+                                       $("#finished").show();
+                                       $("#download").click(function(){
+                                       $("body").append(a)
+                                           a.click()
+                                       })
+                                 },2000)
+
+                              }
+                         }
+                     });
+             })
+
+        }
+
+        this.data = {};
+
+    }
+
+    window.onload = function() {
+
+        //create the game and the game states
+        var game = new Phaser.Game(960, 600, Phaser.CANVAS, 'gameContainer')
+        problem_set='A'
+        game.state.add('Boot', Game.Boot)
+        game.state.add('Preloader', Game.Preloader)
+        game.state.add('Menu',Game.Menu)
+        game.state.add('Instructions', Game.Instructions)
+        game.state.add('Run', Game.Run)
+        //Now start the Boot state.
+        game.state.start('Boot', true, false, problem_set)
+
+    }
+
+    </script>
+    <div id="finished" hidden>
+      <button id="download" type="button" style="background-color:white;padding:10px; border-radius:5px">下载结果</button>
+    </div>
+    </body>
+    
+</html>

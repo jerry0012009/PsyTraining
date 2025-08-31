@@ -17,7 +17,18 @@
       "Bash(start index.html)",
       "Bash(git config:*)",
       "Bash(node:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(dir:*)",
+      "Bash(for dir in games/*/)",
+      "Bash(do if [ ! -f \"$dir/save.md\" ])",
+      "Bash(grep:*)",
+      "Bash(start games/rsvp-task/index.html)",
+      "Bash(sed:*)",
+      "Bash(start:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(start games/stop-signal/index.html)"
     ],
     "deny": [],
     "ask": []

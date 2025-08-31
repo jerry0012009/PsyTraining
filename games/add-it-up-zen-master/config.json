@@ -1,0 +1,16 @@
+{
+    "name": "Add It Up! (Zen Mode)",
+    "template":"phaser",
+    "exp_id": "add-it-up-zen",
+    "contributors": [
+                     "Jonathan Nicholas",
+                     "Christian Battista",
+                     "Vanessa Sochat"
+                    ],
+    
+    "time":10,
+    "instructions": "Follow the instructions to play the game.",
+    "description": "A fun, relaxed game to sum two numbers.",
+    "url": "https://www.github.com/expfactory-experiments/add-it-up-zen"
+
+}

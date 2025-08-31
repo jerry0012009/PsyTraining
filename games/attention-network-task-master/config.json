@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_551f0857e1db8",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"注意力网络任务实验",
+    "url":"https://www.github.com/expfactory-experiments/attention-network-task",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "attention-network-task",
+    "name": "注意力网络任务",
+    "reference": ["http://www.mitpressjournals.org/doi/pdf/10.1162/089892902317361886"],
+    "template": "jspsych",
+    "time": 15
+}

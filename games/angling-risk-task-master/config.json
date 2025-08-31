@@ -1,0 +1,18 @@
+{
+    "name": "钓鱼风险任务",
+    "exp_id": "angling-risk-task",
+    "url": "https://www.github.com/expfactory-experiments/angling-risk-task",
+    "description":"确定风险承受阈值",
+    "instructions": "根据屏幕上的指示进行操作",
+    "template":"jspsych",
+    "cognitive_atlas_task_id": "trm_5667488d52ccc",
+    "contributors": [
+                     "Ian Eisenberg",
+                     "Zeynep Enkavi",
+                     "Patrick Bissett",
+                     "Vanessa Sochat",
+                     "Russell Poldrack"
+                    ], 
+    "time":25,
+    "reference": ["http://www.ncbi.nlm.nih.gov/pubmed/18194061"]
+}

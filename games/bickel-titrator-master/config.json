@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_5696a599bfcb6",
+    "instructions":"根据屏幕上的刺激进行反应。",
+    "description":"适应性延迟贴现实验",
+    "url":"https://www.github.com/expfactory-experiments/bickel-titrator",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "bickel-titrator",
+    "name": "适应性贝克尔滴定器",
+    "reference":[ "http://psycnet.apa.org/journals/pha/22/3/222.pdf"],
+    "template": "jspsych",
+    "time": 5
+}

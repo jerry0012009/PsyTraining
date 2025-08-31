@@ -1,0 +1,13 @@
+{
+    "name": "情绪冲突解决任务",
+    "exp_id": "affective-conflict-resolution-task",
+    "description": "根据文字情绪点击相应按钮的任务。",
+    "instructions": "给出四种情绪，选择一个按钮。"
+    "url": "https://github.com/JuneOh710/affective-conflict-resolution-task",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "June Oh"
+                    ], 
+    "time":7,
+    "reference": ["https://www.tandfonline.com/doi/full/10.1080/02699931.2016.1168285"]
+}

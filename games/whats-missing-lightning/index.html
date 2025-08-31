@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Experiment Factory Game</title>
+       
+        <script src='js/phaser.min.js'></script>
+        <script src='js/jquery.min.js'></script>
+        <script src='js/box2d-plugin-full.min.js'></script>
+        <script src='js/Boot.js'></script>
+        <script src='js/Preloader.js'></script>
+        <script src='js/Menu.js'></script>
+        <script src='js/Instructions.js'></script>
+        <script src='js/Run.js'></script>
+        <script src='js/problems.js'></script>
+    </head>
+    <body>
+    <script type="text/javascript">
+
+    this.data = {}
+    this.taskdata = []
+
+    function inputData(field, value) {
+        this.data[field] = value
+    }
+
+
+    function sendData(trial) {
+
+        inputData('trial', trial)
+        this.taskdata.push(this.data);
+       
+        if (data.finished == 1) {
+
+           // Serialize the data
+           var promise = new Promise(function(resolve, reject) {
+                var data = "text/json;charset=utf-8," + JSON.stringify(this.taskdata);
+                resolve(data);
+           })
+
+           promise.then(function(data) {
+
+               $.ajax({
+                       type: "POST",
+                        url: '/save',
+                        data: { "data": data },
+                        success: function(){ document.location = "/next" },
+                        dataType: "application/json",
+
+                        // Endpoint not running, local save
+                        error: function(err) {
+
+                            if (err.status == 200){
+                                document.location = "/next";
+                            } else {
+                    
+                               setTimeout(function() { 
+                                   var a = document.createElement('a');
+                                   a.href = "data:" + data;
+                                   a.download = 'data.json'
+                                   a.click();
+                                   document.location = "/next";
+                               }, 500); 
+
+                            }
+                        }
+               })
+
+           })
+         }
+    }
+  
+    (function() {
+
+       var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create });
+
+       function preload() {}
+
+       function create() {
+
+         // Parse problem set and then start the game
+         $.get('config.json').done(function(data) {
+             this.problem_set = data
+             game.state.add('Boot', Game.Boot)
+             game.state.add('Preloader', Game.Preloader)
+             game.state.add('Menu', Game.Menu)
+             game.state.add('Instructions', Game.Instructions)
+             game.state.add('Run', Game.Run)
+             game.state.start('Boot', true, false, this.problem_set)
+         }).fail(function() {
+            $.getJSON('config.json', function(data) {
+                this.problem_set = data
+                game.state.add('Boot', Game.Boot)
+                game.state.add('Preloader', Game.Preloader)
+                game.state.add('Menu', Game.Menu)
+                game.state.add('Instructions', Game.Instructions)
+                game.state.add('Run', Game.Run)
+                game.state.start('Boot', true, false, this.problem_set)
+             })
+         })
+      }
+
+    })();
+
+    </script>
+    </body>
+</html>

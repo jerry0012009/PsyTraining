@@ -1,0 +1,14 @@
+{
+    "name": "柏林数字能力测试",
+    "exp_id": "berlin-numeracy-test",
+    "description": "一系列简短的题目用于测试参与者的数字能力。",
+    "instructions": "输入您认为最佳的答案。",
+    "url": "https://github.com/JuneOh710/berlin-numeracy-test",
+    "template":"jspsych",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "June Oh"
+                    ], 
+    "time":5,
+    "reference": ["http://www.riskliteracy.org/files/BNT%20Versions.pdf"]
+}
