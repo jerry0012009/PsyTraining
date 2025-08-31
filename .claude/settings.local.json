@@ -57,7 +57,8 @@
       "Bash(then echo \"✓ 已有 save.md\")",
       "Bash(else echo \"✗ 缺少 save.md\")",
       "Bash(then echo \"✓ save.md created successfully\")",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(git submodule:*)"
     ],
     "deny": [],
     "ask": []
