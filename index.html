@@ -195,56 +195,8 @@
     </div>
     
     <div class="main-content">
-        <div class="games-grid">
-            <div class="game-card">
-                <div class="game-icon">
-                    <i class="fas fa-gamepad"></i>
-                </div>
-                <h3>Snake 游戏</h3>
-                <p>经典的贪吃蛇游戏，采用全新解耦架构设计。进入游戏后自动弹窗说明，支持多轮游戏模式，游戏系统自动记录所有数据并报告给训练系统。</p>
-                <a href="snake-game.html" class="game-btn">
-                    <i class="fas fa-play"></i>
-                    开始训练
-                </a>
-            </div>
-            <!-- Color Blast 游戏卡片 -->
-            <div class="game-card">
-                <div class="game-icon">
-                    <i class="fas fa-bolt"></i>
-                </div>
-                <h3>Color Blast</h3>
-                <p>反应与专注训练，消灭敌人，避免被击中。数据自动记录，支持认知评估。</p>
-                <a href="color-blast-game.html" class="game-btn">
-                    <i class="fas fa-play"></i>
-                    开始训练
-                </a>
-            </div>
-            
-
-            <!-- Tower Blocks 游戏卡片 -->
-            <div class="game-card">
-                <div class="game-icon">
-                    <i class="fas fa-cubes"></i>
-                </div>
-                <h3>Tower Blocks</h3>
-                <p>精准叠放方块，训练空间感知和反应能力。支持多轮游戏，自动记录数据。</p>
-                <a href="tower-blocks-game.html" class="game-btn">
-                    <i class="fas fa-play"></i>
-                    开始训练
-                </a>
-            </div>
-            
-            <div class="game-card">
-                <div class="game-icon">
-                    <i class="fas fa-puzzle-piece"></i>
-                </div>
-                <h3>其他游戏</h3>
-                <p>更多游戏正在开发中...</p>
-                <button class="game-btn disabled">
-                    <i class="fas fa-clock"></i>
-                    即将推出
-                </button>
-            </div>
+        <div class="games-grid" id="gamesGrid">
+            <!-- Games will be dynamically generated here -->
         </div>
         
         <div class="features">
@@ -264,6 +216,183 @@
     <div class="footer">
         <p>&copy; 2024 心理测量游戏平台. 简洁版游戏模板系统.</p>
     </div>
+
+    <script>
+        // 游戏数据数组
+        const games = [
+            // 现有游戏
+            { name: "Snake 游戏", icon: "fas fa-gamepad", desc: "经典的贪吃蛇游戏，采用全新解耦架构设计。进入游戏后自动弹窗说明，支持多轮游戏模式，游戏系统自动记录所有数据并报告给训练系统。", url: "snake-game.html" },
+            { name: "Color Blast", icon: "fas fa-bolt", desc: "反应与专注训练，消灭敌人，避免被击中。数据自动记录，支持认知评估。", url: "color-blast-game.html" },
+            { name: "Tower Blocks", icon: "fas fa-cubes", desc: "精准叠放方块，训练空间感知和反应能力。支持多轮游戏，自动记录数据。", url: "tower-blocks-game.html" },
+            
+            // games目录下的游戏
+            { name: "Adaptive N-Back", icon: "fas fa-brain", desc: "训练工作记忆，提升认知能力", url: "games/adaptive-n-back-master/index.html" },
+            { name: "Add It Up Lightning", icon: "fas fa-plus", desc: "快速数学计算，训练处理速度", url: "games/add-it-up-lightning-master/index.html" },
+            { name: "Add It Up Zen", icon: "fas fa-calculator", desc: "放松节奏的数学计算训练", url: "games/add-it-up-zen-master/index.html" },
+            { name: "情感冲突解决任务", icon: "fas fa-heart", desc: "情感调节和冲突解决能力训练", url: "games/affective-conflict-resolution-task-main/index.html" },
+            { name: "酒精药物调查", icon: "fas fa-wine-bottle", desc: "酒精和药物使用情况调查", url: "games/alcohol-drugs-survey-master/index.html" },
+            { name: "垂钓风险任务", icon: "fas fa-fish", desc: "风险决策和奖励评估测试", url: "games/angling-risk-task-master/index.html" },
+            { name: "Attention Network Task", icon: "fas fa-eye", desc: "注意力网络评估测试", url: "games/attention-network-task-master/index.html" },
+            { name: "AX-CPT", icon: "fas fa-crosshairs", desc: "认知控制和工作记忆测试", url: "games/ax-cpt-master/index.html" },
+            { name: "柏林计算能力测试", icon: "fas fa-calculator", desc: "数学推理和计算能力评估", url: "games/berlin-numeracy-test-main/index.html" },
+            { name: "Bickel Titrator", icon: "fas fa-balance-scale", desc: "时间折扣和冲动性测试", url: "games/bickel-titrator-master/index.html" },
+            { name: "大五人格调查", icon: "fas fa-user", desc: "五因素人格特质评估", url: "games/big-five-inventory-survey/index.html" },
+            { name: "BIS-11冲动性调查", icon: "fas fa-bolt", desc: "冲动性人格特质测量", url: "games/bis11-survey/index.html" },
+            { name: "BIS-BAS调查", icon: "fas fa-chart-line", desc: "行为抑制和激活系统评估", url: "games/bis-bas-survey/index.html" },
+            { name: "无聊倾向量表", icon: "fas fa-yawn", desc: "个体对无聊的易感性评估", url: "games/boredom-proneness-scale-short-survey/index.html" },
+            { name: "呼吸计数任务", icon: "fas fa-wind", desc: "正念和注意力集中训练", url: "games/breath-counting-task/index.html" },
+            { name: "桥牌游戏", icon: "fas fa-bridge-water", desc: "策略思维和记忆能力训练", url: "games/bridge-game/index.html" },
+            { name: "感觉寻求调查", icon: "fas fa-mountain", desc: "刺激和新奇体验寻求评估", url: "games/brief-sensation-seeking-survey/index.html" },
+            { name: "水桶游戏", icon: "fas fa-bucket", desc: "策略规划和资源管理训练", url: "games/bucket-game/index.html" },
+            { name: "自我实现特征调查", icon: "fas fa-star", desc: "个人成长和自我实现评估", url: "games/characteristics-of-self-actualization-survey/index.html" },
+            { name: "Choice Reaction Time", icon: "fas fa-stopwatch", desc: "选择反应时间测试", url: "games/choice-reaction-time/index.html" },
+            { name: "认知估计测试", icon: "fas fa-brain", desc: "认知估计和推理能力评估", url: "games/cognitive-estimation-test/index.html" },
+            { name: "Cognitive Reflection", icon: "fas fa-lightbulb", desc: "认知反思能力评估", url: "games/cognitive-reflection-survey/index.html" },
+            { name: "Columbia卡片任务(冷)", icon: "fas fa-thermometer-empty", desc: "风险决策能力测试(描述性)", url: "games/columbia-card-task-cold/index.html" },
+            { name: "Columbia卡片任务(热)", icon: "fas fa-thermometer-full", desc: "风险决策能力测试(体验性)", url: "games/columbia-card-task-hot/index.html" },
+            { name: "竞争指数调查", icon: "fas fa-trophy", desc: "竞争倾向和动机评估", url: "games/competitiveness-index-revised-survey/index.html" },
+            { name: "知情同意任务", icon: "fas fa-file-signature", desc: "研究参与知情同意确认", url: "games/consent-task/index.html" },
+            { name: "DASS-21", icon: "fas fa-heart-pulse", desc: "抑郁焦虑压力量表", url: "games/dass-21/index.html" },
+            { name: "决策结果量表", icon: "fas fa-decision", desc: "决策风格和结果评估", url: "games/decisions-outcome-inventory-survey/index.html" },
+            { name: "人口统计调查", icon: "fas fa-users", desc: "基本人口学信息收集", url: "games/demographics-survey/index.html" },
+            { name: "Dickman调查", icon: "fas fa-question", desc: "功能性和非功能性冲动评估", url: "games/dickman-survey/index.html" },
+            { name: "饮食决策", icon: "fas fa-utensils", desc: "食物选择和饮食行为评估", url: "games/dietary-decision/index.html" },
+            { name: "Digit Span", icon: "fas fa-sort-numeric-up", desc: "数字记忆广度测试", url: "games/digit-span/index.html" },
+            { name: "维度集合转换", icon: "fas fa-exchange-alt", desc: "认知灵活性和集合转换测试", url: "games/dimensional-set-shifting/index.html" },
+            { name: "定向遗忘", icon: "fas fa-eraser", desc: "有意遗忘和记忆控制测试", url: "games/directed-forgetting/index.html" },
+            { name: "折扣滴定", icon: "fas fa-hourglass", desc: "时间折扣率测量", url: "games/discount-titrate/index.html" },
+            { name: "DOSPERT风险感知", icon: "fas fa-exclamation-triangle", desc: "领域特异性风险感知评估", url: "games/dospert-eb-survey/index.html" },
+            { name: "DOSPERT风险偏好", icon: "fas fa-dice", desc: "领域特异性风险偏好评估", url: "games/dospert-rp-survey/index.html" },
+            { name: "DOSPERT风险承受", icon: "fas fa-shield", desc: "领域特异性风险承受评估", url: "games/dospert-rt-survey/index.html" },
+            { name: "点模式期望", icon: "fas fa-dot-circle", desc: "视觉模式识别和预期测试", url: "games/dot-pattern-expectancy/index.html" },
+            { name: "饮食调查", icon: "fas fa-apple-alt", desc: "饮食习惯和偏好调查", url: "games/eating-survey/index.html" },
+            { name: "努力回避任务", icon: "fas fa-battery-empty", desc: "努力投入和回避倾向测试", url: "games/effort-avoidance-task/index.html" },
+            { name: "情绪调节", icon: "fas fa-heart", desc: "情绪调节策略和能力训练", url: "games/emotion-regulation/index.html" },
+            { name: "ERQ调查", icon: "fas fa-emotions", desc: "情绪调节问卷", url: "games/erq-survey/index.html" },
+            { name: "五因素正念调查", icon: "fas fa-om", desc: "正念五个维度评估", url: "games/five-facet-mindfulness-survey/index.html" },
+            { name: "五项雄心调查", icon: "fas fa-bullseye", desc: "个人抱负和目标取向评估", url: "games/five-item-ambition-survey/index.html" },
+            { name: "Flanker", icon: "fas fa-arrows-alt-h", desc: "干扰抑制和认知控制测试", url: "games/flanker/index.html" },
+            { name: "儿童Flanker", icon: "fas fa-child", desc: "儿童版干扰抑制测试", url: "games/flanker-children/index.html" },
+            { name: "未来时间观调查", icon: "fas fa-clock", desc: "时间观念和未来取向评估", url: "games/future-time-perspective-survey/index.html" },
+            { name: "一般因果取向调查", icon: "fas fa-compass", desc: "动机取向和自主性评估", url: "games/general-causality-orientations-survey/index.html" },
+            { name: "一般自我效能调查", icon: "fas fa-fist-raised", desc: "自我效能感评估", url: "games/general-self-efficacy-survey/index.html" },
+            { name: "Go-NoGo", icon: "fas fa-hand-paper", desc: "抑制控制能力训练", url: "games/go-nogo/index.html" },
+            { name: "Grid Game", icon: "fas fa-th", desc: "空间记忆和注意力训练", url: "games/grid-game/index.html" },
+            { name: "坚毅量表调查", icon: "fas fa-mountain", desc: "坚持和激情测量", url: "games/grit-scale-survey/index.html" },
+            { name: "层级规则", icon: "fas fa-sitemap", desc: "规则学习和认知灵活性测试", url: "games/hierarchical-rule/index.html" },
+            { name: "Holt-Laury调查", icon: "fas fa-coins", desc: "风险态度和经济决策评估", url: "games/holt-laury-survey/index.html" },
+            { name: "图像监控", icon: "fas fa-image", desc: "视觉注意力和监控能力测试", url: "games/image-monitoring/index.html" },
+            { name: "冲动冒险调查", icon: "fas fa-rocket", desc: "冲动性和冒险倾向评估", url: "games/impulsive-venture-survey/index.html" },
+            { name: "信息采样任务", icon: "fas fa-search", desc: "信息搜集和决策策略测试", url: "games/information-sampling-task/index.html" },
+            { name: "人际支持调查", icon: "fas fa-hands-helping", desc: "社会支持感知评估", url: "games/interpersonal-support-survey/index.html" },
+            { name: "Is It Equal Lightning", icon: "fas fa-equals", desc: "快速相等性判断训练", url: "games/is-it-equal-lightning/index.html" },
+            { name: "Is It Equal Zen", icon: "fas fa-balance-scale", desc: "放松节奏的相等性判断", url: "games/is-it-equal-zen/index.html" },
+            { name: "JDM经典", icon: "fas fa-graduation-cap", desc: "判断与决策经典范式", url: "games/jdm-classics/index.html" },
+            { name: "K6调查", icon: "fas fa-heartbeat", desc: "心理困扰筛查量表", url: "games/k6-survey/index.html" },
+            { name: "Keep Track", icon: "fas fa-list-ul", desc: "工作记忆更新能力测试", url: "games/keep-track/index.html" },
+            { name: "Kirby", icon: "fas fa-hourglass-half", desc: "延迟折扣任务", url: "games/kirby/index.html" },
+            { name: "休闲活动调查", icon: "fas fa-gamepad", desc: "休闲时间活动偏好调查", url: "games/leisure-time-activity-survey/index.html" },
+            { name: "Letter Memory", icon: "fas fa-font", desc: "字母记忆能力训练", url: "games/letter-memory/index.html" },
+            { name: "生活取向测试", icon: "fas fa-smile", desc: "乐观悲观倾向评估", url: "games/life-orientation-test/index.html" },
+            { name: "Local-Global Letter", icon: "fas fa-font", desc: "全局局部字母加工测试", url: "games/local-global-letter/index.html" },
+            { name: "Local-Global Shape", icon: "fas fa-shapes", desc: "全局局部形状加工测试", url: "games/local-global-shape/index.html" },
+            { name: "最大化倾向调查", icon: "fas fa-chart-line", desc: "决策最大化vs满意化评估", url: "games/maximizing-tendency-survey/index.html" },
+            { name: "冥想专业知识", icon: "fas fa-meditation", desc: "冥想经验和技能评估", url: "games/meditation-expertise/index.html" },
+            { name: "正念注意觉察调查", icon: "fas fa-leaf", desc: "日常正念状态评估", url: "games/mindful-attention-awareness-survey/index.html" },
+            { name: "运动选择性停止信号", icon: "fas fa-running", desc: "运动抑制控制测试", url: "games/motor-selective-stop-signal/index.html" },
+            { name: "MPQ控制调查", icon: "fas fa-sliders-h", desc: "人格控制维度评估", url: "games/mpq-control-survey/index.html" },
+            { name: "多维工作伦理调查", icon: "fas fa-briefcase", desc: "工作态度和伦理观评估", url: "games/multidimensional-work-ethic-profile-survey/index.html" },
+            { name: "多源", icon: "fas fa-network-wired", desc: "多来源信息整合测试", url: "games/multisource/index.html" },
+            { name: "N-Back", icon: "fas fa-memory", desc: "经典工作记忆训练", url: "games/n-back/index.html" },
+            { name: "认知需要和直觉信念调查", icon: "fas fa-brain", desc: "认知风格评估", url: "games/need-for-cognition-and-faith-in-intuition-survey/index.html" },
+            { name: "Number Letter", icon: "fas fa-sort-alpha-down", desc: "数字字母任务切换测试", url: "games/number-letter/index.html" },
+            { name: "Number Line", icon: "fas fa-ruler", desc: "数字线估计能力测试", url: "games/number-line/index.html" },
+            { name: "知觉压力调查", icon: "fas fa-weight", desc: "主观压力感知评估", url: "games/perceived-stress-survey/index.html" },
+            { name: "知觉元认知", icon: "fas fa-eye-brain", desc: "感知决策信心评估", url: "games/perceptual-metacognition/index.html" },
+            { name: "Plus Minus", icon: "fas fa-plus-minus", desc: "任务切换能力训练", url: "games/plus-minus/index.html" },
+            { name: "积极消极情感(短)", icon: "fas fa-smile-wink", desc: "情感状态简化评估", url: "games/positive-and-negative-affect-short-survey/index.html" },
+            { name: "积极消极情感(特质)", icon: "fas fa-theater-masks", desc: "情感特质倾向评估", url: "games/positive-and-negative-affect-trait-survey/index.html" },
+            { name: "概率选择", icon: "fas fa-dice-d20", desc: "概率学习和选择测试", url: "games/probabilistic-selection/index.html" },
+            { name: "规划倾向调查", icon: "fas fa-calendar-check", desc: "计划制定倾向评估", url: "games/propensity-to-plan-survey/index.html" },
+            { name: "心理不应期Go-NoGo", icon: "fas fa-pause", desc: "双任务心理不应期测试", url: "games/psychological-refractory-period-gonogo-choice/index.html" },
+            { name: "心理不应期双选择", icon: "fas fa-arrows-alt", desc: "双选择心理不应期测试", url: "games/psychological-refractory-period-two-choices/index.html" },
+            { name: "精神运动警觉测试", icon: "fas fa-tachometer-alt", desc: "持续注意力和警觉性测试", url: "games/psychomotor-vigilance-test/index.html" },
+            { name: "随机数生成", icon: "fas fa-random", desc: "认知随机性和执行控制测试", url: "games/random-number-generation/index.html" },
+            { name: "Ravens", icon: "fas fa-puzzle-piece", desc: "推理能力和智力测试", url: "games/ravens/index.html" },
+            { name: "Recent Probes", icon: "fas fa-search-plus", desc: "工作记忆干扰抑制测试", url: "games/recent-probes/index.html" },
+            { name: "奖励学习任务", icon: "fas fa-gift", desc: "强化学习和奖励敏感性测试", url: "games/reward-learning-task/index.html" },
+            { name: "Rosenberg自尊调查", icon: "fas fa-heart", desc: "自尊水平评估", url: "games/rosenberg-self-esteem-survey/index.html" },
+            { name: "RSVP任务", icon: "fas fa-eye", desc: "快速序列视觉呈现注意力测试", url: "games/rsvp-task/index.html" },
+            { name: "世俗工作伦理调查", icon: "fas fa-hammer", desc: "工作态度世俗化评估", url: "games/secular-measure-of-work-ethic-survey/index.html" },
+            { name: "选择优化补偿调查", icon: "fas fa-balance-scale", desc: "生活策略和适应性评估", url: "games/selection-optimization-compensation-survey/index.html" },
+            { name: "自我调节调查", icon: "fas fa-cog", desc: "自我控制和调节能力评估", url: "games/self-regulation-survey/index.html" },
+            { name: "语义词汇流畅性", icon: "fas fa-comment", desc: "语言流畅性和词汇能力测试", url: "games/semantic-verbal-fluency/index.html" },
+            { name: "感觉寻求调查", icon: "fas fa-mountain-climbing", desc: "刺激寻求倾向评估", url: "games/sensation-seeking-survey/index.html" },
+            { name: "形状匹配", icon: "fas fa-shapes", desc: "视觉形状识别和匹配测试", url: "games/shape-matching/index.html" },
+            { name: "转换任务", icon: "fas fa-exchange", desc: "任务转换和认知灵活性测试", url: "games/shift-task/index.html" },
+            { name: "Simon", icon: "fas fa-circle", desc: "空间冲突抑制测试", url: "games/simon/index.html" },
+            { name: "简单反应时间", icon: "fas fa-clock", desc: "基础反应速度测试", url: "games/simple-reaction-time/index.html" },
+            { name: "Snake", icon: "fas fa-snake", desc: "贪吃蛇游戏认知训练", url: "games/snake/index.html" },
+            { name: "SONA ID录入", icon: "fas fa-id-card", desc: "参与者身份信息录入", url: "games/sona-id-entry/index.html" },
+            { name: "太空冒险PD", icon: "fas fa-rocket", desc: "太空主题囚徒困境游戏", url: "games/space_adventure_pd/index.html" },
+            { name: "Spatial Span", icon: "fas fa-map-marked", desc: "空间记忆广度测试", url: "games/spatial-span/index.html" },
+            { name: "状态正念调查", icon: "fas fa-leaf", desc: "当前正念状态评估", url: "games/state-mindfulness-survey/index.html" },
+            { name: "刺激选择性停止信号", icon: "fas fa-stop-circle", desc: "刺激特异性抑制控制测试", url: "games/stim-selective-stop-signal/index.html" },
+            { name: "Stop Signal", icon: "fas fa-stop", desc: "停止信号抑制控制测试", url: "games/stop-signal/index.html" },
+            { name: "Stroop", icon: "fas fa-palette", desc: "经典Stroop干扰测试", url: "games/stroop/index.html" },
+            { name: "Stroop 5分钟", icon: "fas fa-stopwatch", desc: "长时程Stroop测试", url: "games/stroop-5min/index.html" },
+            { name: "主观数理能力调查", icon: "fas fa-calculator", desc: "数学能力自我评估", url: "games/subjective-numeracy-survey/index.html" },
+            { name: "十项人格调查", icon: "fas fa-user-friends", desc: "简化版人格特质评估", url: "games/ten-item-personality-survey/index.html" },
+            { name: "测试任务", icon: "fas fa-flask", desc: "系统功能测试任务", url: "games/test-task/index.html" },
+            { name: "总是失败测试", icon: "fas fa-times", desc: "失败处理机制测试", url: "games/test-task-always-fail/index.html" },
+            { name: "意志力理论调查", icon: "fas fa-dumbbell", desc: "意志力观念和信念评估", url: "games/theories-of-willpower-survey/index.html" },
+            { name: "Three By Two", icon: "fas fa-th-large", desc: "3x2工作记忆任务", url: "games/threebytwo/index.html" },
+            { name: "时间观调查", icon: "fas fa-hourglass", desc: "时间观念和时间管理评估", url: "games/time-perspective-survey/index.html" },
+            { name: "Tower Blocks", icon: "fas fa-cubes", desc: "塔块叠放空间训练", url: "games/tower-blocks/index.html" },
+            { name: "Tower of London", icon: "fas fa-chess-rook", desc: "计划和执行功能测试", url: "games/tower-of-london/index.html" },
+            { name: "Tower of London想象", icon: "fas fa-brain", desc: "心理模拟和计划能力测试", url: "games/tower-of-london-imagine/index.html" },
+            { name: "特质情绪智力调查", icon: "fas fa-smile-beam", desc: "情绪智力特质评估", url: "games/trait-emotional-intelligence-short-survey/index.html" },
+            { name: "特质享乐能力调查", icon: "fas fa-laugh", desc: "享受快乐的能力评估", url: "games/trait-hedonic-capacity-survey/index.html" },
+            { name: "特质自信稳健性调查", icon: "fas fa-shield-alt", desc: "自信心稳定性评估", url: "games/trait-robustness-of-self-confidence-survey/index.html" },
+            { name: "治疗自我调节调查", icon: "fas fa-medkit", desc: "治疗相关自我调节评估", url: "games/treatment-self-regulation-survey/index.html" },
+            { name: "两阶段决策", icon: "fas fa-decision-tree", desc: "多阶段决策过程测试", url: "games/two-stage-decision/index.html" },
+            { name: "UPPS冲动性调查", icon: "fas fa-bolt", desc: "冲动性多维度评估", url: "games/upps-impulsivity-survey/index.html" },
+            { name: "易变强盗", icon: "fas fa-mask", desc: "多臂老虎机学习任务", url: "games/volatile-bandit/index.html" },
+            { name: "What's Missing Lightning", icon: "fas fa-search", desc: "快速视觉搜索训练", url: "games/whats-missing-lightning/index.html" },
+            { name: "What's Missing Zen", icon: "fas fa-eye", desc: "放松节奏的视觉搜索", url: "games/whats-missing-zen/index.html" },
+            { name: "统计不太可能追求调查", icon: "fas fa-question-circle", desc: "非主流兴趣和追求评估", url: "games/willingly-approached-set-of-statistically-unlikely-pursuits-survey/index.html" },
+            { name: "等待意愿", icon: "fas fa-hourglass-start", desc: "延迟满足和耐心测试", url: "games/willingness-to-wait/index.html" },
+            { name: "Writing Task", icon: "fas fa-pen", desc: "书写表达能力评估", url: "games/writing-task/index.html" },
+            { name: "Zoning Out Task", icon: "fas fa-meditation", desc: "注意力维持和分心检测", url: "games/zoning-out-task/index.html" }
+        ];
+
+        // 动态生成游戏卡片的函数
+        function generateGameCards() {
+            const gamesGrid = document.getElementById('gamesGrid');
+            
+            games.forEach(game => {
+                const gameCard = document.createElement('div');
+                gameCard.className = 'game-card';
+                
+                gameCard.innerHTML = `
+                    <div class="game-icon">
+                        <i class="${game.icon}"></i>
+                    </div>
+                    <h3>${game.name}</h3>
+                    <p>${game.desc}</p>
+                    <a href="${game.url}" class="game-btn">
+                        <i class="fas fa-play"></i>
+                        开始训练
+                    </a>
+                `;
+                
+                gamesGrid.appendChild(gameCard);
+            });
+        }
+
+        // 页面加载完成后生成游戏卡片
+        document.addEventListener('DOMContentLoaded', generateGameCards);
+    </script>
 
 
 <!-- 
