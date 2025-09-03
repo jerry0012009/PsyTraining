@@ -1,0 +1,19 @@
+{
+    "name": "SOC: 选择-优化-补偿问卷调查",
+    "template":"survey",
+    "exp_id": "selection-optimization-compensation-survey",
+    "url": "https://github.com/expfactory-experiments/selection-optimization-compensation-survey",
+    "cognitive_atlas_task_id": "trm_56ac06bac9334",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":1,
+    "reference": ["http://psycnet.apa.org/journals/psp/82/4/642.pdf"],
+    "description": "实验工厂调查",
+    "instructions": "请尽您所能回答以下问题"
+}
+

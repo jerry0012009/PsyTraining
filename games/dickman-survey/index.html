@@ -1,0 +1,390 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <title>实验工厂：调查问卷</title>
+    
+    <link rel='stylesheet' type='text/css' href='css/material.blue-red.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/surveys.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui-1.10.4.custom.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+
+    <script src='js/jquery-2.1.1.min.js'></script>
+    <script src='js/material.min.js'></script>
+    <script src='js/jquery-ui-1.10.4.custom.min.js'></script>
+    <script src='js/jquery.wizard.js'></script>
+    <script src='js/jquery.form-3.50.js'></script>
+    <script src='js/jquery.validate-1.12.0.min.js'></script>
+
+<div class="experiment-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+<div class="experiment-ribbon"></div>
+<main class="experiment-main mdl-layout__content">
+<div class="experiment-container mdl-grid">
+<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+</div>
+<div class="experiment-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+<div id="questions">
+
+<form name="questions" action="#", method="POST">
+<div class="step">
+<h3>欢迎参加本次调查。请点击<strong>下一步</strong>开始。</h3><br><br><br><br></div>
+<div class="step">
+<h3>对于下列每个陈述，请表明您是否同意。</h3><br><br><br><br></div>
+<div class="step">
+<p id="dickman-survey_2_options">我经常在行动前没有花足够的时间思考情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_2_0">
+<input type="radio" id="option-dickman-survey_2_0" class="mdl-radio__button required page3" name="dickman-survey_2_options" value="2" meta-options="True|False" meta-text="我经常在行动前没有花足够的时间思考情况。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_2_1">
+<input type="radio" id="option-dickman-survey_2_1" class="mdl-radio__button required page3" name="dickman-survey_2_options" value="1" meta-options="True|False" meta-text="我经常在行动前没有花足够的时间思考情况。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_3_options">我尽量避免那些需要不经多想就行动的活动。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_3_0">
+<input type="radio" id="option-dickman-survey_3_0" class="mdl-radio__button required page3" name="dickman-survey_3_options" value="1" meta-options="True|False" meta-text="我尽量避免那些需要不经多想就行动的活动。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_3_1">
+<input type="radio" id="option-dickman-survey_3_1" class="mdl-radio__button required page3" name="dickman-survey_3_options" value="2" meta-options="True|False" meta-text="我尽量避免那些需要不经多想就行动的活动。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_4_options">我不喜欢快速做决定（即使是简单的决定，比如选择穿什么或吃什么晚饭）。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_4_0">
+<input type="radio" id="option-dickman-survey_4_0" class="mdl-radio__button required page3" name="dickman-survey_4_options" value="1" meta-options="True|False" meta-text="我不喜欢快速做决定（即使是简单的决定，比如选择穿什么或吃什么晚饭）。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_4_1">
+<input type="radio" id="option-dickman-survey_4_1" class="mdl-radio__button required page3" name="dickman-survey_4_options" value="2" meta-options="True|False" meta-text="我不喜欢快速做决定（即使是简单的决定，比如选择穿什么或吃什么晚饭）。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_5_options">我喜欢缓慢且仔细地解决问题。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_5_0">
+<input type="radio" id="option-dickman-survey_5_0" class="mdl-radio__button required page3" name="dickman-survey_5_options" value="1" meta-options="True|False" meta-text="我喜欢缓慢且仔细地解决问题。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_5_1">
+<input type="radio" id="option-dickman-survey_5_1" class="mdl-radio__button required page3" name="dickman-survey_5_options" value="2" meta-options="True|False" meta-text="我喜欢缓慢且仔细地解决问题。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_6_options">我擅长利用突发机会，在必须立即行动否则错失机会的情况下。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_6_0">
+<input type="radio" id="option-dickman-survey_6_0" class="mdl-radio__button required page3" name="dickman-survey_6_options" value="2" meta-options="True|False" meta-text="我擅长利用突发机会，在必须立即行动否则错失机会的情况下。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_6_1">
+<input type="radio" id="option-dickman-survey_6_1" class="mdl-radio__button required page3" name="dickman-survey_6_options" value="1" meta-options="True|False" meta-text="我擅长利用突发机会，在必须立即行动否则错失机会的情况下。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_7_options">我会喜欢一份需要我做很多瞬间决定的工作。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_7_0">
+<input type="radio" id="option-dickman-survey_7_0" class="mdl-radio__button required page3" name="dickman-survey_7_options" value="2" meta-options="True|False" meta-text="我会喜欢一份需要我做很多瞬间决定的工作。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_7_1">
+<input type="radio" id="option-dickman-survey_7_1" class="mdl-radio__button required page3" name="dickman-survey_7_options" value="1" meta-options="True|False" meta-text="我会喜欢一份需要我做很多瞬间决定的工作。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_8_options">我经常不花时间从各个角度考虑情况就做决定。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_8_0">
+<input type="radio" id="option-dickman-survey_8_0" class="mdl-radio__button required page3" name="dickman-survey_8_options" value="2" meta-options="True|False" meta-text="我经常不花时间从各个角度考虑情况就做决定。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_8_1">
+<input type="radio" id="option-dickman-survey_8_1" class="mdl-radio__button required page3" name="dickman-survey_8_options" value="1" meta-options="True|False" meta-text="我经常不花时间从各个角度考虑情况就做决定。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_9_options">我经常因为无法足够快地做决定而错失机会。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_9_0">
+<input type="radio" id="option-dickman-survey_9_0" class="mdl-radio__button required page3" name="dickman-survey_9_options" value="1" meta-options="True|False" meta-text="我经常因为无法足够快地做决定而错失机会。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_9_1">
+<input type="radio" id="option-dickman-survey_9_1" class="mdl-radio__button required page3" name="dickman-survey_9_options" value="2" meta-options="True|False" meta-text="我经常因为无法足够快地做决定而错失机会。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_10_options">我经常不考虑后果就说话和做事。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_10_0">
+<input type="radio" id="option-dickman-survey_10_0" class="mdl-radio__button required page3" name="dickman-survey_10_options" value="2" meta-options="True|False" meta-text="我经常不考虑后果就说话和做事。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_10_1">
+<input type="radio" id="option-dickman-survey_10_1" class="mdl-radio__button required page3" name="dickman-survey_10_options" value="1" meta-options="True|False" meta-text="我经常不考虑后果就说话和做事。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_11_options">我经常不考虑自己是否能够遵守就安排约会。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_11_0">
+<input type="radio" id="option-dickman-survey_11_0" class="mdl-radio__button required page3" name="dickman-survey_11_options" value="2" meta-options="True|False" meta-text="我经常不考虑自己是否能够遵守就安排约会。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_11_1">
+<input type="radio" id="option-dickman-survey_11_1" class="mdl-radio__button required page3" name="dickman-survey_11_options" value="1" meta-options="True|False" meta-text="我经常不考虑自己是否能够遵守就安排约会。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_12_options">当我必须快速做决定时，我会感到不舒服。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_12_0">
+<input type="radio" id="option-dickman-survey_12_0" class="mdl-radio__button required page3" name="dickman-survey_12_options" value="1" meta-options="True|False" meta-text="当我必须快速做决定时，我会感到不舒服。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_12_1">
+<input type="radio" id="option-dickman-survey_12_1" class="mdl-radio__button required page3" name="dickman-survey_12_options" value="2" meta-options="True|False" meta-text="当我必须快速做决定时，我会感到不舒服。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_13_options">即使做不太困难的事情，我也不喜欢快速完成。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_13_0">
+<input type="radio" id="option-dickman-survey_13_0" class="mdl-radio__button required page3" name="dickman-survey_13_options" value="1" meta-options="True|False" meta-text="即使做不太困难的事情，我也不喜欢快速完成。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_13_1">
+<input type="radio" id="option-dickman-survey_13_1" class="mdl-radio__button required page3" name="dickman-survey_13_options" value="2" meta-options="True|False" meta-text="即使做不太困难的事情，我也不喜欢快速完成。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_14_options">我经常不考虑自己是否真的负担得起就买东西。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_14_0">
+<input type="radio" id="option-dickman-survey_14_0" class="mdl-radio__button required page3" name="dickman-survey_14_options" value="2" meta-options="True|False" meta-text="我经常不考虑自己是否真的负担得起就买东西。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_14_1">
+<input type="radio" id="option-dickman-survey_14_1" class="mdl-radio__button required page3" name="dickman-survey_14_options" value="1" meta-options="True|False" meta-text="我经常不考虑自己是否真的负担得起就买东西。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_15_options">我擅长仔细推理。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_15_0">
+<input type="radio" id="option-dickman-survey_15_0" class="mdl-radio__button required page3" name="dickman-survey_15_options" value="1" meta-options="True|False" meta-text="我擅长仔细推理。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_15_1">
+<input type="radio" id="option-dickman-survey_15_1" class="mdl-radio__button required page3" name="dickman-survey_15_options" value="2" meta-options="True|False" meta-text="我擅长仔细推理。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_16_options">我喜欢参与非常快节奏的对话，在这种对话中说话前没有太多时间思考。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_16_0">
+<input type="radio" id="option-dickman-survey_16_0" class="mdl-radio__button required page3" name="dickman-survey_16_options" value="2" meta-options="True|False" meta-text="我喜欢参与非常快节奏的对话，在这种对话中说话前没有太多时间思考。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_16_1">
+<input type="radio" id="option-dickman-survey_16_1" class="mdl-radio__button required page3" name="dickman-survey_16_options" value="1" meta-options="True|False" meta-text="我喜欢参与非常快节奏的对话，在这种对话中说话前没有太多时间思考。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_17_options">我喜欢需要快速选择下一步动作的运动和游戏。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_17_0">
+<input type="radio" id="option-dickman-survey_17_0" class="mdl-radio__button required page3" name="dickman-survey_17_options" value="2" meta-options="True|False" meta-text="我喜欢需要快速选择下一步动作的运动和游戏。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_17_1">
+<input type="radio" id="option-dickman-survey_17_1" class="mdl-radio__button required page3" name="dickman-survey_17_options" value="1" meta-options="True|False" meta-text="我喜欢需要快速选择下一步动作的运动和游戏。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_18_options">我制定的计划经常失败，因为我事先没有仔细考虑。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_18_0">
+<input type="radio" id="option-dickman-survey_18_0" class="mdl-radio__button required page3" name="dickman-survey_18_options" value="2" meta-options="True|False" meta-text="我制定的计划经常失败，因为我事先没有仔细考虑。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_18_1">
+<input type="radio" id="option-dickman-survey_18_1" class="mdl-radio__button required page3" name="dickman-survey_18_options" value="1" meta-options="True|False" meta-text="我制定的计划经常失败，因为我事先没有仔细考虑。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_19_options">我经常因为行动前不思考而遇到麻烦。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_19_0">
+<input type="radio" id="option-dickman-survey_19_0" class="mdl-radio__button required page3" name="dickman-survey_19_options" value="2" meta-options="True|False" meta-text="我经常因为行动前不思考而遇到麻烦。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_19_1">
+<input type="radio" id="option-dickman-survey_19_1" class="mdl-radio__button required page3" name="dickman-survey_19_options" value="1" meta-options="True|False" meta-text="我经常因为行动前不思考而遇到麻烦。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_20_options">大部分时间我都能很快地把想法用言语表达出来。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_20_0">
+<input type="radio" id="option-dickman-survey_20_0" class="mdl-radio__button required page3" name="dickman-survey_20_options" value="2" meta-options="True|False" meta-text="大部分时间我都能很快地把想法用言语表达出来。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_20_1">
+<input type="radio" id="option-dickman-survey_20_1" class="mdl-radio__button required page3" name="dickman-survey_20_options" value="1" meta-options="True|False" meta-text="大部分时间我都能很快地把想法用言语表达出来。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_21_options">人们因为我能快速思考而佩服我。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_21_0">
+<input type="radio" id="option-dickman-survey_21_0" class="mdl-radio__button required page3" name="dickman-survey_21_options" value="2" meta-options="True|False" meta-text="人们因为我能快速思考而佩服我。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_21_1">
+<input type="radio" id="option-dickman-survey_21_1" class="mdl-radio__button required page3" name="dickman-survey_21_options" value="1" meta-options="True|False" meta-text="人们因为我能快速思考而佩服我。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_22_options">我经常不经思考就说出脑海中浮现的任何想法。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_22_0">
+<input type="radio" id="option-dickman-survey_22_0" class="mdl-radio__button required page3" name="dickman-survey_22_options" value="2" meta-options="True|False" meta-text="我经常不经思考就说出脑海中浮现的任何想法。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_22_1">
+<input type="radio" id="option-dickman-survey_22_1" class="mdl-radio__button required page3" name="dickman-survey_22_options" value="1" meta-options="True|False" meta-text="我经常不经思考就说出脑海中浮现的任何想法。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_23_options">在做任何重要决定之前，我会仔细权衡利弊。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_23_0">
+<input type="radio" id="option-dickman-survey_23_0" class="mdl-radio__button required page3" name="dickman-survey_23_options" value="1" meta-options="True|False" meta-text="在做任何重要决定之前，我会仔细权衡利弊。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_23_1">
+<input type="radio" id="option-dickman-survey_23_1" class="mdl-radio__button required page3" name="dickman-survey_23_options" value="2" meta-options="True|False" meta-text="在做任何重要决定之前，我会仔细权衡利弊。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br>
+<p id="dickman-survey_24_options">我很少不先考虑潜在问题就参与项目。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_24_0">
+<input type="radio" id="option-dickman-survey_24_0" class="mdl-radio__button required page3" name="dickman-survey_24_options" value="1" meta-options="True|False" meta-text="我很少不先考虑潜在问题就参与项目。">
+<span class="mdl-radio__label">正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-dickman-survey_24_1">
+<input type="radio" id="option-dickman-survey_24_1" class="mdl-radio__button required page3" name="dickman-survey_24_options" value="2" meta-options="True|False" meta-text="我很少不先考虑潜在问题就参与项目。">
+<span class="mdl-radio__label">错误</span>
+</label><br><br><br><br></div>
+<div class="step">
+<h3>恭喜您完成了本次调查！请点击<strong>完成</strong>继续。</h3><br><br><br><br></div>
+
+<div class="navigation">
+    <ul class="clearfix">
+        <li><button type="button" 
+                    name="backward" 
+                    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent backward">上一步</button></li>
+	<li><button type="button" 
+                    name="forward" 
+                    class="forward mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">下一步</button></li>
+        <li><button type="submit" 
+                    name="process" 
+                    class="submit mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">完成</button></li>
+    </ul>
+</div>
+
+<div class="pad">
+    <div id="progressbar"></div>
+</div>
+</form>
+</div>
+
+<script>
+$( document ).ready(function() {
+
+    expfactory_finished = false;
+
+    // Basic wizard with progress bar
+    $( "#progressbar" ).progressbar();
+    $( "#questions" ).wizard({
+        stepsWrapper: "#wrapped",
+	submit: ".submit",
+	beforeForward: function( event, state ) {
+
+            // Function to add message that answer is required
+            function is_required(elements){
+                var missing = false;
+                elements.each(function(index,element){
+                    var pid = "#" + $(element).attr("name")
+                    $(pid).css("color","red")
+                    missing = true;                   
+                });
+
+                if (missing == true){
+                   alert("请回答所有红色标记的必答问题。");
+                }
+            }
+
+             if ( state.stepIndex === 3 ) {
+ if (($.unique($(`.page3.required[type=number],.page3.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page3.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page3.required:not(checked)`));
+return false;
+ } else {
+expfactory_finished=true;
+}}
+
+	    return !!$( this ).wizard( "form" ).valid();
+        },
+	afterSelect: function( event, state ) {
+	    $( "#progressbar" ).progressbar( "value", state.percentComplete );
+            if (expfactory_finished == true){
+                $(".submit").enable();
+            }
+        }
+
+    // Form submission
+    }).wizard( "form" ).submit(function( event ) {
+
+        event.preventDefault();
+        
+        var $inputs = $("input:checked");
+        var $text = $("input:text")
+        var $number = $("input[type = number]")
+        var $elements = $inputs.add($text).add($number)
+        
+        // Prepare data results
+        var results = []
+        $elements.each(function(index, element) {
+            var result = {}
+
+            if ($.inArray( $(element).attr("name"), [ "forward", "backward", "process"] ) == -1) {
+                result.name = $(element).attr("name");
+                if ($(element).attr("value") == undefined) {
+                    result.value = $(element).val();
+                } else {
+                    result.value = $(element).attr("value");
+                }
+                result.options = $(element).attr("meta-options");
+                result.text = $(element).attr("meta-text");
+                results.push(result);
+             }
+        })
+
+        
+        $.ajax({
+
+                type: 'POST',
+                url: '/save',
+                data: {'data': results},
+
+                success: function() {
+                    console.log('成功');
+                    document.location = '/next'
+                 },
+
+                 // Endpoint not running, local save
+                 error: function(err) {
+
+                     if (err.status == 200) {
+                        document.location = '/next'
+                     }        
+        
+                     console.log("POST请求错误 " + err.status + "，正在下载到本地文件。")
+                     // Save data to browser
+
+                     var data = "text/json;charset=utf-8," + JSON.stringify(results);
+                     var a = document.createElement('a');
+                     a.title = "下载"
+                     a.id = "download"
+                     a.type = "button"
+                     a.download = 'dickman-survey_result.json';
+                     a.href = 'data:' + data;
+                     $(".submit").html("下载")
+                     $(".submit").click(function(){
+                         $("body").append(a)
+                         a.click()
+                     })
+
+                  }
+         });
+
+     // Validation
+     }).validate({
+	errorPlacement: function( error, element ) {
+	    if ( element.is( ":radio" ) || element.is( ":checkbox" ) ) {
+		error.insertBefore( element.next() );
+            } else {
+	        error.insertAfter( element );
+	 }
+      }
+  });
+});
+</script>
+</body>
+</html>

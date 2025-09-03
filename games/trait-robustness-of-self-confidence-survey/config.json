@@ -1,0 +1,15 @@
+{
+    "name": "特质性自信心坚韧性量表调查",
+    "exp_id": "trait-robustness-of-self-confidence-survey",
+    "description": "这是一个测量坚韧自信信念的量表，即在面临逆境时保持自信信念的能力。",
+    "instructions": "要求运动员使用李克特量表对每个陈述的同意或不同意程度进行评分，量表范围从1分（非常不同意）到9分（非常同意）。",
+    "url": "TBD",
+    "template": "jspsych",
+    "cognitive_atlas_task_id": "N/A",
+    "contributors": [
+                     "Juan (Dethea) Du",
+                     "Jung Hyun (Andy) Kim"                
+                    ], 
+    "time": 2,
+    "reference": ["Beattie, S., Hardy, L., Savage, J., Woodman, T., & Callow, N. (2011). Development and validation of a trait measure of robustness of self-confidence. Psychology of Sport & Exercise, 12(2), 184–191. https://doi.org/10.1016/j.psychsport.2010.09.008"]
+}

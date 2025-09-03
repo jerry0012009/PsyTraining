@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_56a9123fe580f",
+    "instructions":"对屏幕上的刺激进行反应。",
+    "description":"实验工厂心理学实验",
+    "url":"https://www.github.com/expfactory-experiments/stim-selective-stop-signal",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "stim-selective-stop-signal",
+    "name": "Stim-Selective-Stop-Signal",
+    "reference": ["http://psycnet.apa.org/journals/xge/143/1/455/"],
+    "template": "jspsych",
+    "time": 22
+}

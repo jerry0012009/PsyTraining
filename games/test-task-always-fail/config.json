@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "tsk_4a57abb949dc8",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"Expfactory 实验",
+    "url":"https://www.github.com/expfactory-experiments/test-task-always-fail",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "test-task-always-fail",
+    "name": "测试任务",
+    "publish": "True",
+    "reference": ["http://www.sciencedirect.com/science/article/pii/0001691869900651"],
+    "template": "jspsych",
+    "time": 1
+}

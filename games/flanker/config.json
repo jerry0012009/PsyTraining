@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "tsk_4a57abb949a4f",
+    "instructions":"对屏幕上的刺激做出回应。",
+    "description":"Expfactory 实验",
+    "url":"https://www.github.com/expfactory-experiments/flanker",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "flanker",
+    "name": "Flanker 任务",
+    "reference": ["link.springer.com/article/10.3758%2FBF03203267"],
+    "template": "jspsych",
+    "time": 7
+}

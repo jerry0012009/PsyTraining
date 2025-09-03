@@ -1,0 +1,14 @@
+{
+    "name": "认知估计测试",
+    "exp_id": "cognitive-estimation-test",
+    "description": "用于测试参与者的简短问题系列。",
+    "instructions": "输入最佳答案。",
+    "url": "https://github.com/JuneOh710/cognitive-estimation-test",
+    "template":"jspsych",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "June Oh"
+                    ], 
+    "time":5,
+    "reference": []
+}

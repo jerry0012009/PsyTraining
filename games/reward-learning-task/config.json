@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"奖励学习实验",
+    "url":"https://www.github.com/expfactory-experiments/reward-learning-task",
+    "contributors": [
+        "G. Elliott Wimmer",
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "reward-learning-task",
+    "name": "奖励学习",
+    "template": "jspsych",
+    "reference":["http://science.sciencemag.org/content/338/6104/270"],
+    "time": 15
+}

@@ -1,0 +1,16 @@
+{
+    "name": "抑郁焦虑压力量表-21",
+    "exp_id": "depression-anxiety-stress-scales-21-survey",
+    "description": "一套包含三个自我报告量表的测量工具，用于评估抑郁、焦虑和压力的情绪状态。",
+    "instructions": "请阅读每个陈述，并圈出0、1、2或3这四个数字中的一个，表示该陈述在过去一周内对您的适用程度。没有对错之分，请不要在任何一个陈述上花费太多时间。",
+    "url": "https://github.com/expfactory-experiments/depression-anxiety-stress-scales-21-survey",
+    "template":"survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Junghyun (Andy) Kim",
+                     "Juan (Dethea) Du"                    
+                    ], 
+    "time":3,
+    "reference": ["Lovibond, P., & Lovibond, S. (1995). The structure of negative emotional states: Comparison of the Depression Anxiety Stress Scales (DASS) with the Beck Depression and Anxiety Inventories. Behaviour Research and Therapy, 33(3), 335–343. https://doi.org/10.1016/0005-7967(94)00075-U", 
+                  "Lovibond, S.H. & Lovibond, P.F. (1995).  Manual for the Depression Anxiety Stress Scales. (2nd. Ed.) Sydney: Psychology Foundation"]
+}

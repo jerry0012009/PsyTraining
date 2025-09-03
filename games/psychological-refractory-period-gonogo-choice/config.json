@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_51c453f64d2a6",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"实验工厂实验",
+    "url":"https://www.github.com/expfactory-experiments/psychological-refractory-period-gonogo-choice",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "psychological-refractory-period-gonogo-choice",
+    "name": "心理难火期去/不去选择任务",
+    "reference": ["http://psycnet.apa.org/journals/bul/116/2/220.pdf"],
+    "template": "jspsych",
+    "time": 12
+}

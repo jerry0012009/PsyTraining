@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "trm_56674987c8f0c",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"实验工厂实验",
+    "url":"https://www.github.com/expfactory-experiments/recent-probes",
+    "contributors": [
+        "Jamie Li",
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "recent-probes",
+    "name": "近期探测任务",
+    "reference": ["http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2206737/"],
+    "template": "jspsych",
+    "time": 22
+}

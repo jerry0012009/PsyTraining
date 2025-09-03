@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "trm_5667476fc14dd",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"维度集转换实验",
+    "url":"https://www.github.com/expfactory-experiments/dimensional-set-shifting",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "dimensional-set-shifting",
+    "name": "维度内/维度间集转换",
+    "notes": ["条件表示IDED任务中的阶段",
+              "http://www.sciencedirect.com/science/article/pii/0028393289901280"],
+    "template": "jspsych",
+    "time": 10
+}

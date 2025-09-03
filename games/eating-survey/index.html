@@ -1,0 +1,515 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <title>实验工厂：进食行为调查</title>
+    
+    <link rel='stylesheet' type='text/css' href='css/material.blue-red.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/surveys.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui-1.10.4.custom.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+
+    <script src='js/jquery-2.1.1.min.js'></script>
+    <script src='js/material.min.js'></script>
+    <script src='js/jquery-ui-1.10.4.custom.min.js'></script>
+    <script src='js/jquery.wizard.js'></script>
+    <script src='js/jquery.form-3.50.js'></script>
+    <script src='js/jquery.validate-1.12.0.min.js'></script>
+
+<div class="experiment-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+<div class="experiment-ribbon"></div>
+<main class="experiment-main mdl-layout__content">
+<div class="experiment-container mdl-grid">
+<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+</div>
+<div class="experiment-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+<div id="questions">
+
+<form name="questions" action="#", method="POST">
+<div class="step">
+<h3>欢迎参加本次调查。请点击<strong>下一步</strong>开始。</h3><br><br><br><br></div>
+<div class="step">
+<h3>请回答以下关于您饮食习惯的问题。</h3><br><br><br><br></div>
+<div class="step">
+<p id="eating-survey_2_options" class="likert">当我闻到滋滋作响的牛排或多汁的肉时，即使刚吃完一餐，我也很难控制不去吃。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_2_0">
+<input type="radio" id="option-eating-survey_2_0" class="mdl-radio__button required page3" name="eating-survey_2_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I smell a sizzling steak or juicy piece of meat, I find it very difficult to keep from eating, even if I have just finished a meal.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_2_1">
+<input type="radio" id="option-eating-survey_2_1" class="mdl-radio__button required page3" name="eating-survey_2_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I smell a sizzling steak or juicy piece of meat, I find it very difficult to keep from eating, even if I have just finished a meal.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_2_2">
+<input type="radio" id="option-eating-survey_2_2" class="mdl-radio__button required page3" name="eating-survey_2_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I smell a sizzling steak or juicy piece of meat, I find it very difficult to keep from eating, even if I have just finished a meal.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_2_3">
+<input type="radio" id="option-eating-survey_2_3" class="mdl-radio__button required page3" name="eating-survey_2_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I smell a sizzling steak or juicy piece of meat, I find it very difficult to keep from eating, even if I have just finished a meal.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br>
+<p id="eating-survey_3_options" class="likert">我故意吃很少的食物作为控制体重的手段。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_3_0">
+<input type="radio" id="option-eating-survey_3_0" class="mdl-radio__button required page3" name="eating-survey_3_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I deliberately take small helpings as a means of controlling my weight.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_3_1">
+<input type="radio" id="option-eating-survey_3_1" class="mdl-radio__button required page3" name="eating-survey_3_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I deliberately take small helpings as a means of controlling my weight.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_3_2">
+<input type="radio" id="option-eating-survey_3_2" class="mdl-radio__button required page3" name="eating-survey_3_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I deliberately take small helpings as a means of controlling my weight.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_3_3">
+<input type="radio" id="option-eating-survey_3_3" class="mdl-radio__button required page3" name="eating-survey_3_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I deliberately take small helpings as a means of controlling my weight.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br>
+<p id="eating-survey_4_options" class="likert">当我感到焦虑时，我发现自己在吃东西。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_4_0">
+<input type="radio" id="option-eating-survey_4_0" class="mdl-radio__button required page3" name="eating-survey_4_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel anxious, I find myself eating.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_4_1">
+<input type="radio" id="option-eating-survey_4_1" class="mdl-radio__button required page3" name="eating-survey_4_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel anxious, I find myself eating.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_4_2">
+<input type="radio" id="option-eating-survey_4_2" class="mdl-radio__button required page3" name="eating-survey_4_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel anxious, I find myself eating.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_4_3">
+<input type="radio" id="option-eating-survey_4_3" class="mdl-radio__button required page3" name="eating-survey_4_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel anxious, I find myself eating.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br>
+<p id="eating-survey_5_options" class="likert">有时当我开始吃东西时，我就是停不下来。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_5_0">
+<input type="radio" id="option-eating-survey_5_0" class="mdl-radio__button required page3" name="eating-survey_5_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="Sometimes when I start eating, I just can't seem to stop.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_5_1">
+<input type="radio" id="option-eating-survey_5_1" class="mdl-radio__button required page3" name="eating-survey_5_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="Sometimes when I start eating, I just can't seem to stop.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_5_2">
+<input type="radio" id="option-eating-survey_5_2" class="mdl-radio__button required page3" name="eating-survey_5_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="Sometimes when I start eating, I just can't seem to stop.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_5_3">
+<input type="radio" id="option-eating-survey_5_3" class="mdl-radio__button required page3" name="eating-survey_5_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="Sometimes when I start eating, I just can't seem to stop.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br>
+<p id="eating-survey_6_options" class="likert">和正在吃东西的人在一起经常会让我也想吃东西。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_6_0">
+<input type="radio" id="option-eating-survey_6_0" class="mdl-radio__button required page3" name="eating-survey_6_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="Being with someone who is eating often makes me hungry enough to eat also.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_6_1">
+<input type="radio" id="option-eating-survey_6_1" class="mdl-radio__button required page3" name="eating-survey_6_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="Being with someone who is eating often makes me hungry enough to eat also.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_6_2">
+<input type="radio" id="option-eating-survey_6_2" class="mdl-radio__button required page3" name="eating-survey_6_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="Being with someone who is eating often makes me hungry enough to eat also.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_6_3">
+<input type="radio" id="option-eating-survey_6_3" class="mdl-radio__button required page3" name="eating-survey_6_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="Being with someone who is eating often makes me hungry enough to eat also.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br>
+<p id="eating-survey_7_options" class="likert">当我情绪低落时，我经常会暴饮暴食。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_7_0">
+<input type="radio" id="option-eating-survey_7_0" class="mdl-radio__button required page3" name="eating-survey_7_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel blue, I often overeat.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_7_1">
+<input type="radio" id="option-eating-survey_7_1" class="mdl-radio__button required page3" name="eating-survey_7_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel blue, I often overeat.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_7_2">
+<input type="radio" id="option-eating-survey_7_2" class="mdl-radio__button required page3" name="eating-survey_7_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel blue, I often overeat.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_7_3">
+<input type="radio" id="option-eating-survey_7_3" class="mdl-radio__button required page3" name="eating-survey_7_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel blue, I often overeat.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="eating-survey_8_options" class="likert">当我看到美食时，我经常会非常饥饿，不得不马上吃。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_8_0">
+<input type="radio" id="option-eating-survey_8_0" class="mdl-radio__button required page4" name="eating-survey_8_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I see a real delicacy, I often get so hungry that I have to eat right away.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_8_1">
+<input type="radio" id="option-eating-survey_8_1" class="mdl-radio__button required page4" name="eating-survey_8_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I see a real delicacy, I often get so hungry that I have to eat right away.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_8_2">
+<input type="radio" id="option-eating-survey_8_2" class="mdl-radio__button required page4" name="eating-survey_8_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I see a real delicacy, I often get so hungry that I have to eat right away.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_8_3">
+<input type="radio" id="option-eating-survey_8_3" class="mdl-radio__button required page4" name="eating-survey_8_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I see a real delicacy, I often get so hungry that I have to eat right away.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br>
+<p id="eating-survey_9_options" class="likert">我会非常饥饿，我的胃经常像一个无底洞。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_9_0">
+<input type="radio" id="option-eating-survey_9_0" class="mdl-radio__button required page4" name="eating-survey_9_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I get so hungry that my stomach often seems like a bottomless pit.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_9_1">
+<input type="radio" id="option-eating-survey_9_1" class="mdl-radio__button required page4" name="eating-survey_9_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I get so hungry that my stomach often seems like a bottomless pit.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_9_2">
+<input type="radio" id="option-eating-survey_9_2" class="mdl-radio__button required page4" name="eating-survey_9_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I get so hungry that my stomach often seems like a bottomless pit.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_9_3">
+<input type="radio" id="option-eating-survey_9_3" class="mdl-radio__button required page4" name="eating-survey_9_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I get so hungry that my stomach often seems like a bottomless pit.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br>
+<p id="eating-survey_10_options" class="likert">我总是感到饥饿，所以在吃完盘子里的食物之前很难停下来。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_10_0">
+<input type="radio" id="option-eating-survey_10_0" class="mdl-radio__button required page4" name="eating-survey_10_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I am always hungry so it is hard for me to stop eating before I finish the food on my plate.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_10_1">
+<input type="radio" id="option-eating-survey_10_1" class="mdl-radio__button required page4" name="eating-survey_10_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I am always hungry so it is hard for me to stop eating before I finish the food on my plate.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_10_2">
+<input type="radio" id="option-eating-survey_10_2" class="mdl-radio__button required page4" name="eating-survey_10_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I am always hungry so it is hard for me to stop eating before I finish the food on my plate.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_10_3">
+<input type="radio" id="option-eating-survey_10_3" class="mdl-radio__button required page4" name="eating-survey_10_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I am always hungry so it is hard for me to stop eating before I finish the food on my plate.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br>
+<p id="eating-survey_11_options" class="likert">当我感到孤独时，我通过吃东西来安慰自己。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_11_0">
+<input type="radio" id="option-eating-survey_11_0" class="mdl-radio__button required page4" name="eating-survey_11_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel lonely, I console myself by eating.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_11_1">
+<input type="radio" id="option-eating-survey_11_1" class="mdl-radio__button required page4" name="eating-survey_11_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel lonely, I console myself by eating.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_11_2">
+<input type="radio" id="option-eating-survey_11_2" class="mdl-radio__button required page4" name="eating-survey_11_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel lonely, I console myself by eating.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_11_3">
+<input type="radio" id="option-eating-survey_11_3" class="mdl-radio__button required page4" name="eating-survey_11_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="When I feel lonely, I console myself by eating.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br>
+<p id="eating-survey_12_options" class="likert">我在用餐时有意识地克制自己，以免体重增加。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_12_0">
+<input type="radio" id="option-eating-survey_12_0" class="mdl-radio__button required page4" name="eating-survey_12_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I consciously hold back at meals in order not to weight gain.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_12_1">
+<input type="radio" id="option-eating-survey_12_1" class="mdl-radio__button required page4" name="eating-survey_12_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I consciously hold back at meals in order not to weight gain.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_12_2">
+<input type="radio" id="option-eating-survey_12_2" class="mdl-radio__button required page4" name="eating-survey_12_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I consciously hold back at meals in order not to weight gain.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_12_3">
+<input type="radio" id="option-eating-survey_12_3" class="mdl-radio__button required page4" name="eating-survey_12_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I consciously hold back at meals in order not to weight gain.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br>
+<p id="eating-survey_13_options" class="likert">我不吃某些食物，因为它们会让我变肥。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_13_0">
+<input type="radio" id="option-eating-survey_13_0" class="mdl-radio__button required page4" name="eating-survey_13_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I do not eat some foods because they make me fat.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_13_1">
+<input type="radio" id="option-eating-survey_13_1" class="mdl-radio__button required page4" name="eating-survey_13_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I do not eat some foods because they make me fat.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_13_2">
+<input type="radio" id="option-eating-survey_13_2" class="mdl-radio__button required page4" name="eating-survey_13_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I do not eat some foods because they make me fat.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_13_3">
+<input type="radio" id="option-eating-survey_13_3" class="mdl-radio__button required page4" name="eating-survey_13_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I do not eat some foods because they make me fat.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="eating-survey_14_options" class="likert">我总是很饥饿，任何时候都能吃东西。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_14_0">
+<input type="radio" id="option-eating-survey_14_0" class="mdl-radio__button required page5" name="eating-survey_14_options" value="4" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I am always hungry enough to eat at any time.">
+<span class="mdl-radio__label">绝对正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_14_1">
+<input type="radio" id="option-eating-survey_14_1" class="mdl-radio__button required page5" name="eating-survey_14_options" value="3" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I am always hungry enough to eat at any time.">
+<span class="mdl-radio__label">基本正确</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_14_2">
+<input type="radio" id="option-eating-survey_14_2" class="mdl-radio__button required page5" name="eating-survey_14_options" value="2" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I am always hungry enough to eat at any time.">
+<span class="mdl-radio__label">基本错误</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_14_3">
+<input type="radio" id="option-eating-survey_14_3" class="mdl-radio__button required page5" name="eating-survey_14_options" value="1" meta-options="Definitely true|mostly true|mostly false|definitely false" meta-text="I am always hungry enough to eat at any time.">
+<span class="mdl-radio__label">绝对错误</span>
+</label><br><br><br><br>
+<p id="eating-survey_15_options" class="likert">您多久感到一次饥饿？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_15_0">
+<input type="radio" id="option-eating-survey_15_0" class="mdl-radio__button required page5" name="eating-survey_15_options" value="1" meta-options="Only at meal times|sometimes between meals|often between meals|almost always" meta-text="How often do you feel hungry?">
+<span class="mdl-radio__label">只在用餐时间</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_15_1">
+<input type="radio" id="option-eating-survey_15_1" class="mdl-radio__button required page5" name="eating-survey_15_options" value="2" meta-options="Only at meal times|sometimes between meals|often between meals|almost always" meta-text="How often do you feel hungry?">
+<span class="mdl-radio__label">偶尔在两餐之间</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_15_2">
+<input type="radio" id="option-eating-survey_15_2" class="mdl-radio__button required page5" name="eating-survey_15_options" value="3" meta-options="Only at meal times|sometimes between meals|often between meals|almost always" meta-text="How often do you feel hungry?">
+<span class="mdl-radio__label">经常在两餐之间</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_15_3">
+<input type="radio" id="option-eating-survey_15_3" class="mdl-radio__button required page5" name="eating-survey_15_options" value="4" meta-options="Only at meal times|sometimes between meals|often between meals|almost always" meta-text="How often do you feel hungry?">
+<span class="mdl-radio__label">几乎总是</span>
+</label><br><br><br><br>
+<p id="eating-survey_16_options" class="likert">您多久避免一次“囤积”诱人的食物？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_16_0">
+<input type="radio" id="option-eating-survey_16_0" class="mdl-radio__button required page5" name="eating-survey_16_options" value="1" meta-options="Almost never|seldom|usually|almost always" meta-text="How frequently do you avoid 'stocking up' on tempting foods?">
+<span class="mdl-radio__label">几乎从不</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_16_1">
+<input type="radio" id="option-eating-survey_16_1" class="mdl-radio__button required page5" name="eating-survey_16_options" value="2" meta-options="Almost never|seldom|usually|almost always" meta-text="How frequently do you avoid 'stocking up' on tempting foods?">
+<span class="mdl-radio__label">很少</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_16_2">
+<input type="radio" id="option-eating-survey_16_2" class="mdl-radio__button required page5" name="eating-survey_16_options" value="3" meta-options="Almost never|seldom|usually|almost always" meta-text="How frequently do you avoid 'stocking up' on tempting foods?">
+<span class="mdl-radio__label">通常</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_16_3">
+<input type="radio" id="option-eating-survey_16_3" class="mdl-radio__button required page5" name="eating-survey_16_options" value="4" meta-options="Almost never|seldom|usually|almost always" meta-text="How frequently do you avoid 'stocking up' on tempting foods?">
+<span class="mdl-radio__label">几乎总是</span>
+</label><br><br><br><br>
+<p id="eating-survey_17_options" class="likert">您有意识地吃得比想要的少的可能性有多大？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_17_0">
+<input type="radio" id="option-eating-survey_17_0" class="mdl-radio__button required page5" name="eating-survey_17_options" value="1" meta-options="Unlikely|slightly likely|moderately likely|very likely" meta-text="How likely are you to consciously eat less than you want?">
+<span class="mdl-radio__label">不太可能</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_17_1">
+<input type="radio" id="option-eating-survey_17_1" class="mdl-radio__button required page5" name="eating-survey_17_options" value="2" meta-options="Unlikely|slightly likely|moderately likely|very likely" meta-text="How likely are you to consciously eat less than you want?">
+<span class="mdl-radio__label">有些可能</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_17_2">
+<input type="radio" id="option-eating-survey_17_2" class="mdl-radio__button required page5" name="eating-survey_17_options" value="3" meta-options="Unlikely|slightly likely|moderately likely|very likely" meta-text="How likely are you to consciously eat less than you want?">
+<span class="mdl-radio__label">中等可能</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_17_3">
+<input type="radio" id="option-eating-survey_17_3" class="mdl-radio__button required page5" name="eating-survey_17_options" value="4" meta-options="Unlikely|slightly likely|moderately likely|very likely" meta-text="How likely are you to consciously eat less than you want?">
+<span class="mdl-radio__label">非常可能</span>
+</label><br><br><br><br>
+<p id="eating-survey_18_options" class="likert">在不饥饿的情况下，您会暴饮暴食吗？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_18_0">
+<input type="radio" id="option-eating-survey_18_0" class="mdl-radio__button required page5" name="eating-survey_18_options" value="1" meta-options="Never|rarely|sometimes|at least once a week" meta-text="Do you go on eating binges though you are not hungry?">
+<span class="mdl-radio__label">从不</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_18_1">
+<input type="radio" id="option-eating-survey_18_1" class="mdl-radio__button required page5" name="eating-survey_18_options" value="2" meta-options="Never|rarely|sometimes|at least once a week" meta-text="Do you go on eating binges though you are not hungry?">
+<span class="mdl-radio__label">很少</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_18_2">
+<input type="radio" id="option-eating-survey_18_2" class="mdl-radio__button required page5" name="eating-survey_18_options" value="3" meta-options="Never|rarely|sometimes|at least once a week" meta-text="Do you go on eating binges though you are not hungry?">
+<span class="mdl-radio__label">有时</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_18_3">
+<input type="radio" id="option-eating-survey_18_3" class="mdl-radio__button required page5" name="eating-survey_18_options" value="4" meta-options="Never|rarely|sometimes|at least once a week" meta-text="Do you go on eating binges though you are not hungry?">
+<span class="mdl-radio__label">至少每周一次</span>
+</label><br><br><br><br>
+<p id="eating-survey_19_options" class="likert">在 1 到 8 的等级中，1 表示对饮食没有任何克制（想吃什么就吃什么，想什么时候吃就什么时候吃），8 表示完全克制（不断限制饮食摄入，从不“屈服”），您会给自己打几分？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_19_0">
+<input type="radio" id="option-eating-survey_19_0" class="mdl-radio__button required page5" name="eating-survey_19_options" value="1" meta-options="1|2|3|4|5|6|7|8" meta-text="On a scale of 1 to 8, where 1 means no restraint in eating (eating whatever you want whenever you want it) and 8 means total restraint (constantly limiting food intake and never 'giving in') what number would you give yourself?">
+<span class="mdl-radio__label">1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_19_1">
+<input type="radio" id="option-eating-survey_19_1" class="mdl-radio__button required page5" name="eating-survey_19_options" value="1" meta-options="1|2|3|4|5|6|7|8" meta-text="On a scale of 1 to 8, where 1 means no restraint in eating (eating whatever you want whenever you want it) and 8 means total restraint (constantly limiting food intake and never 'giving in') what number would you give yourself?">
+<span class="mdl-radio__label">2</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_19_2">
+<input type="radio" id="option-eating-survey_19_2" class="mdl-radio__button required page5" name="eating-survey_19_options" value="2" meta-options="1|2|3|4|5|6|7|8" meta-text="On a scale of 1 to 8, where 1 means no restraint in eating (eating whatever you want whenever you want it) and 8 means total restraint (constantly limiting food intake and never 'giving in') what number would you give yourself?">
+<span class="mdl-radio__label">3</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_19_3">
+<input type="radio" id="option-eating-survey_19_3" class="mdl-radio__button required page5" name="eating-survey_19_options" value="2" meta-options="1|2|3|4|5|6|7|8" meta-text="On a scale of 1 to 8, where 1 means no restraint in eating (eating whatever you want whenever you want it) and 8 means total restraint (constantly limiting food intake and never 'giving in') what number would you give yourself?">
+<span class="mdl-radio__label">4</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_19_4">
+<input type="radio" id="option-eating-survey_19_4" class="mdl-radio__button required page5" name="eating-survey_19_options" value="3" meta-options="1|2|3|4|5|6|7|8" meta-text="On a scale of 1 to 8, where 1 means no restraint in eating (eating whatever you want whenever you want it) and 8 means total restraint (constantly limiting food intake and never 'giving in') what number would you give yourself?">
+<span class="mdl-radio__label">5</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_19_5">
+<input type="radio" id="option-eating-survey_19_5" class="mdl-radio__button required page5" name="eating-survey_19_options" value="3" meta-options="1|2|3|4|5|6|7|8" meta-text="On a scale of 1 to 8, where 1 means no restraint in eating (eating whatever you want whenever you want it) and 8 means total restraint (constantly limiting food intake and never 'giving in') what number would you give yourself?">
+<span class="mdl-radio__label">6</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_19_6">
+<input type="radio" id="option-eating-survey_19_6" class="mdl-radio__button required page5" name="eating-survey_19_options" value="4" meta-options="1|2|3|4|5|6|7|8" meta-text="On a scale of 1 to 8, where 1 means no restraint in eating (eating whatever you want whenever you want it) and 8 means total restraint (constantly limiting food intake and never 'giving in') what number would you give yourself?">
+<span class="mdl-radio__label">7</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-eating-survey_19_7">
+<input type="radio" id="option-eating-survey_19_7" class="mdl-radio__button required page5" name="eating-survey_19_options" value="4" meta-options="1|2|3|4|5|6|7|8" meta-text="On a scale of 1 to 8, where 1 means no restraint in eating (eating whatever you want whenever you want it) and 8 means total restraint (constantly limiting food intake and never 'giving in') what number would you give yourself?">
+<span class="mdl-radio__label">8</span>
+</label><br><br><br><br></div>
+<div class="step">
+<h3>恭喜您完成了本次调查！请点击<strong>完成</strong>继续。</h3><br><br><br><br></div>
+
+<div class="navigation">
+    <ul class="clearfix">
+        <li><button type="button" 
+                    name="backward" 
+                    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent backward">上一步</button></li>
+	<li><button type="button" 
+                    name="forward" 
+                    class="forward mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">下一步</button></li>
+        <li><button type="submit" 
+                    name="process" 
+                    class="submit mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">完成</button></li>
+    </ul>
+</div>
+
+<div class="pad">
+    <div id="progressbar"></div>
+</div>
+</form>
+</div>
+
+<script>
+$( document ).ready(function() {
+
+    expfactory_finished = false;
+
+    // Basic wizard with progress bar
+    $( "#progressbar" ).progressbar();
+    $( "#questions" ).wizard({
+        stepsWrapper: "#wrapped",
+	submit: ".submit",
+	beforeForward: function( event, state ) {
+
+            // Function to add message that answer is required
+            function is_required(elements){
+                var missing = false;
+                elements.each(function(index,element){
+                    var pid = "#" + $(element).attr("name")
+                    $(pid).css("color","red")
+                    missing = true;                   
+                });
+
+                if (missing == true){
+                   alert("请回答所有标红的必答题。");
+                }
+            }
+
+             if ( state.stepIndex === 3 ) {
+ if (($.unique($(`.page3.required[type=number],.page3.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page3.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page3.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 4 ) {
+ if (($.unique($(`.page4.required[type=number],.page4.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page4.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page4.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 5 ) {
+ if (($.unique($(`.page5.required[type=number],.page5.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page5.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page5.required:not(checked)`));
+return false;
+ } else {
+expfactory_finished=true;
+}}
+
+	    return !!$( this ).wizard( "form" ).valid();
+        },
+	afterSelect: function( event, state ) {
+	    $( "#progressbar" ).progressbar( "value", state.percentComplete );
+            if (expfactory_finished == true){
+                $(".submit").enable();
+            }
+        }
+
+    // Form submission
+    }).wizard( "form" ).submit(function( event ) {
+
+        event.preventDefault();
+        
+        var $inputs = $("input:checked");
+        var $text = $("input:text")
+        var $number = $("input[type = number]")
+        var $elements = $inputs.add($text).add($number)
+        
+        // Prepare data results
+        var results = []
+        $elements.each(function(index, element) {
+            var result = {}
+
+            if ($.inArray( $(element).attr("name"), [ "forward", "backward", "process"] ) == -1) {
+                result.name = $(element).attr("name");
+                if ($(element).attr("value") == undefined) {
+                    result.value = $(element).val();
+                } else {
+                    result.value = $(element).attr("value");
+                }
+                result.options = $(element).attr("meta-options");
+                result.text = $(element).attr("meta-text");
+                results.push(result);
+             }
+        })
+
+        
+        $.ajax({
+
+                type: 'POST',
+                url: '/save',
+                data: {'data': results},
+
+                success: function() {
+                    console.log('success');
+                    document.location = '/next'
+                 },
+
+                 // Endpoint not running, local save
+                 error: function(err) {
+
+                     if (err.status == 200) {
+                        document.location = '/next'
+                     }        
+        
+                     console.log("Error with POST" + err.status + ", downloading to local file.")
+                     // Save data to browser
+
+                     var data = "text/json;charset=utf-8," + JSON.stringify(results);
+                     var a = document.createElement('a');
+                     a.title = "Download"
+                     a.id = "download"
+                     a.type = "button"
+                     a.download = 'eating-survey_result.json';
+                     a.href = 'data:' + data;
+                     $(".submit").html("Download")
+                     $(".submit").click(function(){
+                         $("body").append(a)
+                         a.click()
+                     })
+
+                  }
+         });
+
+     // Validation
+     }).validate({
+	errorPlacement: function( error, element ) {
+	    if ( element.is( ":radio" ) || element.is( ":checkbox" ) ) {
+		error.insertBefore( element.next() );
+            } else {
+	        error.insertAfter( element );
+	 }
+      }
+  });
+});
+</script>
+</body>
+</html>

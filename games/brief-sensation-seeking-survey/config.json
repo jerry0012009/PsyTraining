@@ -1,0 +1,13 @@
+{
+    "name": "简短感觉寻求量表调查",
+    "exp_id": "brief-sensation-seeking-survey",
+    "description": "一项感觉寻求的自我报告测量工具，是各种问题行为的心理倾向风险因子。",
+    "instructions": "对于以下每个陈述，请表明您是否同意它们，以及同意的程度。",
+    "url": "https://github.com/expfactory-experiments/brief-sensation-seeking-survey",
+    "template":"survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": ["Junghyun (Andy) Kim",
+                     "Sofia Dallali"], 
+    "time":1,
+    "reference": [" Hoyle, R., Stephenson, M., Palmgreen, P., Lorch, E., & Donohew, R. (2002). Reliability and validity of a brief measure of sensation seeking. Personality and Individual Differences, 32(3), 401–414. https://doi.org/10.1016/S0191-8869(01)00032-0"]
+}

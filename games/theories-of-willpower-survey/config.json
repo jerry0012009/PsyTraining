@@ -1,0 +1,18 @@
+{
+    "name": "意志力理论量表调查",
+    "template":"survey",
+    "url": "https://github.com/expfactory-experiments/theories-of-willpower-survey",
+    "exp_id": "theories-of-willpower-survey",
+    "cognitive_atlas_task_id": "trm_56a91a3082c31",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":1,
+    "reference": ["http://pss.sagepub.com/content/early/2010/09/28/0956797610384745.full#sec-22"],
+    "description": "实验工厂调查问卷",
+    "instructions": "请尽力回答以下问题"
+}

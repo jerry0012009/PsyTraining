@@ -1,0 +1,14 @@
+{
+    "name": "知情同意任务",
+    "exp_id": "consent-task",
+    "url": "https://www.github.com/earcanal/consent-task/",
+    "description":"显示研究信息并请求参与者的知情同意。",
+    "instructions": "不适用",
+    "template":"jspsych",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Paul Sharpe"
+                    ], 
+    "time":3,
+    "reference": []
+}

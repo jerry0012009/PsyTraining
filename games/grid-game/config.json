@@ -1,0 +1,15 @@
+{
+    "name": "网格游戏",
+    "template":"phaser",
+    "exp_id": "grid-game",
+    "contributors": [
+                     "Jonathan Nicholas",
+                     "Christian Battista",
+                     "Vanessa Sochat"
+                    ],
+    "time": 10,
+    "instructions": "按照说明进行游戏。",
+    "description": "一个测试问题解决能力的有趣游戏。",
+    "url": "https://www.github.com/expfactory-experiments/grid-game"
+
+}

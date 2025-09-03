@@ -1,0 +1,15 @@
+{
+    "name": "认知需求与直觉信念调查",
+    "exp_id": "need-for-cognition-and-faith-in-intuition-survey",
+    "description": "一种基于认知-经验自我理论的新型自我报告量表，用于测量个体在直觉-经验性思维和分析-理性思维方面的差异。",
+    "instructions": "研究人员进行了两个实验。在第一个实验中，他们让学生将长版问卷带回家，并在下次课堂会议时返回。另一方面，在第二个实验中，由于时间和空间的限制，他们选择了最好的10个项目。注意每个实验的参与者是不同的。",
+    "url": "https://github.com/expfactory-experiments/need-for-cognition-and-faith-in-intuition-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Junghyun (Andy) Kim",
+                     "Juan (Dethea) Du"                                     
+                    ], 
+    "time": 7,
+    "reference": ["Epstein, S., Pacini, R., Denes-Raj, V., & Heier, H. (1996). Individual Differences in Intuitive-Experiential and Analytical-Rational Thinking Styles. Journal of Personality and Social Psychology, 71(2), 390–405. https://doi.org/10.1037/0022-3514.71.2.390"]
+}

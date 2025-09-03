@@ -1,0 +1,19 @@
+{
+    "name": "DOSPERT风险承担量表：特定领域风险承担调查",
+    "template":"survey",
+    "exp_id": "dospert-rt-survey",
+    "url": "https://github.com/expfactory-experiments/dospert-rt-survey",
+    "instructions": "请完成调查问题。",
+    "description": "这是DOSPERT反应时间任务量表",
+    "cognitive_atlas_task_id": "trm_5696abecf2569",
+    "contributors": [
+                     "Zeynep Enkavi",
+                     "Ian Eisenberg",
+                     "Patrick Bissett",
+                     "Vanessa Sochat",
+                     "Russell Poldrack"
+                     ], 
+    "time": 3,
+    "reference": ["https://sites.google.com/a/decisionsciences.columbia.edu/dospert"]
+
+}

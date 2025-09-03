@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "trm_5667436296862",
+    "instructions":"Respond to the stimuli on the screen.",
+    "description":"Expfactory experiment",
+    "url":"https://www.github.com/expfactory-experiments/image-monitoring",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "image-monitoring",
+    "name": "Image Monitoring Task",
+    "reference": ["condition indicates practice/test, trial_id indicates stimulus shown on each trial. Correct response is determined by repetitions since last response and is not calculated in experiment.js (calculate in post)",
+                 "http://www.sciencedirect.com/science/article/pii/S001002859990734X"],
+    "template": "jspsych",
+    "time": 6
+}

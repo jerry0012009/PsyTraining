@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_5696b180169bd",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"实验工厂实验",
+    "url":"https://www.github.com/expfactory-experiments/volatile-bandit",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "volatile-bandit",
+    "name": "波动赌博机",
+    "reference": ["http://www.nature.com/neuro/journal/v10/n9/pdf/nn1954.pdf"],
+    "template": "jspsych",
+    "time": 18
+}

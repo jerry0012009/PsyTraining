@@ -1,0 +1,19 @@
+{
+    "name": "津巴多时间观念量表 (ZTPI)",
+    "template":"survey",
+    "exp_id": "time-perspective-survey",
+    "url": "https://github.com/expfactory-experiments/time-perspective-survey",
+    "cognitive_atlas_task_id": "trm_56a91e92eab46",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":1,
+    "reference": ["http://psycnet.apa.org/journals/psp/77/6/1271.pdf",
+                  "Scoring: http://www.alexpaterson.co.za/downloads/ztpi-nl-info.doc"],
+    "description": "时间观念心理量表",
+    "instructions": "请根据您的真实情况回答以下问题"
+}

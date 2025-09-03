@@ -1,0 +1,18 @@
+{
+    "name": "FTP: Carsten-Lang 未来时间观问卷调查",
+    "template":"survey",
+    "url": "https://github.com/expfactory-experiments/future-time-perspective-survey",
+    "exp_id": "future-time-perspective-survey",
+    "cognitive_atlas_task_id": "trm_56a915fe77945",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":3,
+    "reference": ["http://psych.stanford.edu/~lifespan/doc/FTP_English.pdf"],
+    "description": "实验工厂调查问卷",
+    "instructions": "请尽您所能地回答以下问题"
+}

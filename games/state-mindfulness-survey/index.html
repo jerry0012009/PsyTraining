@@ -1,0 +1,624 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <title>实验工厂：调查问卷</title>
+    
+    <link rel='stylesheet' type='text/css' href='css/material.blue-red.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/surveys.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui-1.10.4.custom.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+
+    <script src='js/jquery-2.1.1.min.js'></script>
+    <script src='js/material.min.js'></script>
+    <script src='js/jquery-ui-1.10.4.custom.min.js'></script>
+    <script src='js/jquery.wizard.js'></script>
+    <script src='js/jquery.form-3.50.js'></script>
+    <script src='js/jquery.validate-1.12.0.min.js'></script>
+
+<div class="experiment-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+<div class="experiment-ribbon"></div>
+<main class="experiment-main mdl-layout__content">
+<div class="experiment-container mdl-grid">
+<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+</div>
+<div class="experiment-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+<div id="questions">
+
+<form name="questions" action="#", method="POST">
+<div class="step">
+<h3>欢迎参加本次调查。点击<strong>下一步</strong>开始。</h3><br><br><br><br></div>
+<div class="step">
+<h3>对于以下每一个陈述，请使用评分量表来表示该陈述<strong>多大程度</strong>上描述了您<strong>过去15分钟内</strong>的体验。</h3><br><br><br><br></div>
+<div class="step">
+<p id="state-mindfulness-survey_2_options">我意识到了在我内心产生的不同情绪</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_2_0">
+<input type="radio" id="option-state-mindfulness-survey_2_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_2_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到了在我内心产生的不同情绪">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_2_1">
+<input type="radio" id="option-state-mindfulness-survey_2_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_2_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到了在我内心产生的不同情绪">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_2_2">
+<input type="radio" id="option-state-mindfulness-survey_2_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_2_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到了在我内心产生的不同情绪">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_2_3">
+<input type="radio" id="option-state-mindfulness-survey_2_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_2_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到了在我内心产生的不同情绪">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_2_4">
+<input type="radio" id="option-state-mindfulness-survey_2_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_2_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到了在我内心产生的不同情绪">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_3_options">我尝试去关注令人愉快和不快的体验</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_3_0">
+<input type="radio" id="option-state-mindfulness-survey_3_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_3_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我尝试去关注令人愉快和不快的体验">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_3_1">
+<input type="radio" id="option-state-mindfulness-survey_3_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_3_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我尝试去关注令人愉快和不快的体验">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_3_2">
+<input type="radio" id="option-state-mindfulness-survey_3_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_3_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我尝试去关注令人愉快和不快的体验">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_3_3">
+<input type="radio" id="option-state-mindfulness-survey_3_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_3_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我尝试去关注令人愉快和不快的体验">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_3_4">
+<input type="radio" id="option-state-mindfulness-survey_3_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_3_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我尝试去关注令人愉快和不快的体验">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_4_options">我觉得我的一些体验很有趣</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_4_0">
+<input type="radio" id="option-state-mindfulness-survey_4_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_4_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我觉得我的一些体验很有趣">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_4_1">
+<input type="radio" id="option-state-mindfulness-survey_4_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_4_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我觉得我的一些体验很有趣">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_4_2">
+<input type="radio" id="option-state-mindfulness-survey_4_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_4_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我觉得我的一些体验很有趣">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_4_3">
+<input type="radio" id="option-state-mindfulness-survey_4_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_4_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我觉得我的一些体验很有趣">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_4_4">
+<input type="radio" id="option-state-mindfulness-survey_4_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_4_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我觉得我的一些体验很有趣">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_5_options">我注意到了我体验中的许多小细节</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_5_0">
+<input type="radio" id="option-state-mindfulness-survey_5_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_5_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了我体验中的许多小细节">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_5_1">
+<input type="radio" id="option-state-mindfulness-survey_5_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_5_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了我体验中的许多小细节">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_5_2">
+<input type="radio" id="option-state-mindfulness-survey_5_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_5_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了我体验中的许多小细节">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_5_3">
+<input type="radio" id="option-state-mindfulness-survey_5_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_5_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了我体验中的许多小细节">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_5_4">
+<input type="radio" id="option-state-mindfulness-survey_5_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_5_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了我体验中的许多小细节">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_6_options">我意识到了我内心正在发生的事情</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_6_0">
+<input type="radio" id="option-state-mindfulness-survey_6_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_6_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到了我内心正在发生的事情">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_6_1">
+<input type="radio" id="option-state-mindfulness-survey_6_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_6_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到了我内心正在发生的事情">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_6_2">
+<input type="radio" id="option-state-mindfulness-survey_6_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_6_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到了我内心正在发生的事情">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_6_3">
+<input type="radio" id="option-state-mindfulness-survey_6_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_6_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到了我内心正在发生的事情">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_6_4">
+<input type="radio" id="option-state-mindfulness-survey_6_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_6_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到了我内心正在发生的事情">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_7_options">我注意到了令人愉快和不快的情绪</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_7_0">
+<input type="radio" id="option-state-mindfulness-survey_7_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_7_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了令人愉快和不快的情绪">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_7_1">
+<input type="radio" id="option-state-mindfulness-survey_7_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_7_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了令人愉快和不快的情绪">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_7_2">
+<input type="radio" id="option-state-mindfulness-survey_7_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_7_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了令人愉快和不快的情绪">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_7_3">
+<input type="radio" id="option-state-mindfulness-survey_7_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_7_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了令人愉快和不快的情绪">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_7_4">
+<input type="radio" id="option-state-mindfulness-survey_7_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_7_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了令人愉快和不快的情绪">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_8_options">我积极地探索我在当下的体验</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_8_0">
+<input type="radio" id="option-state-mindfulness-survey_8_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_8_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我积极地探索我在当下的体验">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_8_1">
+<input type="radio" id="option-state-mindfulness-survey_8_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_8_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我积极地探索我在当下的体验">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_8_2">
+<input type="radio" id="option-state-mindfulness-survey_8_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_8_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我积极地探索我在当下的体验">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_8_3">
+<input type="radio" id="option-state-mindfulness-survey_8_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_8_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我积极地探索我在当下的体验">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_8_4">
+<input type="radio" id="option-state-mindfulness-survey_8_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_8_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我积极地探索我在当下的体验">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_9_options">我清楚地从身体上感受到了我身体内正在发生的事情</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_9_0">
+<input type="radio" id="option-state-mindfulness-survey_9_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_9_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我清楚地从身体上感受到了我身体内正在发生的事情">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_9_1">
+<input type="radio" id="option-state-mindfulness-survey_9_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_9_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我清楚地从身体上感受到了我身体内正在发生的事情">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_9_2">
+<input type="radio" id="option-state-mindfulness-survey_9_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_9_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我清楚地从身体上感受到了我身体内正在发生的事情">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_9_3">
+<input type="radio" id="option-state-mindfulness-survey_9_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_9_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我清楚地从身体上感受到了我身体内正在发生的事情">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_9_4">
+<input type="radio" id="option-state-mindfulness-survey_9_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_9_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我清楚地从身体上感受到了我身体内正在发生的事情">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_10_options">我改变了身体姿势并关注运动的身体过程</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_10_0">
+<input type="radio" id="option-state-mindfulness-survey_10_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_10_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我改变了身体姿势并关注运动的身体过程">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_10_1">
+<input type="radio" id="option-state-mindfulness-survey_10_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_10_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我改变了身体姿势并关注运动的身体过程">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_10_2">
+<input type="radio" id="option-state-mindfulness-survey_10_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_10_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我改变了身体姿势并关注运动的身体过程">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_10_3">
+<input type="radio" id="option-state-mindfulness-survey_10_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_10_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我改变了身体姿势并关注运动的身体过程">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_10_4">
+<input type="radio" id="option-state-mindfulness-survey_10_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_10_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我改变了身体姿势并关注运动的身体过程">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_11_options">我感到自己在充分体验当下的时刻</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_11_0">
+<input type="radio" id="option-state-mindfulness-survey_11_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_11_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到自己在充分体验当下的时刻">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_11_1">
+<input type="radio" id="option-state-mindfulness-survey_11_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_11_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到自己在充分体验当下的时刻">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_11_2">
+<input type="radio" id="option-state-mindfulness-survey_11_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_11_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到自己在充分体验当下的时刻">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_11_3">
+<input type="radio" id="option-state-mindfulness-survey_11_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_11_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到自己在充分体验当下的时刻">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_11_4">
+<input type="radio" id="option-state-mindfulness-survey_11_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_11_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到自己在充分体验当下的时刻">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_12_options">我注意到了令人愉快和不快的想法</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_12_0">
+<input type="radio" id="option-state-mindfulness-survey_12_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_12_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了令人愉快和不快的想法">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_12_1">
+<input type="radio" id="option-state-mindfulness-survey_12_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_12_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了令人愉快和不快的想法">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_12_2">
+<input type="radio" id="option-state-mindfulness-survey_12_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_12_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了令人愉快和不快的想法">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_12_3">
+<input type="radio" id="option-state-mindfulness-survey_12_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_12_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了令人愉快和不快的想法">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_12_4">
+<input type="radio" id="option-state-mindfulness-survey_12_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_12_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了令人愉快和不快的想法">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_13_options">我注意到情绪的来去</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_13_0">
+<input type="radio" id="option-state-mindfulness-survey_13_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_13_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到情绪的来去">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_13_1">
+<input type="radio" id="option-state-mindfulness-survey_13_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_13_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到情绪的来去">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_13_2">
+<input type="radio" id="option-state-mindfulness-survey_13_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_13_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到情绪的来去">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_13_3">
+<input type="radio" id="option-state-mindfulness-survey_13_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_13_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到情绪的来去">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_13_4">
+<input type="radio" id="option-state-mindfulness-survey_13_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_13_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到情绪的来去">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_14_options">我注意到了由周围环境引起的各种感觉（如热、凉、风吹在脸上）</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_14_0">
+<input type="radio" id="option-state-mindfulness-survey_14_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_14_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了由周围环境引起的各种感觉（如热、凉、风吹在脸上）">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_14_1">
+<input type="radio" id="option-state-mindfulness-survey_14_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_14_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了由周围环境引起的各种感觉（如热、凉、风吹在脸上）">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_14_2">
+<input type="radio" id="option-state-mindfulness-survey_14_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_14_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了由周围环境引起的各种感觉（如热、凉、风吹在脸上）">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_14_3">
+<input type="radio" id="option-state-mindfulness-survey_14_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_14_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了由周围环境引起的各种感觉（如热、凉、风吹在脸上）">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_14_4">
+<input type="radio" id="option-state-mindfulness-survey_14_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_14_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到了由周围环境引起的各种感觉（如热、凉、风吹在脸上）">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_15_options">我注意到身体感觉的来去</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_15_0">
+<input type="radio" id="option-state-mindfulness-survey_15_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_15_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到身体感觉的来去">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_15_1">
+<input type="radio" id="option-state-mindfulness-survey_15_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_15_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到身体感觉的来去">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_15_2">
+<input type="radio" id="option-state-mindfulness-survey_15_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_15_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到身体感觉的来去">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_15_3">
+<input type="radio" id="option-state-mindfulness-survey_15_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_15_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到身体感觉的来去">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_15_4">
+<input type="radio" id="option-state-mindfulness-survey_15_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_15_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到身体感觉的来去">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_16_options">我有一些时刻感到机警和清醒</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_16_0">
+<input type="radio" id="option-state-mindfulness-survey_16_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_16_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我有一些时刻感到机警和清醒">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_16_1">
+<input type="radio" id="option-state-mindfulness-survey_16_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_16_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我有一些时刻感到机警和清醒">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_16_2">
+<input type="radio" id="option-state-mindfulness-survey_16_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_16_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我有一些时刻感到机警和清醒">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_16_3">
+<input type="radio" id="option-state-mindfulness-survey_16_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_16_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我有一些时刻感到机警和清醒">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_16_4">
+<input type="radio" id="option-state-mindfulness-survey_16_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_16_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我有一些时刻感到机警和清醒">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_17_options">我感到与当下的时刻紧密相连</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_17_0">
+<input type="radio" id="option-state-mindfulness-survey_17_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_17_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到与当下的时刻紧密相连">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_17_1">
+<input type="radio" id="option-state-mindfulness-survey_17_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_17_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到与当下的时刻紧密相连">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_17_2">
+<input type="radio" id="option-state-mindfulness-survey_17_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_17_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到与当下的时刻紧密相连">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_17_3">
+<input type="radio" id="option-state-mindfulness-survey_17_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_17_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到与当下的时刻紧密相连">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_17_4">
+<input type="radio" id="option-state-mindfulness-survey_17_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_17_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到与当下的时刻紧密相连">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_18_options">我注意到想法的来去</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_18_0">
+<input type="radio" id="option-state-mindfulness-survey_18_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_18_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到想法的来去">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_18_1">
+<input type="radio" id="option-state-mindfulness-survey_18_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_18_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到想法的来去">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_18_2">
+<input type="radio" id="option-state-mindfulness-survey_18_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_18_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到想法的来去">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_18_3">
+<input type="radio" id="option-state-mindfulness-survey_18_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_18_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到想法的来去">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_18_4">
+<input type="radio" id="option-state-mindfulness-survey_18_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_18_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到想法的来去">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_19_options">我感到与我的身体有联系</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_19_0">
+<input type="radio" id="option-state-mindfulness-survey_19_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_19_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到与我的身体有联系">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_19_1">
+<input type="radio" id="option-state-mindfulness-survey_19_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_19_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到与我的身体有联系">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_19_2">
+<input type="radio" id="option-state-mindfulness-survey_19_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_19_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到与我的身体有联系">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_19_3">
+<input type="radio" id="option-state-mindfulness-survey_19_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_19_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到与我的身体有联系">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_19_4">
+<input type="radio" id="option-state-mindfulness-survey_19_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_19_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我感到与我的身体有联系">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_20_options">我意识到我心里正在发生的事情</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_20_0">
+<input type="radio" id="option-state-mindfulness-survey_20_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_20_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到我心里正在发生的事情">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_20_1">
+<input type="radio" id="option-state-mindfulness-survey_20_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_20_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到我心里正在发生的事情">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_20_2">
+<input type="radio" id="option-state-mindfulness-survey_20_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_20_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到我心里正在发生的事情">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_20_3">
+<input type="radio" id="option-state-mindfulness-survey_20_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_20_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到我心里正在发生的事情">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_20_4">
+<input type="radio" id="option-state-mindfulness-survey_20_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_20_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我意识到我心里正在发生的事情">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_21_options">看到我思维的模式很有趣</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_21_0">
+<input type="radio" id="option-state-mindfulness-survey_21_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_21_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="看到我思维的模式很有趣">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_21_1">
+<input type="radio" id="option-state-mindfulness-survey_21_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_21_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="看到我思维的模式很有趣">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_21_2">
+<input type="radio" id="option-state-mindfulness-survey_21_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_21_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="看到我思维的模式很有趣">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_21_3">
+<input type="radio" id="option-state-mindfulness-survey_21_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_21_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="看到我思维的模式很有趣">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_21_4">
+<input type="radio" id="option-state-mindfulness-survey_21_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_21_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="看到我思维的模式很有趣">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br>
+<p id="state-mindfulness-survey_22_options">我注意到一些令人愉快和不快的身体感觉</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_22_0">
+<input type="radio" id="option-state-mindfulness-survey_22_0" class="mdl-radio__button required page3" name="state-mindfulness-survey_22_options" value="1" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到一些令人愉快和不快的身体感觉">
+<span class="mdl-radio__label">完全不是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_22_1">
+<input type="radio" id="option-state-mindfulness-survey_22_1" class="mdl-radio__button required page3" name="state-mindfulness-survey_22_options" value="2" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到一些令人愉快和不快的身体感觉">
+<span class="mdl-radio__label"> 有一点</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_22_2">
+<input type="radio" id="option-state-mindfulness-survey_22_2" class="mdl-radio__button required page3" name="state-mindfulness-survey_22_options" value="3" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到一些令人愉快和不快的身体感觉">
+<span class="mdl-radio__label"> 有些</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_22_3">
+<input type="radio" id="option-state-mindfulness-survey_22_3" class="mdl-radio__button required page3" name="state-mindfulness-survey_22_options" value="4" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到一些令人愉快和不快的身体感觉">
+<span class="mdl-radio__label"> 相当符合</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-state-mindfulness-survey_22_4">
+<input type="radio" id="option-state-mindfulness-survey_22_4" class="mdl-radio__button required page3" name="state-mindfulness-survey_22_options" value="5" meta-options="完全不是| 有一点| 有些| 相当符合| 非常符合" meta-text="我注意到一些令人愉快和不快的身体感觉">
+<span class="mdl-radio__label"> 非常符合</span>
+</label><br><br><br><br></div>
+<div class="step">
+<h3>恭喜您完成了本次调查！点击<strong>完成</strong>继续。</h3><br><br><br><br></div>
+
+<div class="navigation">
+    <ul class="clearfix">
+        <li><button type="button" 
+                    name="backward" 
+                    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent backward">上一步</button></li>
+	<li><button type="button" 
+                    name="forward" 
+                    class="forward mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">下一步</button></li>
+        <li><button type="submit" 
+                    name="process" 
+                    class="submit mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">完成</button></li>
+    </ul>
+</div>
+
+<div class="pad">
+    <div id="progressbar"></div>
+</div>
+</form>
+</div>
+
+<script>
+$( document ).ready(function() {
+
+    expfactory_finished = false;
+
+    // Basic wizard with progress bar
+    $( "#progressbar" ).progressbar();
+    $( "#questions" ).wizard({
+        stepsWrapper: "#wrapped",
+	submit: ".submit",
+	beforeForward: function( event, state ) {
+
+            // Function to add message that answer is required
+            function is_required(elements){
+                var missing = false;
+                elements.each(function(index,element){
+                    var pid = "#" + $(element).attr("name")
+                    $(pid).css("color","red")
+                    missing = true;                   
+                });
+
+                if (missing == true){
+                   alert("请回答所有红色标记的必答题。");
+                }
+            }
+
+             if ( state.stepIndex === 3 ) {
+ if (($.unique($(`.page3.required[type=number],.page3.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page3.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page3.required:not(checked)`));
+return false;
+ } else {
+expfactory_finished=true;
+}}
+
+	    return !!$( this ).wizard( "form" ).valid();
+        },
+	afterSelect: function( event, state ) {
+	    $( "#progressbar" ).progressbar( "value", state.percentComplete );
+            if (expfactory_finished == true){
+                $(".submit").enable();
+            }
+        }
+
+    // Form submission
+    }).wizard( "form" ).submit(function( event ) {
+
+        event.preventDefault();
+        
+        var $inputs = $("input:checked");
+        var $text = $("input:text")
+        var $number = $("input[type = number]")
+        var $elements = $inputs.add($text).add($number)
+        
+        // Prepare data results
+        var results = []
+        $elements.each(function(index, element) {
+            var result = {}
+
+            if ($.inArray( $(element).attr("name"), [ "forward", "backward", "process"] ) == -1) {
+                result.name = $(element).attr("name");
+                if ($(element).attr("value") == undefined) {
+                    result.value = $(element).val();
+                } else {
+                    result.value = $(element).attr("value");
+                }
+                result.options = $(element).attr("meta-options");
+                result.text = $(element).attr("meta-text");
+                results.push(result);
+             }
+        })
+
+        
+        $.ajax({
+
+                type: 'POST',
+                url: '/save',
+                data: {'data': results},
+
+                success: function() {
+                    console.log('success');
+                    document.location = '/next'
+                 },
+
+                 // Endpoint not running, local save
+                 error: function(err) {
+
+                     if (err.status == 200) {
+                        document.location = '/next'
+                     }        
+        
+                     console.log("Error with POST" + err.status + ", downloading to local file.")
+                     // Save data to browser
+
+                     var data = "text/json;charset=utf-8," + JSON.stringify(results);
+                     var a = document.createElement('a');
+                     a.title = "Download"
+                     a.id = "download"
+                     a.type = "button"
+                     a.download = 'state-mindfulness-survey_result.json';
+                     a.href = 'data:' + data;
+                     $(".submit").html("下载")
+                     $(".submit").click(function(){
+                         $("body").append(a)
+                         a.click()
+                     })
+
+                  }
+         });
+
+     // Validation
+     }).validate({
+	errorPlacement: function( error, element ) {
+	    if ( element.is( ":radio" ) || element.is( ":checkbox" ) ) {
+		error.insertBefore( element.next() );
+            } else {
+	        error.insertAfter( element );
+	 }
+      }
+  });
+});
+</script>
+</body>
+</html>

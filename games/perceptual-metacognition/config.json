@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_553ebfc390256",
+    "instructions":"请对屏幕上的刺激做出反应。",
+    "description":"Expfactory 实验",
+    "url":"https://www.github.com/expfactory-experiments/perceptual-metacognition",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "perceptual-metacognition",
+    "name": "感知元认知",
+    "reference": ["http://www.sciencedirect.com/science/article/pii/S1053810011002303"],
+    "template": "jspsych",
+    "time": 20
+}

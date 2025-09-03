@@ -1,0 +1,18 @@
+{
+    "name": "测试任务",
+    "exp_id": "test-task",
+    "url": "https://www.github.com/expfactory-experiments/test-task",
+    "description":"这个文本任务在屏幕上显示一个简短的X让你做出反应。",
+    "instructions": "按空格键对屏幕上的黑色X做出反应。",
+    "template":"jspsych",
+    "cognitive_atlas_task_id": "tsk_4a57abb949dc8",
+    "contributors": [
+                     "Ian Eisenberg",
+                     "Zeynep Enkavi",
+                     "Patrick Bissett",
+                     "Vanessa Sochat",
+                     "Russell Poldrack"
+                    ], 
+    "time":1,
+    "reference": ["http://www.sciencedirect.com/science/article/pii/0001691869900651"]
+}

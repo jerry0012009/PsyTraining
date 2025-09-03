@@ -1,0 +1,788 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <title>The Experiment Factory: Survey</title>
+    
+    <link rel='stylesheet' type='text/css' href='css/material.blue-red.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/surveys.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui-1.10.4.custom.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+
+    <script src='js/jquery-2.1.1.min.js'></script>
+    <script src='js/material.min.js'></script>
+    <script src='js/jquery-ui-1.10.4.custom.min.js'></script>
+    <script src='js/jquery.wizard.js'></script>
+    <script src='js/jquery.form-3.50.js'></script>
+    <script src='js/jquery.validate-1.12.0.min.js'></script>
+
+<div class="experiment-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+<div class="experiment-ribbon"></div>
+<main class="experiment-main mdl-layout__content">
+<div class="experiment-container mdl-grid">
+<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+</div>
+<div class="experiment-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+<div id="questions">
+
+<form name="questions" action="#", method="POST">
+<div class="step">
+<h3>欢迎参加此调查。按<strong>下一步</strong>开始。</h3><br><br><br><br></div>
+<div class="step">
+<h3>请回答以下关于您人口统计信息的问题。</h3><br><br><br><br></div>
+<div class="step">
+<p id="demographics-survey_2_options">您的性别是？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_2_0">
+<input type="radio" id="option-demographics-survey_2_0" class="mdl-radio__button required page3" name="demographics-survey_2_options" value="0" meta-options="Male|Female" meta-text="What is your sex?">
+<span class="mdl-radio__label">男性</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_2_1">
+<input type="radio" id="option-demographics-survey_2_1" class="mdl-radio__button required page3" name="demographics-survey_2_options" value="1" meta-options="Male|Female" meta-text="What is your sex?">
+<span class="mdl-radio__label">女性</span>
+</label><br><br><br><br>
+<p id="demographics-survey_3">您今年多少岁？</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page3 required" type="number" id="demographics-survey_3" name="demographics-survey_3" meta-text="How old are you (in years)?">
+<label class="mdl-textfield__label" for="demographics-survey_3"></label>
+<span class="mdl-textfield__error">输入的不是数字！</span>
+</div><br><br><br>
+<p id="demographics-survey_4_options">您的种族是？</p>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_0">
+<input type="checkbox" id="checkbox-demographics-survey_4_0" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_0_options" value="White">
+<span class="mdl-checkbox__label">白人</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_1">
+<input type="checkbox" id="checkbox-demographics-survey_4_1" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_1_options" value=" American Indian or Alaska Native">
+<span class="mdl-checkbox__label">美洲印第安人或阿拉斯加原住民</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_2">
+<input type="checkbox" id="checkbox-demographics-survey_4_2" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_2_options" value="Chinese">
+<span class="mdl-checkbox__label">中国人</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_3">
+<input type="checkbox" id="checkbox-demographics-survey_4_3" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_3_options" value="Japanese">
+<span class="mdl-checkbox__label">日本人</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_4">
+<input type="checkbox" id="checkbox-demographics-survey_4_4" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_4_options" value=" Filipino">
+<span class="mdl-checkbox__label">菲律宾人</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_5">
+<input type="checkbox" id="checkbox-demographics-survey_4_5" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_5_options" value="Korean">
+<span class="mdl-checkbox__label">韩国人</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_6">
+<input type="checkbox" id="checkbox-demographics-survey_4_6" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_6_options" value=" Asian Indian">
+<span class="mdl-checkbox__label">印度人</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_7">
+<input type="checkbox" id="checkbox-demographics-survey_4_7" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_7_options" value=" Vietnamese">
+<span class="mdl-checkbox__label">越南人</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_8">
+<input type="checkbox" id="checkbox-demographics-survey_4_8" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_8_options" value=" Other Asian">
+<span class="mdl-checkbox__label">其他亚洲人</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_9">
+<input type="checkbox" id="checkbox-demographics-survey_4_9" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_9_options" value=" Black or African American">
+<span class="mdl-checkbox__label">黑人或非裔美国人</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_10">
+<input type="checkbox" id="checkbox-demographics-survey_4_10" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_10_options" value=" Middle Eastern or North African">
+<span class="mdl-checkbox__label">中东或北非人</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_11">
+<input type="checkbox" id="checkbox-demographics-survey_4_11" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_11_options" value=" Native Hawaiian or Other Pacific Islander">
+<span class="mdl-checkbox__label">夏威夷原住民或其他太平洋岛民</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_12">
+<input type="checkbox" id="checkbox-demographics-survey_4_12" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_12_options" value="Other">
+<span class="mdl-checkbox__label">其他</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_4_13">
+<input type="checkbox" id="checkbox-demographics-survey_4_13" meta-options="White| American Indian or Alaska Native|Chinese|Japanese| Filipino|Korean| Asian Indian| Vietnamese| Other Asian| Black or African American| Middle Eastern or North African| Native Hawaiian or Other Pacific Islander|Other|Choose not to respond" meta-text="What is your race?" class="mdl-checkbox__input page3 required" name="demographics-survey_4_13_options" value="Choose not to respond">
+<span class="mdl-checkbox__label">选择不回答</span>
+</label><br><br><br>
+<p id="demographics-survey_5">如果您在种族背景中选择了“其他”，您会如何描述它？</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page3 " name="demographics-survey_5" type="text" id="demographics-survey_5" meta-text="If you chose 'Other' for racial  background how would you describe it?">
+<label class="mdl-textfield__label" for="demographics-survey_5"></label>
+</div><br><br><br>
+<p id="demographics-survey_6_options">您是否为西班牙裔、拉丁裔或西班牙人出身？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_6_0">
+<input type="radio" id="option-demographics-survey_6_0" class="mdl-radio__button required page3" name="demographics-survey_6_options" value="1" meta-options="Yes| No" meta-text="Are you of Hispanic, Latino or Spanish origin?">
+<span class="mdl-radio__label">是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_6_1">
+<input type="radio" id="option-demographics-survey_6_1" class="mdl-radio__button required page3" name="demographics-survey_6_options" value="0" meta-options="Yes| No" meta-text="Are you of Hispanic, Latino or Spanish origin?">
+<span class="mdl-radio__label">否</span>
+</label><br><br><br><br>
+<p id="demographics-survey_7_options">您完成的最高教育水平是什么？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_7_0">
+<input type="radio" id="option-demographics-survey_7_0" class="mdl-radio__button required page3" name="demographics-survey_7_options" value="1" meta-options="Did Not Complete High School| High School/GED| Some College| Bachelor's Degree| Master's Degree| Advanced Graduate work or Ph.D" meta-text="What is the highest level of education you have completed?">
+<span class="mdl-radio__label">未完成高中学业</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_7_1">
+<input type="radio" id="option-demographics-survey_7_1" class="mdl-radio__button required page3" name="demographics-survey_7_options" value="2" meta-options="Did Not Complete High School| High School/GED| Some College| Bachelor's Degree| Master's Degree| Advanced Graduate work or Ph.D" meta-text="What is the highest level of education you have completed?">
+<span class="mdl-radio__label">高中/同等学历</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_7_2">
+<input type="radio" id="option-demographics-survey_7_2" class="mdl-radio__button required page3" name="demographics-survey_7_options" value="3" meta-options="Did Not Complete High School| High School/GED| Some College| Bachelor's Degree| Master's Degree| Advanced Graduate work or Ph.D" meta-text="What is the highest level of education you have completed?">
+<span class="mdl-radio__label">部分大学学业</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_7_3">
+<input type="radio" id="option-demographics-survey_7_3" class="mdl-radio__button required page3" name="demographics-survey_7_options" value="4" meta-options="Did Not Complete High School| High School/GED| Some College| Bachelor's Degree| Master's Degree| Advanced Graduate work or Ph.D" meta-text="What is the highest level of education you have completed?">
+<span class="mdl-radio__label">学士学位</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_7_4">
+<input type="radio" id="option-demographics-survey_7_4" class="mdl-radio__button required page3" name="demographics-survey_7_options" value="5" meta-options="Did Not Complete High School| High School/GED| Some College| Bachelor's Degree| Master's Degree| Advanced Graduate work or Ph.D" meta-text="What is the highest level of education you have completed?">
+<span class="mdl-radio__label">硕士学位</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_7_5">
+<input type="radio" id="option-demographics-survey_7_5" class="mdl-radio__button required page3" name="demographics-survey_7_options" value="6" meta-options="Did Not Complete High School| High School/GED| Some College| Bachelor's Degree| Master's Degree| Advanced Graduate work or Ph.D" meta-text="What is the highest level of education you have completed?">
+<span class="mdl-radio__label">高级硕士学业或博士学位</span>
+</label><br><br><br><br>
+<p id="demographics-survey_8">您的身高是多少（以英寸为单位：1英尺 = 12英寸）？</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page3 required" type="number" id="demographics-survey_8" name="demographics-survey_8" meta-text="How tall are you (in inches: one foot = 12 inches)?">
+<label class="mdl-textfield__label" for="demographics-survey_8"></label>
+<span class="mdl-textfield__error">输入的不是数字！</span>
+</div><br><br><br>
+<p id="demographics-survey_9">您的体重是多少（以磅为单位）？</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page3 required" type="number" id="demographics-survey_9" name="demographics-survey_9" meta-text="How much do you weigh (in pounds)?">
+<label class="mdl-textfield__label" for="demographics-survey_9"></label>
+<span class="mdl-textfield__error">输入的不是数字！</span>
+</div><br><br><br>
+<p id="demographics-survey_10_options">您的关系状态是什么？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_10_0">
+<input type="radio" id="option-demographics-survey_10_0" class="mdl-radio__button required page3" name="demographics-survey_10_options" value="1" meta-options="Single|Married|In Committed Relationship" meta-text="What is your relationship status?">
+<span class="mdl-radio__label">单身</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_10_1">
+<input type="radio" id="option-demographics-survey_10_1" class="mdl-radio__button required page3" name="demographics-survey_10_options" value="2" meta-options="Single|Married|In Committed Relationship" meta-text="What is your relationship status?">
+<span class="mdl-radio__label">已婚</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_10_2">
+<input type="radio" id="option-demographics-survey_10_2" class="mdl-radio__button required page3" name="demographics-survey_10_options" value="3" meta-options="Single|Married|In Committed Relationship" meta-text="What is your relationship status?">
+<span class="mdl-radio__label">在稳定的恋爱关系中</span>
+</label><br><br><br><br>
+<p id="demographics-survey_11_options">您离过几次婚？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_11_0">
+<input type="radio" id="option-demographics-survey_11_0" class="mdl-radio__button required page3" name="demographics-survey_11_options" value="0" meta-options="0|1|2|3|4|5|More" meta-text="How many times have you been divorced?">
+<span class="mdl-radio__label">0</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_11_1">
+<input type="radio" id="option-demographics-survey_11_1" class="mdl-radio__button required page3" name="demographics-survey_11_options" value="1" meta-options="0|1|2|3|4|5|More" meta-text="How many times have you been divorced?">
+<span class="mdl-radio__label">1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_11_2">
+<input type="radio" id="option-demographics-survey_11_2" class="mdl-radio__button required page3" name="demographics-survey_11_options" value="2" meta-options="0|1|2|3|4|5|More" meta-text="How many times have you been divorced?">
+<span class="mdl-radio__label">2</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_11_3">
+<input type="radio" id="option-demographics-survey_11_3" class="mdl-radio__button required page3" name="demographics-survey_11_options" value="3" meta-options="0|1|2|3|4|5|More" meta-text="How many times have you been divorced?">
+<span class="mdl-radio__label">3</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_11_4">
+<input type="radio" id="option-demographics-survey_11_4" class="mdl-radio__button required page3" name="demographics-survey_11_options" value="4" meta-options="0|1|2|3|4|5|More" meta-text="How many times have you been divorced?">
+<span class="mdl-radio__label">4</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_11_5">
+<input type="radio" id="option-demographics-survey_11_5" class="mdl-radio__button required page3" name="demographics-survey_11_options" value="5" meta-options="0|1|2|3|4|5|More" meta-text="How many times have you been divorced?">
+<span class="mdl-radio__label">5</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_11_6">
+<input type="radio" id="option-demographics-survey_11_6" class="mdl-radio__button required page3" name="demographics-survey_11_options" value="6" meta-options="0|1|2|3|4|5|More" meta-text="How many times have you been divorced?">
+<span class="mdl-radio__label">更多</span>
+</label><br><br><br><br>
+<p id="demographics-survey_12">您最长的浪漫关系持续了/正在持续多久（以月为单位：1年 = 12个月）？</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page3 required" type="number" id="demographics-survey_12" name="demographics-survey_12" meta-text="How long was/is your longest romantic relationship (in months: one year = 12 months)?">
+<label class="mdl-textfield__label" for="demographics-survey_12"></label>
+<span class="mdl-textfield__error">输入的不是数字！</span>
+</div><br><br><br>
+<p id="demographics-survey_13_options">您有过多少次浪漫关系？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_13_0">
+<input type="radio" id="option-demographics-survey_13_0" class="mdl-radio__button required page3" name="demographics-survey_13_options" value="1" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many romantic relationships have you had?">
+<span class="mdl-radio__label">0</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_13_1">
+<input type="radio" id="option-demographics-survey_13_1" class="mdl-radio__button required page3" name="demographics-survey_13_options" value="2" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many romantic relationships have you had?">
+<span class="mdl-radio__label">1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_13_2">
+<input type="radio" id="option-demographics-survey_13_2" class="mdl-radio__button required page3" name="demographics-survey_13_options" value="3" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many romantic relationships have you had?">
+<span class="mdl-radio__label">2</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_13_3">
+<input type="radio" id="option-demographics-survey_13_3" class="mdl-radio__button required page3" name="demographics-survey_13_options" value="4" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many romantic relationships have you had?">
+<span class="mdl-radio__label">3</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_13_4">
+<input type="radio" id="option-demographics-survey_13_4" class="mdl-radio__button required page3" name="demographics-survey_13_options" value="5" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many romantic relationships have you had?">
+<span class="mdl-radio__label">4</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_13_5">
+<input type="radio" id="option-demographics-survey_13_5" class="mdl-radio__button required page3" name="demographics-survey_13_options" value="6" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many romantic relationships have you had?">
+<span class="mdl-radio__label">5-10</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_13_6">
+<input type="radio" id="option-demographics-survey_13_6" class="mdl-radio__button required page3" name="demographics-survey_13_options" value="7" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many romantic relationships have you had?">
+<span class="mdl-radio__label">>10</span>
+</label><br><br><br><br>
+<p id="demographics-survey_14_options">您有几个孩子？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_14_0">
+<input type="radio" id="option-demographics-survey_14_0" class="mdl-radio__button required page3" name="demographics-survey_14_options" value="1" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many children do you have?">
+<span class="mdl-radio__label">0</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_14_1">
+<input type="radio" id="option-demographics-survey_14_1" class="mdl-radio__button required page3" name="demographics-survey_14_options" value="2" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many children do you have?">
+<span class="mdl-radio__label">1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_14_2">
+<input type="radio" id="option-demographics-survey_14_2" class="mdl-radio__button required page3" name="demographics-survey_14_options" value="3" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many children do you have?">
+<span class="mdl-radio__label">2</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_14_3">
+<input type="radio" id="option-demographics-survey_14_3" class="mdl-radio__button required page3" name="demographics-survey_14_options" value="4" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many children do you have?">
+<span class="mdl-radio__label">3</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_14_4">
+<input type="radio" id="option-demographics-survey_14_4" class="mdl-radio__button required page3" name="demographics-survey_14_options" value="5" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many children do you have?">
+<span class="mdl-radio__label">4</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_14_5">
+<input type="radio" id="option-demographics-survey_14_5" class="mdl-radio__button required page3" name="demographics-survey_14_options" value="6" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many children do you have?">
+<span class="mdl-radio__label">5-10</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_14_6">
+<input type="radio" id="option-demographics-survey_14_6" class="mdl-radio__button required page3" name="demographics-survey_14_options" value="7" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many children do you have?">
+<span class="mdl-radio__label">>10</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="demographics-survey_15">您家庭的年收入是多少（以美元为单位）？</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page4 required" type="number" id="demographics-survey_15" name="demographics-survey_15" meta-text="What is your household's annual income (in dollars)?">
+<label class="mdl-textfield__label" for="demographics-survey_15"></label>
+<span class="mdl-textfield__error">输入的不是数字！</span>
+</div><br><br><br>
+<p id="demographics-survey_16_options">您有退休账户吗？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_16_0">
+<input type="radio" id="option-demographics-survey_16_0" class="mdl-radio__button required page4" name="demographics-survey_16_options" value="1" meta-options="Yes|No" meta-text="Do you have a retirement account?">
+<span class="mdl-radio__label">是</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_16_1">
+<input type="radio" id="option-demographics-survey_16_1" class="mdl-radio__button required page4" name="demographics-survey_16_options" value="2" meta-options="Yes|No" meta-text="Do you have a retirement account?">
+<span class="mdl-radio__label">否</span>
+</label><br><br><br><br>
+<p id="demographics-survey_17">如果您有退休账户，其中股票所占的百分比是多少？</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page4 " type="number" id="demographics-survey_17" name="demographics-survey_17" meta-text="If you do have a retirement account what percent is in stocks?">
+<label class="mdl-textfield__label" for="demographics-survey_17"></label>
+<span class="mdl-textfield__error">输入的不是数字！</span>
+</div><br><br><br>
+<p id="demographics-survey_18_options">您是租房还是自有房屋/公寓？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_18_0">
+<input type="radio" id="option-demographics-survey_18_0" class="mdl-radio__button required page4" name="demographics-survey_18_options" value="1" meta-options="Rent| Own" meta-text="Do you rent or own your home/apartment?">
+<span class="mdl-radio__label">租房</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_18_1">
+<input type="radio" id="option-demographics-survey_18_1" class="mdl-radio__button required page4" name="demographics-survey_18_options" value="2" meta-options="Rent| Own" meta-text="Do you rent or own your home/apartment?">
+<span class="mdl-radio__label">自有</span>
+</label><br><br><br><br>
+<p id="demographics-survey_19_options">您有多少房贷债务？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_19_0">
+<input type="radio" id="option-demographics-survey_19_0" class="mdl-radio__button required page4" name="demographics-survey_19_options" value="1" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much mortgage debt do you have?">
+<span class="mdl-radio__label"><$500</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_19_1">
+<input type="radio" id="option-demographics-survey_19_1" class="mdl-radio__button required page4" name="demographics-survey_19_options" value="2" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much mortgage debt do you have?">
+<span class="mdl-radio__label">$500-$2500</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_19_2">
+<input type="radio" id="option-demographics-survey_19_2" class="mdl-radio__button required page4" name="demographics-survey_19_options" value="3" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much mortgage debt do you have?">
+<span class="mdl-radio__label">$2500-$10000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_19_3">
+<input type="radio" id="option-demographics-survey_19_3" class="mdl-radio__button required page4" name="demographics-survey_19_options" value="4" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much mortgage debt do you have?">
+<span class="mdl-radio__label">$10000-$25000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_19_4">
+<input type="radio" id="option-demographics-survey_19_4" class="mdl-radio__button required page4" name="demographics-survey_19_options" value="5" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much mortgage debt do you have?">
+<span class="mdl-radio__label">$25000-$50000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_19_5">
+<input type="radio" id="option-demographics-survey_19_5" class="mdl-radio__button required page4" name="demographics-survey_19_options" value="6" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much mortgage debt do you have?">
+<span class="mdl-radio__label">$50000-$100000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_19_6">
+<input type="radio" id="option-demographics-survey_19_6" class="mdl-radio__button required page4" name="demographics-survey_19_options" value="7" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much mortgage debt do you have?">
+<span class="mdl-radio__label">$100000-$200000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_19_7">
+<input type="radio" id="option-demographics-survey_19_7" class="mdl-radio__button required page4" name="demographics-survey_19_options" value="8" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much mortgage debt do you have?">
+<span class="mdl-radio__label">>$200000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_19_8">
+<input type="radio" id="option-demographics-survey_19_8" class="mdl-radio__button required page4" name="demographics-survey_19_options" value=" 0" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much mortgage debt do you have?">
+<span class="mdl-radio__label">不便透露</span>
+</label><br><br><br><br>
+<p id="demographics-survey_20_options">您有多少与汽车相关的债务？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_20_0">
+<input type="radio" id="option-demographics-survey_20_0" class="mdl-radio__button required page4" name="demographics-survey_20_options" value="1" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much car-related debt do you have?">
+<span class="mdl-radio__label"><$500</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_20_1">
+<input type="radio" id="option-demographics-survey_20_1" class="mdl-radio__button required page4" name="demographics-survey_20_options" value="2" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much car-related debt do you have?">
+<span class="mdl-radio__label">$500-$2500</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_20_2">
+<input type="radio" id="option-demographics-survey_20_2" class="mdl-radio__button required page4" name="demographics-survey_20_options" value="3" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much car-related debt do you have?">
+<span class="mdl-radio__label">$2500-$10000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_20_3">
+<input type="radio" id="option-demographics-survey_20_3" class="mdl-radio__button required page4" name="demographics-survey_20_options" value="4" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much car-related debt do you have?">
+<span class="mdl-radio__label">$10000-$25000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_20_4">
+<input type="radio" id="option-demographics-survey_20_4" class="mdl-radio__button required page4" name="demographics-survey_20_options" value="5" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much car-related debt do you have?">
+<span class="mdl-radio__label">$25000-$50000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_20_5">
+<input type="radio" id="option-demographics-survey_20_5" class="mdl-radio__button required page4" name="demographics-survey_20_options" value="6" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much car-related debt do you have?">
+<span class="mdl-radio__label">$50000-$100000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_20_6">
+<input type="radio" id="option-demographics-survey_20_6" class="mdl-radio__button required page4" name="demographics-survey_20_options" value="7" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much car-related debt do you have?">
+<span class="mdl-radio__label">$100000-$200000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_20_7">
+<input type="radio" id="option-demographics-survey_20_7" class="mdl-radio__button required page4" name="demographics-survey_20_options" value="8" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much car-related debt do you have?">
+<span class="mdl-radio__label">>$200000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_20_8">
+<input type="radio" id="option-demographics-survey_20_8" class="mdl-radio__button required page4" name="demographics-survey_20_options" value=" 0" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much car-related debt do you have?">
+<span class="mdl-radio__label">不便透露</span>
+</label><br><br><br><br>
+<p id="demographics-survey_21_options">您有多少教育债务？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_21_0">
+<input type="radio" id="option-demographics-survey_21_0" class="mdl-radio__button required page4" name="demographics-survey_21_options" value="1" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much education debt do you have?">
+<span class="mdl-radio__label"><$500</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_21_1">
+<input type="radio" id="option-demographics-survey_21_1" class="mdl-radio__button required page4" name="demographics-survey_21_options" value="2" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much education debt do you have?">
+<span class="mdl-radio__label">$500-$2500</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_21_2">
+<input type="radio" id="option-demographics-survey_21_2" class="mdl-radio__button required page4" name="demographics-survey_21_options" value="3" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much education debt do you have?">
+<span class="mdl-radio__label">$2500-$10000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_21_3">
+<input type="radio" id="option-demographics-survey_21_3" class="mdl-radio__button required page4" name="demographics-survey_21_options" value="4" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much education debt do you have?">
+<span class="mdl-radio__label">$10000-$25000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_21_4">
+<input type="radio" id="option-demographics-survey_21_4" class="mdl-radio__button required page4" name="demographics-survey_21_options" value="5" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much education debt do you have?">
+<span class="mdl-radio__label">$25000-$50000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_21_5">
+<input type="radio" id="option-demographics-survey_21_5" class="mdl-radio__button required page4" name="demographics-survey_21_options" value="6" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much education debt do you have?">
+<span class="mdl-radio__label">$50000-$100000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_21_6">
+<input type="radio" id="option-demographics-survey_21_6" class="mdl-radio__button required page4" name="demographics-survey_21_options" value="7" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much education debt do you have?">
+<span class="mdl-radio__label">$100000-$200000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_21_7">
+<input type="radio" id="option-demographics-survey_21_7" class="mdl-radio__button required page4" name="demographics-survey_21_options" value="8" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much education debt do you have?">
+<span class="mdl-radio__label">>$200000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_21_8">
+<input type="radio" id="option-demographics-survey_21_8" class="mdl-radio__button required page4" name="demographics-survey_21_options" value=" 0" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much education debt do you have?">
+<span class="mdl-radio__label">不便透露</span>
+</label><br><br><br><br>
+<p id="demographics-survey_22_options">您有多少信用卡债务？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_22_0">
+<input type="radio" id="option-demographics-survey_22_0" class="mdl-radio__button required page4" name="demographics-survey_22_options" value="1" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much credit card debt do you have?">
+<span class="mdl-radio__label"><$500</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_22_1">
+<input type="radio" id="option-demographics-survey_22_1" class="mdl-radio__button required page4" name="demographics-survey_22_options" value="2" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much credit card debt do you have?">
+<span class="mdl-radio__label">$500-$2500</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_22_2">
+<input type="radio" id="option-demographics-survey_22_2" class="mdl-radio__button required page4" name="demographics-survey_22_options" value="3" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much credit card debt do you have?">
+<span class="mdl-radio__label">$2500-$10000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_22_3">
+<input type="radio" id="option-demographics-survey_22_3" class="mdl-radio__button required page4" name="demographics-survey_22_options" value="4" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much credit card debt do you have?">
+<span class="mdl-radio__label">$10000-$25000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_22_4">
+<input type="radio" id="option-demographics-survey_22_4" class="mdl-radio__button required page4" name="demographics-survey_22_options" value="5" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much credit card debt do you have?">
+<span class="mdl-radio__label">$25000-$50000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_22_5">
+<input type="radio" id="option-demographics-survey_22_5" class="mdl-radio__button required page4" name="demographics-survey_22_options" value="6" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much credit card debt do you have?">
+<span class="mdl-radio__label">$50000-$100000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_22_6">
+<input type="radio" id="option-demographics-survey_22_6" class="mdl-radio__button required page4" name="demographics-survey_22_options" value="7" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much credit card debt do you have?">
+<span class="mdl-radio__label">$100000-$200000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_22_7">
+<input type="radio" id="option-demographics-survey_22_7" class="mdl-radio__button required page4" name="demographics-survey_22_options" value="8" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much credit card debt do you have?">
+<span class="mdl-radio__label">>$200000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_22_8">
+<input type="radio" id="option-demographics-survey_22_8" class="mdl-radio__button required page4" name="demographics-survey_22_options" value=" 0" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="How much credit card debt do you have?">
+<span class="mdl-radio__label">不便透露</span>
+</label><br><br><br><br>
+<p id="demographics-survey_23">请列出您有的其他债务来源：</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page4 " name="demographics-survey_23" type="text" id="demographics-survey_23" meta-text="Please list any other sources of debt you have:">
+<label class="mdl-textfield__label" for="demographics-survey_23"></label>
+</div><br><br><br>
+<p id="demographics-survey_24_options">如果您列出了其他债务来源，您有多少债务？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_24_0">
+<input type="radio" id="option-demographics-survey_24_0" class="mdl-radio__button  page4" name="demographics-survey_24_options" value="1" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="If you listed any other sources of debt, how much debt do you have?">
+<span class="mdl-radio__label"><$500</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_24_1">
+<input type="radio" id="option-demographics-survey_24_1" class="mdl-radio__button  page4" name="demographics-survey_24_options" value="2" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="If you listed any other sources of debt, how much debt do you have?">
+<span class="mdl-radio__label">$500-$2500</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_24_2">
+<input type="radio" id="option-demographics-survey_24_2" class="mdl-radio__button  page4" name="demographics-survey_24_options" value="3" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="If you listed any other sources of debt, how much debt do you have?">
+<span class="mdl-radio__label">$2500-$10000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_24_3">
+<input type="radio" id="option-demographics-survey_24_3" class="mdl-radio__button  page4" name="demographics-survey_24_options" value="4" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="If you listed any other sources of debt, how much debt do you have?">
+<span class="mdl-radio__label">$10000-$25000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_24_4">
+<input type="radio" id="option-demographics-survey_24_4" class="mdl-radio__button  page4" name="demographics-survey_24_options" value="5" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="If you listed any other sources of debt, how much debt do you have?">
+<span class="mdl-radio__label">$25000-$50000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_24_5">
+<input type="radio" id="option-demographics-survey_24_5" class="mdl-radio__button  page4" name="demographics-survey_24_options" value="6" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="If you listed any other sources of debt, how much debt do you have?">
+<span class="mdl-radio__label">$50000-$100000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_24_6">
+<input type="radio" id="option-demographics-survey_24_6" class="mdl-radio__button  page4" name="demographics-survey_24_options" value="7" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="If you listed any other sources of debt, how much debt do you have?">
+<span class="mdl-radio__label">$100000-$200000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_24_7">
+<input type="radio" id="option-demographics-survey_24_7" class="mdl-radio__button  page4" name="demographics-survey_24_options" value="8" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="If you listed any other sources of debt, how much debt do you have?">
+<span class="mdl-radio__label">>$200000</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_24_8">
+<input type="radio" id="option-demographics-survey_24_8" class="mdl-radio__button  page4" name="demographics-survey_24_options" value="0" meta-options="<$500|$500-$2500|$2500-$10000|$10000-$25000|$25000-$50000|$50000-$100000|$100000-$200000|>$200000| Prefer Not To Say" meta-text="If you listed any other sources of debt, how much debt do you have?">
+<span class="mdl-radio__label">不便透露</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="demographics-survey_25">平均每天您喝多少杯咖啡？</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page5 required" type="number" id="demographics-survey_25" name="demographics-survey_25" meta-text="On average, how many cups of coffee do you have each day?">
+<label class="mdl-textfield__label" for="demographics-survey_25"></label>
+<span class="mdl-textfield__error">输入的不是数字！</span>
+</div><br><br><br>
+<p id="demographics-survey_26">平均每天您喝多少杯茶？</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page5 required" type="number" id="demographics-survey_26" name="demographics-survey_26" meta-text="On average, how many cups of tea do you have each day?">
+<label class="mdl-textfield__label" for="demographics-survey_26"></label>
+<span class="mdl-textfield__error">输入的不是数字！</span>
+</div><br><br><br>
+<p id="demographics-survey_27">平均每天您喝多少罐含咖啡因的苏打水？</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page5 required" type="number" id="demographics-survey_27" name="demographics-survey_27" meta-text="On average, how many cans of caffeinated soda do you have each day?">
+<label class="mdl-textfield__label" for="demographics-survey_27"></label>
+<span class="mdl-textfield__error">输入的不是数字！</span>
+</div><br><br><br>
+<p id="demographics-survey_28">您每天从其他来源摄入的咖啡因是多少（以毫克为单位）？</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page5 required" type="number" id="demographics-survey_28" name="demographics-survey_28" meta-text="What is your daily caffeine intake from other sources each day (in mg)?">
+<label class="mdl-textfield__label" for="demographics-survey_28"></label>
+<span class="mdl-textfield__error">输入的不是数字！</span>
+</div><br><br><br>
+<p id="demographics-survey_29_options">您认为您在赌博方面有问题吗？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_29_0">
+<input type="radio" id="option-demographics-survey_29_0" class="mdl-radio__button required page5" name="demographics-survey_29_options" value="0" meta-options="no| yes in the past but not now| yes" meta-text="Do you feel you have a problem with gambling?">
+<span class="mdl-radio__label">没有</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_29_1">
+<input type="radio" id="option-demographics-survey_29_1" class="mdl-radio__button required page5" name="demographics-survey_29_options" value="1" meta-options="no| yes in the past but not now| yes" meta-text="Do you feel you have a problem with gambling?">
+<span class="mdl-radio__label">过去有但现在没有</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_29_2">
+<input type="radio" id="option-demographics-survey_29_2" class="mdl-radio__button required page5" name="demographics-survey_29_options" value="2" meta-options="no| yes in the past but not now| yes" meta-text="Do you feel you have a problem with gambling?">
+<span class="mdl-radio__label">有</span>
+</label><br><br><br><br>
+<p id="demographics-survey_30_options">在过去一年中您收到了多少张交通罚单？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_30_0">
+<input type="radio" id="option-demographics-survey_30_0" class="mdl-radio__button required page5" name="demographics-survey_30_options" value="1" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic tickets have you gotten in the last year?">
+<span class="mdl-radio__label">0</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_30_1">
+<input type="radio" id="option-demographics-survey_30_1" class="mdl-radio__button required page5" name="demographics-survey_30_options" value="2" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic tickets have you gotten in the last year?">
+<span class="mdl-radio__label">1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_30_2">
+<input type="radio" id="option-demographics-survey_30_2" class="mdl-radio__button required page5" name="demographics-survey_30_options" value="3" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic tickets have you gotten in the last year?">
+<span class="mdl-radio__label">2</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_30_3">
+<input type="radio" id="option-demographics-survey_30_3" class="mdl-radio__button required page5" name="demographics-survey_30_options" value="4" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic tickets have you gotten in the last year?">
+<span class="mdl-radio__label">3</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_30_4">
+<input type="radio" id="option-demographics-survey_30_4" class="mdl-radio__button required page5" name="demographics-survey_30_options" value="5" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic tickets have you gotten in the last year?">
+<span class="mdl-radio__label">4</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_30_5">
+<input type="radio" id="option-demographics-survey_30_5" class="mdl-radio__button required page5" name="demographics-survey_30_options" value="6" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic tickets have you gotten in the last year?">
+<span class="mdl-radio__label">5-10</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_30_6">
+<input type="radio" id="option-demographics-survey_30_6" class="mdl-radio__button required page5" name="demographics-survey_30_options" value="7" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic tickets have you gotten in the last year?">
+<span class="mdl-radio__label">>10</span>
+</label><br><br><br><br>
+<p id="demographics-survey_31_options">您一生中发生过多少次交通事故？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_31_0">
+<input type="radio" id="option-demographics-survey_31_0" class="mdl-radio__button required page5" name="demographics-survey_31_options" value="1" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic accidents have you been in over your life?">
+<span class="mdl-radio__label">0</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_31_1">
+<input type="radio" id="option-demographics-survey_31_1" class="mdl-radio__button required page5" name="demographics-survey_31_options" value="2" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic accidents have you been in over your life?">
+<span class="mdl-radio__label">1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_31_2">
+<input type="radio" id="option-demographics-survey_31_2" class="mdl-radio__button required page5" name="demographics-survey_31_options" value="3" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic accidents have you been in over your life?">
+<span class="mdl-radio__label">2</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_31_3">
+<input type="radio" id="option-demographics-survey_31_3" class="mdl-radio__button required page5" name="demographics-survey_31_options" value="4" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic accidents have you been in over your life?">
+<span class="mdl-radio__label">3</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_31_4">
+<input type="radio" id="option-demographics-survey_31_4" class="mdl-radio__button required page5" name="demographics-survey_31_options" value="5" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic accidents have you been in over your life?">
+<span class="mdl-radio__label">4</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_31_5">
+<input type="radio" id="option-demographics-survey_31_5" class="mdl-radio__button required page5" name="demographics-survey_31_options" value="6" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic accidents have you been in over your life?">
+<span class="mdl-radio__label">5-10</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_31_6">
+<input type="radio" id="option-demographics-survey_31_6" class="mdl-radio__button required page5" name="demographics-survey_31_options" value="7" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many traffic accidents have you been in over your life?">
+<span class="mdl-radio__label">>10</span>
+</label><br><br><br><br>
+<p id="demographics-survey_32_options">您一生中因非法活动被逮捕和/或被起诉过多少次？</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_32_0">
+<input type="radio" id="option-demographics-survey_32_0" class="mdl-radio__button required page5" name="demographics-survey_32_options" value="1" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many times in your life have you been arrested and/or charged with illegal activities?">
+<span class="mdl-radio__label">0</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_32_1">
+<input type="radio" id="option-demographics-survey_32_1" class="mdl-radio__button required page5" name="demographics-survey_32_options" value="2" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many times in your life have you been arrested and/or charged with illegal activities?">
+<span class="mdl-radio__label">1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_32_2">
+<input type="radio" id="option-demographics-survey_32_2" class="mdl-radio__button required page5" name="demographics-survey_32_options" value="3" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many times in your life have you been arrested and/or charged with illegal activities?">
+<span class="mdl-radio__label">2</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_32_3">
+<input type="radio" id="option-demographics-survey_32_3" class="mdl-radio__button required page5" name="demographics-survey_32_options" value="4" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many times in your life have you been arrested and/or charged with illegal activities?">
+<span class="mdl-radio__label">3</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_32_4">
+<input type="radio" id="option-demographics-survey_32_4" class="mdl-radio__button required page5" name="demographics-survey_32_options" value="5" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many times in your life have you been arrested and/or charged with illegal activities?">
+<span class="mdl-radio__label">4</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_32_5">
+<input type="radio" id="option-demographics-survey_32_5" class="mdl-radio__button required page5" name="demographics-survey_32_options" value="6" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many times in your life have you been arrested and/or charged with illegal activities?">
+<span class="mdl-radio__label">5-10</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-demographics-survey_32_6">
+<input type="radio" id="option-demographics-survey_32_6" class="mdl-radio__button required page5" name="demographics-survey_32_options" value="7" meta-options="0|1|2|3|4|5-10|>10" meta-text="How many times in your life have you been arrested and/or charged with illegal activities?">
+<span class="mdl-radio__label">>10</span>
+</label><br><br><br><br>
+<p id="demographics-survey_33_options">您参与这个实验的动机是什么？</p>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_33_0">
+<input type="checkbox" id="checkbox-demographics-survey_33_0" meta-options="money|tasks are fun|want to contribute to research|other" meta-text="What are you motivations for participating in this experiment?" class="mdl-checkbox__input page5 required" name="demographics-survey_33_0_options" value="money">
+<span class="mdl-checkbox__label">金钱</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_33_1">
+<input type="checkbox" id="checkbox-demographics-survey_33_1" meta-options="money|tasks are fun|want to contribute to research|other" meta-text="What are you motivations for participating in this experiment?" class="mdl-checkbox__input page5 required" name="demographics-survey_33_1_options" value="tasks are fun">
+<span class="mdl-checkbox__label">任务很有趣</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_33_2">
+<input type="checkbox" id="checkbox-demographics-survey_33_2" meta-options="money|tasks are fun|want to contribute to research|other" meta-text="What are you motivations for participating in this experiment?" class="mdl-checkbox__input page5 required" name="demographics-survey_33_2_options" value="want to contribute to research">
+<span class="mdl-checkbox__label">希望为研究做贡献</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-demographics-survey_33_3">
+<input type="checkbox" id="checkbox-demographics-survey_33_3" meta-options="money|tasks are fun|want to contribute to research|other" meta-text="What are you motivations for participating in this experiment?" class="mdl-checkbox__input page5 required" name="demographics-survey_33_3_options" value="other">
+<span class="mdl-checkbox__label">其他</span>
+</label><br><br><br>
+<p id="demographics-survey_34">如果您有其他动机，请列出它们。</p>
+<div class="mdl-textfield mdl-js-textfield">
+<input class="mdl-textfield__input page5 " name="demographics-survey_34" type="text" id="demographics-survey_34" meta-text="If you have other motivations, please list them. ">
+<label class="mdl-textfield__label" for="demographics-survey_34"></label>
+</div><br><br><br></div>
+<div class="step">
+<h3>恭喜您完成了这个调查！请点击<strong>完成</strong>继续。</h3><br><br><br><br></div>
+
+<div class="navigation">
+    <ul class="clearfix">
+        <li><button type="button" 
+                    name="backward" 
+                    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent backward">上一步</button></li>
+	<li><button type="button" 
+                    name="forward" 
+                    class="forward mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">下一步</button></li>
+        <li><button type="submit" 
+                    name="process" 
+                    class="submit mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">完成</button></li>
+    </ul>
+</div>
+
+<div class="pad">
+    <div id="progressbar"></div>
+</div>
+</form>
+</div>
+
+<script>
+$( document ).ready(function() {
+
+    expfactory_finished = false;
+
+    // Basic wizard with progress bar
+    $( "#progressbar" ).progressbar();
+    $( "#questions" ).wizard({
+        stepsWrapper: "#wrapped",
+	submit: ".submit",
+	beforeForward: function( event, state ) {
+
+            // Function to add message that answer is required
+            function is_required(elements){
+                var missing = false;
+                elements.each(function(index,element){
+                    var pid = "#" + $(element).attr("name")
+                    $(pid).css("color","red")
+                    missing = true;                   
+                });
+
+                if (missing == true){
+                   alert("请回答所有标红的必填问题。");
+                }
+            }
+
+             if ( state.stepIndex === 3 ) {
+ if (($.unique($(`.page3.required[type=number],.page3.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page3.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page3.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 4 ) {
+ if (($.unique($(`.page4.required[type=number],.page4.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page4.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page4.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 5 ) {
+ if (($.unique($(`.page5.required[type=number],.page5.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page5.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page5.required:not(checked)`));
+return false;
+ } else {
+expfactory_finished=true;
+}}
+
+	    return !!$( this ).wizard( "form" ).valid();
+        },
+	afterSelect: function( event, state ) {
+	    $( "#progressbar" ).progressbar( "value", state.percentComplete );
+            if (expfactory_finished == true){
+                $(".submit").enable();
+            }
+        }
+
+    // Form submission
+    }).wizard( "form" ).submit(function( event ) {
+
+        event.preventDefault();
+        
+        var $inputs = $("input:checked");
+        var $text = $("input:text")
+        var $number = $("input[type = number]")
+        var $elements = $inputs.add($text).add($number)
+        
+        // Prepare data results
+        var results = []
+        $elements.each(function(index, element) {
+            var result = {}
+
+            if ($.inArray( $(element).attr("name"), [ "forward", "backward", "process"] ) == -1) {
+                result.name = $(element).attr("name");
+                if ($(element).attr("value") == undefined) {
+                    result.value = $(element).val();
+                } else {
+                    result.value = $(element).attr("value");
+                }
+                result.options = $(element).attr("meta-options");
+                result.text = $(element).attr("meta-text");
+                results.push(result);
+             }
+        })
+
+        
+        $.ajax({
+
+                type: 'POST',
+                url: '/save',
+                data: {'data': results},
+
+                success: function() {
+                    console.log('success');
+                    document.location = '/next'
+                 },
+
+                 // Endpoint not running, local save
+                 error: function(err) {
+
+                     if (err.status == 200) {
+                        document.location = '/next'
+                     }        
+        
+                     console.log("Error with POST" + err.status + ", downloading to local file.")
+                     // Save data to browser
+
+                     var data = "text/json;charset=utf-8," + JSON.stringify(results);
+                     var a = document.createElement('a');
+                     a.title = "Download"
+                     a.id = "download"
+                     a.type = "button"
+                     a.download = 'demographics-survey_result.json';
+                     a.href = 'data:' + data;
+                     $(".submit").html("Download")
+                     $(".submit").click(function(){
+                         $("body").append(a)
+                         a.click()
+                     })
+
+                  }
+         });
+
+     // Validation
+     }).validate({
+	errorPlacement: function( error, element ) {
+	    if ( element.is( ":radio" ) || element.is( ":checkbox" ) ) {
+		error.insertBefore( element.next() );
+            } else {
+	        error.insertAfter( element );
+	 }
+      }
+  });
+});
+</script>
+</body>
+</html>

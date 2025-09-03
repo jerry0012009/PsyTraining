@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_566748c929afc",
+    "instructions":"请对屏幕上的刺激做出反应。",
+    "description":"实验工厂心理学实验",
+    "url":"https://www.github.com/expfactory-experiments/discount-titrate",
+    "contributors": [
+        "Zeynep Enkavi",
+        "Ian Eisenberg",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "discount-titrate",
+    "name": "跨期决策：时际选择任务",
+    "reference": ["http://www.nature.com/neuro/journal/v13/n5/extref/nn.2516-S1.pdf"],
+    "template": "jspsych",
+    "time": 5
+}

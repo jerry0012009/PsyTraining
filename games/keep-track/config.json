@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "trm_4c40d4054f38b",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"记忆追踪实验",
+    "url":"https://www.github.com/expfactory-experiments/keep-track",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "keep-track",
+    "name": "记忆追踪实验",
+    "reference": ["Condition indicates difficulty as quantified by the 'target length': the number of categories the subject had to remember",
+                  "http://www.sciencedirect.com/science/article/pii/S001002859990734X"],
+    "template": "jspsych",
+    "time": 6
+}

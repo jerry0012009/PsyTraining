@@ -1,0 +1,17 @@
+{
+    "name": "罗森伯格自尊量表",
+    "exp_id": "rosenberg-self-esteem-survey",
+    "description": "一个用于评估自尊的测量工具，自尊被定义为对自己的积极或消极态度。",
+    "instructions": "以下是一些关于您对自己总体感受的陈述。请指出您对每个陈述的同意或不同意程度。",
+    "url": "https://github.com/expfactory-experiments/rosenberg-self-esteem-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+        "Junghyun (Andy) Kim",
+        "Daniel J Wilson"
+    ],
+    "time": 2,
+    "reference": [
+        "Rosenberg, M. (1965). Society and the adolescent self-image . Princeton University Press."
+    ]
+}

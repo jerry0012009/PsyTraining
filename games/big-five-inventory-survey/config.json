@@ -1,0 +1,17 @@
+{
+    "name": "大五人格量表调查",
+    "exp_id": "big-five-inventory-survey",
+    "description": "为时间有限的研究人员设计的简短量表，用于评估社会赞许性。",
+    "instructions": "以下是一些可能适用或不适用于您的特征。例如，您是否同意自己是一个喜欢与他人共度时光的人？请在每个陈述旁写一个数字，以表明您同意或不同意该陈述的程度。",
+    "url": "https://github.com/expfactory-experiments/big-five-survey",
+    "template":"survey",
+    "cognitive_atlas_task_id": "trm_56a915461cd91",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "Aryaki Sethi",
+                     "Junghyun (Andy) Kim"
+                    ], 
+    "time":3,
+    "reference": ["John, O. P., Donahue, E. M., & Kentle, R. L. (1991). Big Five Inventory. Journal of Personality and Social Psychology. https://doi.org/10.1037/t07550-000",
+                  "John, O. P., Naumann, L. P., & Soto, C. J. (2008). Paradigm shift to the integrative big five trait taxonomy. Handbook of Personality: Theory and Research, 3(2), 114–158."]
+}

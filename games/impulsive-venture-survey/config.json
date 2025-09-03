@@ -1,0 +1,20 @@
+{
+    "name": "I7: I-7 冲动性与冒险性问卷调查",
+    "template":"survey",
+    "exp_id": "impulsive-venture-survey",
+    "url": "https://github.com/expfactory-experiments/impulsive-venture-survey",
+    "cognitive_atlas_task_id": "trm_56a91e3e982f9",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":1,
+    "experiment_variables": "",
+    "reference": ["http://ac.els-cdn.com/019188698590011X/1-s2.0-019188698590011X-main.pdf?_tid=ee891a2e-58a5-11e5-a532-00000aab0f6b&acdnat=1441990720_959c611bec7aa4c79e3c0b6f4680da59"],
+    "description": "实验工厂冲动性与冒险性调查",
+    "instructions": "请根据您的实际情况尽力回答以下问题"
+}
+

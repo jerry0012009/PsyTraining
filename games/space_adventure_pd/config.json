@@ -1,0 +1,26 @@
+{
+	"name": "太空冒险任务 第2版",
+	"template":"javascript",
+	"exp_id": "space_adventure_pd",
+	"url":"https://www.github.com/expfactory-experiments/space_adventure_pd",
+	"contributors": [
+		"Dimitrije Markovic; dimitrije.markovic@tu-dresden.de",
+		"Sia Ivova Hranova; sia.hranova@tu-dresden.de",
+		"Sascha Frölich; sascha.frölich@tu-dresden.de",
+        "Michael Smolka; michael.smolka@tu-dresden.de"
+	], 
+	"run": [
+		"js/jquery-3.5.1.min.js",
+		"js/experiment.js",
+		"js/parameters.js",
+		"style.css"
+	],
+	"time":90,
+	"reference": ["Version 1: https://doi.org/10.1038/s41598-023-33274-0"],
+	"publish":"False",
+	"notes": "语言切换：在parameters.js第60行将语言从英语改为中文 language = 'en' 改为 'zh'",
+	"description": "一个概率性序列决策制定任务",
+	"instructions": "请按照屏幕上的指导进行操作"
+}
+
+

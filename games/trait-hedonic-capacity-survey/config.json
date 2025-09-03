@@ -1,0 +1,16 @@
+{
+    "name": "特质享乐能力量表调查",
+    "exp_id": "trait-hedonic-capacity-survey",
+    "description": "一项特质享乐能力的测量，评估人们在享乐目标追求中的成功程度及干扰性思维的出现。",
+    "instructions": "参与者根据每项陈述对自己的适合程度进行评分",
+    "url": "https://github.com/expfactory-experiments/trait-hedonic-capacity-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Aryaki Sethi",
+                     "Juan (Dethea) Du",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 2,
+    "reference": ["Bernecker, K., & Becker, D. (2020). Beyond Self-Control: Mechanisms of Hedonic Goal Pursuit and Its Relevance for Well-Being. Personality and Social Psychology Bulletin. https://doi.org/10.1177/0146167220941998"]
+}

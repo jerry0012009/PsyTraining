@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_4f241d7adf14e",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"实验工厂心理学实验",
+    "url":"https://www.github.com/expfactory-experiments/local-global-shape",
+    "exp_id": "local-global-shape",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "name": "局部-整体：形状刺激",
+    "reference": ["http://www.sciencedirect.com/science/article/pii/S001002859990734X"],
+    "template": "jspsych",
+    "time": 8
+}

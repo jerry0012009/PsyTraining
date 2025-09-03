@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "trm_5667483dcc371",
+    "instructions":"Respond to the stimuli on the screen.",
+    "description":"Expfactory experiment",
+    "url":"https://www.github.com/expfactory-experiments/probabilistic-selection",
+    "contributors": [
+        "Jamie Li",
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "probabilistic-selection",
+    "name": "Probabilistic Selection Task",
+    "reference":[ "http://science.sciencemag.org/content/sci/suppl/2004/12/10/1102941.DC1/Frank.SOM.pdf"],
+    "template": "jspsych",
+    "time": 14
+}

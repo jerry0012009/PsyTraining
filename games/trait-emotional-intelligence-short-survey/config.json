@@ -1,0 +1,15 @@
+{
+    "name": "特质情绪智能问卷简短版调查",
+    "exp_id": "trait-emotional-intelligence-short-survey",
+    "description": "一个包含30个问题的问卷，旨在测量整体特质情绪智能。",
+    "instructions": "请通过圈选最能反映您对以下每个陈述的同意或不同意程度的数字来回答下面的每个陈述。不要过多地思考陈述的确切含义。请快速回答，并尽可能准确地回答。没有对错答案。每个陈述都有七种可能的回答，从"完全不同意"（数字1）到"完全同意"（数字7）。",
+    "url": "https://github.com/expfactory-experiments/trait-emotional-intelligence-short-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Aryaki Sethi",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 4,
+    "reference": ["Petrides, K. V., & Furnham, A. (2001). Trait emotional intelligence: psychometric investigation with reference to established trait taxonomies. European Journal of Personality, 15(6), 425–448. https://doi.org/10.1002/per.416"]
+}

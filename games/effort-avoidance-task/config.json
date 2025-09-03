@@ -1,0 +1,13 @@
+{
+    "name": "Effort Avoidance Task",
+    "exp_id": "effort-avoidance-task",
+    "description": "Series of hard or easy questions for dynamic rewards.",
+    "instructions": "Select the correct answer.",
+    "url": "https://github.com/JuneOh710/effort-avoidance-task",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "June Oh"
+                    ], 
+    "time":10,
+    "reference": []
+}

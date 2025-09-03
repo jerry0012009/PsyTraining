@@ -1,0 +1,13 @@
+{
+    "name": "语义语言流畅性测试",
+    "exp_id": "semantic-verbal-fluency",
+    "description": "测试语义和语言流畅性的一系列问题。",
+    "instructions": "在60秒内输入所有可能的答案。",
+    "url": "https://github.com/JuneOh710/semantic-verbal-fluency",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "June Oh"
+                    ], 
+    "time":6,
+    "reference": ["https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00772/full"]
+}

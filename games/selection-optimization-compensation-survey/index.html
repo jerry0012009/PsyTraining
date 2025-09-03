@@ -1,0 +1,674 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <title>The Experiment Factory: Survey</title>
+    
+    <link rel='stylesheet' type='text/css' href='css/material.blue-red.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/surveys.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui-1.10.4.custom.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+
+    <script src='js/jquery-2.1.1.min.js'></script>
+    <script src='js/material.min.js'></script>
+    <script src='js/jquery-ui-1.10.4.custom.min.js'></script>
+    <script src='js/jquery.wizard.js'></script>
+    <script src='js/jquery.form-3.50.js'></script>
+    <script src='js/jquery.validate-1.12.0.min.js'></script>
+
+<div class="experiment-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+<div class="experiment-ribbon"></div>
+<main class="experiment-main mdl-layout__content">
+<div class="experiment-container mdl-grid">
+<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+</div>
+<div class="experiment-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+<div id="questions">
+
+<form name="questions" action="#", method="POST">
+<div class="step">
+<h3>欢迎参与此调查。请点击<strong>下一步</strong>开始。</h3><br><br><br><br></div>
+<div class="step">
+<h3>请选择以下哪个陈述更符合您的情况。</h3><br><br><br><br></div>
+<div class="step">
+<p id="selection-optimization-compensation-survey_2_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_2_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_2_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_2_options" value="1" meta-options="I concentrate all my energy on a few things| I divide my energy among many things" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我将所有精力集中在几件事上</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_2_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_2_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_2_options" value="0" meta-options="I concentrate all my energy on a few things| I divide my energy among many things" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我将精力分散到许多事情上</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_3_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_3_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_3_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_3_options" value="1" meta-options="I always focus on the one most important goal at a given time| I am always working on several goals at once" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我总是在特定时间专注于一个最重要的目标</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_3_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_3_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_3_options" value="0" meta-options="I always focus on the one most important goal at a given time| I am always working on several goals at once" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我总是同时处理几个目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_4_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_4_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_4_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_4_options" value="0" meta-options="Even when I really consider what I want in life I wait and see what happens instead of committing myself to just one or two particular goals| When I think about what I want in life I commit myself to one or two important goals" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">即使我真正考虑生活中想要什么时，我也会等等看会发生什么，而不是专注于一两个特定目标</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_4_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_4_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_4_options" value="1" meta-options="Even when I really consider what I want in life I wait and see what happens instead of committing myself to just one or two particular goals| When I think about what I want in life I commit myself to one or two important goals" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我思考生活中想要什么时，我会专注于一两个重要目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_5_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_5_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_5_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_5_options" value="0" meta-options="Just to achieve a particular goal I am not willing to abandon other ones| To achieve a particular goal I am willing to abandon other goals" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">为了实现某个特定目标，我不愿意放弃其他目标</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_5_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_5_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_5_options" value="1" meta-options="Just to achieve a particular goal I am not willing to abandon other ones| To achieve a particular goal I am willing to abandon other goals" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">为了实现某个特定目标，我愿意放弃其他目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_6_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_6_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_6_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_6_options" value="1" meta-options="I always pursue goals one after the other|
+I always pursue many goals at once so that I easily get bogged down" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我总是一个接一个地追求目标</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_6_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_6_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_6_options" value="0" meta-options="I always pursue goals one after the other|
+I always pursue many goals at once so that I easily get bogged down" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我总是同时追求许多目标，以至于容易陷入困境</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_7_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_7_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_7_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_7_options" value="1" meta-options="I know exactly what I want and what I do not want|
+I often only know what I want as the result of a situation" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我确切知道我想要什么和不想要什么</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_7_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_7_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_7_options" value="0" meta-options="I know exactly what I want and what I do not want|
+I often only know what I want as the result of a situation" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我通常只有在某种情况下才知道我想要什么</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_8_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_8_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_8_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_8_options" value="1" meta-options="When I decide upon a goal I stick to it| I can change a goal again at any time" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我决定一个目标时我会坚持下去</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_8_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_8_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_8_options" value="0" meta-options="When I decide upon a goal I stick to it| I can change a goal again at any time" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我随时都可以改变目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_9_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_9_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_9_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_9_options" value="0" meta-options="I always approach several goals at once| I always direct my attention to my most important goal
+" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我总是同时处理几个目标</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_9_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_9_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_9_options" value="1" meta-options="I always approach several goals at once| I always direct my attention to my most important goal
+" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我总是将注意力集中在最重要的目标上</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_10_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_10_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_10_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_10_options" value="1" meta-options="I make important life decisions|
+I do not like to commit myself to specific life decisions" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我会做重要的人生决定</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_10_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_10_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_10_options" value="0" meta-options="I make important life decisions|
+I do not like to commit myself to specific life decisions" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我不喜欢对具体的人生决定做出承诺</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_11_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_11_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_11_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_11_options" value="1" meta-options="I consider exactly what is important for me|
+I take things as they come and carry on from there" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我会仔细考虑什么对我重要</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_11_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_11_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_11_options" value="0" meta-options="I consider exactly what is important for me|
+I take things as they come and carry on from there" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我顺其自然，然后继续前进</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_12_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_12_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_12_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_12_options" value="1" meta-options="I do not have many goals in life that are equally important to me|
+I have many goals in life that are equally important to me" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我在生活中没有许多同等重要的目标</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_12_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_12_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_12_options" value="0" meta-options="I do not have many goals in life that are equally important to me|
+I have many goals in life that are equally important to me" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我在生活中有许多同等重要的目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_13_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_13_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_13_0" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_13_options" value="0" meta-options="I often adapt my goals to small changes| I have set my goals clearly and stick to them" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我经常根据小的变化调整目标</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_13_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_13_1" class="mdl-radio__button required page3" name="selection-optimization-compensation-survey_13_options" value="1" meta-options="I often adapt my goals to small changes| I have set my goals clearly and stick to them" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我已经明确地设定了目标并坚持下去</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="selection-optimization-compensation-survey_14_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_14_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_14_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_14_options" value="1" meta-options="When things do not go as well as before I choose one or two important goals|
+When things do not go as well as before I still try to keep all my goals" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当情况不像以前那么顺利时，我会选择一两个重要目标</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_14_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_14_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_14_options" value="0" meta-options="When things do not go as well as before I choose one or two important goals|
+When things do not go as well as before I still try to keep all my goals" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当情况不像以前那么顺利时，我仍然试图保持所有目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_15_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_15_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_15_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_15_options" value="0" meta-options="When I cannot do something important the way I did before I distribute my time and energy among many other things| When I cannot do something important the way I did before I look for a new goal" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法像以前那样做某件重要的事情时，我会将时间和精力分配到许多其他事情上</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_15_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_15_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_15_options" value="1" meta-options="When I cannot do something important the way I did before I distribute my time and energy among many other things| When I cannot do something important the way I did before I look for a new goal" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法像以前那样做某件重要的事情时，我会寻找一个新目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_16_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_16_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_16_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_16_options" value="0" meta-options="When I cannot do something as well as I used to I wait and see what comes| When I cannot do something as well as I used to I think about what exactly is important to me" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法像以前那样做某件事时，我会等着看会发生什么</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_16_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_16_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_16_options" value="1" meta-options="When I cannot do something as well as I used to I wait and see what comes| When I cannot do something as well as I used to I think about what exactly is important to me" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法像以前那样做某件事时，我会思考什么对我真正重要</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_17_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_17_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_17_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_17_options" value="0" meta-options="Even if I cannot do something as well as before I pursue all my goals| If I cannot do something as well as before I concentrate only on essentials" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">即使我无法像以前那样做得好，我仍然追求所有目标</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_17_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_17_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_17_options" value="1" meta-options="Even if I cannot do something as well as before I pursue all my goals| If I cannot do something as well as before I concentrate only on essentials" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">如果我无法像以前那样做得好，我只专注于核心事务</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_18_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_18_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_18_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_18_options" value="0" meta-options="When I cannot carry on as I used to I direct my attention (like usual) to all my goals| When I cannot carry on as I used to I direct my attention to my most important goal" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法像以前那样继续下去时，我会（像平常一样）将注意力投向所有目标</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_18_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_18_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_18_options" value="1" meta-options="When I cannot carry on as I used to I direct my attention (like usual) to all my goals| When I cannot carry on as I used to I direct my attention to my most important goal" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法像以前那样继续下去时，我会将注意力集中在最重要的目标上</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_19_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_19_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_19_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_19_options" value="0" meta-options="When something becomes increasingly difficult for me I accept it| When something becomes increasingly difficult for me I consider which goals I could achieve under the circumstances" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当某件事对我来说变得越来越困难时，我会接受它</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_19_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_19_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_19_options" value="1" meta-options="When something becomes increasingly difficult for me I accept it| When something becomes increasingly difficult for me I consider which goals I could achieve under the circumstances" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当某件事对我来说变得越来越困难时，我会考虑在这种情况下能实现哪些目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_20_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_20_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_20_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_20_options" value="0" meta-options="When things do not go so well I leave it at that| When things do not work so well I pursue my most important goal first" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当情况不太好时，我就让它去吧</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_20_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_20_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_20_options" value="1" meta-options="When things do not go so well I leave it at that| When things do not work so well I pursue my most important goal first" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当情况不太好时，我会首先追求最重要的目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_21_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_21_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_21_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_21_options" value="0" meta-options="When something requires more and more effort I do not worry about it| When something requires more and more effort I think about what exactly I really want" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当某件事需要越来越多的努力时，我不会为此担心</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_21_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_21_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_21_options" value="1" meta-options="When something requires more and more effort I do not worry about it| When something requires more and more effort I think about what exactly I really want" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当某件事需要越来越多的努力时，我会思考我真正想要什么</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_22_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_22_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_22_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_22_options" value="0" meta-options="When things do not go as well as before I wait for better times| When things do not go as well as before I drop some goals to concentrate on the more important ones" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当情况不像以前那么好时，我会等待更好的时候</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_22_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_22_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_22_options" value="1" meta-options="When things do not go as well as before I wait for better times| When things do not go as well as before I drop some goals to concentrate on the more important ones" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当情况不像以前那么好时，我会放弃一些目标以专注于更重要的目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_23_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_23_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_23_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_23_options" value="1" meta-options="When I am not able to achieve something anymore I direct my efforts at what is still possible|
+When I am not able to achieve something anymore I trust that the situation will improve by itself" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法再实现某些事情时，我会将努力投入到仍然可能的事情上</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_23_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_23_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_23_options" value="0" meta-options="When I am not able to achieve something anymore I direct my efforts at what is still possible|
+When I am not able to achieve something anymore I trust that the situation will improve by itself" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法再实现某些事情时，我相信情况会自动好转</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_24_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_24_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_24_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_24_options" value="1" meta-options="When things do not go as well as before I think about what exactly Is really important to me|
+When things do not go as well as before I leave it at that" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当情况不像以前那么好时，我会思考什么对我真正重要</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_24_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_24_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_24_options" value="0" meta-options="When things do not go as well as before I think about what exactly Is really important to me|
+When things do not go as well as before I leave it at that" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当情况不像以前那么好时，我就让它去吧</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_25_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_25_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_25_0" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_25_options" value="1" meta-options="When I can no longer do something in my usual way I think about what exactly I am able to do under the circumstances|
+When I can no longer do something in my usual way I do not think long about it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法再用平常的方式做某件事时，我会思考在这种情况下我能做什么</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_25_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_25_1" class="mdl-radio__button required page4" name="selection-optimization-compensation-survey_25_options" value="0" meta-options="When I can no longer do something in my usual way I think about what exactly I am able to do under the circumstances|
+When I can no longer do something in my usual way I do not think long about it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法再用平常的方式做某件事时，我不会想太多</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="selection-optimization-compensation-survey_26_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_26_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_26_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_26_options" value="0" meta-options="When I do not succeed right away at what I want to do I do not try other possibilities for very long| I keep working on what I have planned until I succeed" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法立即成功做我想做的事时，我不会花太多时间尝试其他可能性</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_26_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_26_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_26_options" value="1" meta-options="When I do not succeed right away at what I want to do I do not try other possibilities for very long| I keep working on what I have planned until I succeed" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我会继续致力于我计划的事情直到成功</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_27_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_27_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_27_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_27_options" value="0" meta-options="I prefer to wait for a while and see if things will work out by themselves| I make every effort to achieve a given goal" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我更喜欢等一段时间，看看事情是否会自动解决</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_27_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_27_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_27_options" value="1" meta-options="I prefer to wait for a while and see if things will work out by themselves| I make every effort to achieve a given goal" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我会尽一切努力实现既定目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_28_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_28_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_28_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_28_options" value="1" meta-options="If something matters to me I devote myself fully and completely to it|
+Even if something matters to me I still have a hard time devoting myself fully and completely to it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">如果某件事对我很重要，我会全身心地投入其中</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_28_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_28_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_28_options" value="0" meta-options="If something matters to me I devote myself fully and completely to it|
+Even if something matters to me I still have a hard time devoting myself fully and completely to it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">即使某件事对我很重要，我仍然很难全身心地投入其中</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_29_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_29_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_29_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_29_options" value="0" meta-options="I do not keep trying very long when I don't succeed right away at a goal| I keep trying until I succeed at a goal" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法立即在某个目标上成功时，我不会坚持太久</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_29_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_29_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_29_options" value="1" meta-options="I do not keep trying very long when I don't succeed right away at a goal| I keep trying until I succeed at a goal" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我会一直尝试直到在某个目标上成功</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_30_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_30_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_30_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_30_options" value="0" meta-options="I wait a while first to see if my plans do not realize themselves| I do everything I can to realize my plans" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我会先等一段时间，看看我的计划是否不会自己实现</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_30_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_30_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_30_options" value="1" meta-options="I wait a while first to see if my plans do not realize themselves| I do everything I can to realize my plans" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我会尽一切可能实现我的计划</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_31_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_31_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_31_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_31_options" value="1" meta-options="When I choose a goal I am also willing to invest much effort in it|
+I usually choose a goal that I can achieve without much effort" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我选择一个目标时，我也愿意为此投入很多努力</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_31_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_31_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_31_options" value="0" meta-options="When I choose a goal I am also willing to invest much effort in it|
+I usually choose a goal that I can achieve without much effort" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我通常选择不需要太多努力就能实现的目标</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_32_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_32_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_32_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_32_options" value="1" meta-options="When I want to achieve something I can wait for the right moment|
+When I want to achieve something I take the first opportunity that comes" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我想要实现某些事情时，我可以等待合适的时机</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_32_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_32_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_32_options" value="0" meta-options="When I want to achieve something I can wait for the right moment|
+When I want to achieve something I take the first opportunity that comes" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我想要实现某些事情时，我会把握第一个出现的机会</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_33_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_33_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_33_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_33_options" value="0" meta-options="When I start something that is important to me but has little chance at success I usually stop trying| When I have started something that is important to me but has little chance at success I make a particular effort" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我开始做某件对我很重要但成功机会很小的事情时，我通常会停止尝试</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_33_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_33_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_33_options" value="1" meta-options="When I start something that is important to me but has little chance at success I usually stop trying| When I have started something that is important to me but has little chance at success I make a particular effort" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我已经开始做某件对我很重要但成功机会很小的事情时，我会特别努力</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_34_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_34_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_34_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_34_options" value="1" meta-options="When I want to get ahead I take a successful person as a model|
+When I want to get ahead only I myself know the best way to do it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我想要取得进步时，我会以一个成功的人为模型</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_34_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_34_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_34_options" value="0" meta-options="When I want to get ahead I take a successful person as a model|
+When I want to get ahead only I myself know the best way to do it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我想要取得进步时，只有我自己知道最好的方法</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_35_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_35_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_35_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_35_options" value="1" meta-options="I think about exactly how I can best realize my plans|
+I do not think long about how to realize my plans I just try it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我会仔细思考如何才能最好地实现我的计划</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_35_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_35_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_35_options" value="0" meta-options="I think about exactly how I can best realize my plans|
+I do not think long about how to realize my plans I just try it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我不会花太多时间思考如何实现我的计划，我只是尝试去做</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_36_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_36_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_36_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_36_options" value="1" meta-options="When something is important to me I do not let setbacks discourage me|
+Setbacks show me that I should turn to something else" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当某件事对我很重要时，我不会让挫折打击我</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_36_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_36_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_36_options" value="0" meta-options="When something is important to me I do not let setbacks discourage me|
+Setbacks show me that I should turn to something else" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">挫折表明我应该转向其他事情</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_37_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_37_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_37_0" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_37_options" value="1" meta-options="I think about when exactly I can best realize my plans|
+In terms of realizing my plans I begin right away" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">我会思考什么时候才能最好地实现我的计划</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_37_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_37_1" class="mdl-radio__button required page5" name="selection-optimization-compensation-survey_37_options" value="0" meta-options="I think about when exactly I can best realize my plans|
+In terms of realizing my plans I begin right away" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">在实现我的计划方面，我会立即开始</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="selection-optimization-compensation-survey_38_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_38_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_38_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_38_options" value="0" meta-options="When things do not go as well as they used to I accept it| When things do not go as well as they used to I keep trying other ways until I can achieve the same result I used to" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当情况不像以前那么好时，我会接受它</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_38_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_38_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_38_options" value="1" meta-options="When things do not go as well as they used to I accept it| When things do not go as well as they used to I keep trying other ways until I can achieve the same result I used to" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当情况不像以前那么好时，我会不断尝试其他方法直到能实现以前那样的结果</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_39_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_39_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_39_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_39_options" value="0" meta-options="When something in my life is not working as well as it used to I decide what to do about it myself without involving other people| When something in my life is not working as well as it used to I ask others for help or advice" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我生活中的某些事情不像以前那样顺利时，我会自己决定怎么做，不涉及其他人</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_39_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_39_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_39_options" value="1" meta-options="When something in my life is not working as well as it used to I decide what to do about it myself without involving other people| When something in my life is not working as well as it used to I ask others for help or advice" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我生活中的某些事情不像以前那样顺利时，我会向其他人寻求帮助或建议</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_40_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_40_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_40_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_40_options" value="1" meta-options="When it becomes harder for me to get the same results I keep trying harder until I can do it as well as before|
+When it becomes harder for me to get the same results as I used to It is time to let go of that expectation" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我很难获得同样的结果时，我会继续更加努力直到能像以前一样做得好</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_40_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_40_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_40_options" value="0" meta-options="When it becomes harder for me to get the same results I keep trying harder until I can do it as well as before|
+When it becomes harder for me to get the same results as I used to It is time to let go of that expectation" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我很难获得像以前那样的结果时，是时候放下这种期望了</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_41_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_41_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_41_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_41_options" value="0" meta-options="Even if something is important to me It can happen that I do not invest the necessary time or effort| For important things I pay attention to whether I need to devote more time or effort" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">即使某件事对我很重要，也可能发生我没有投入必要的时间或精力的情况</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_41_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_41_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_41_options" value="1" meta-options="Even if something is important to me It can happen that I do not invest the necessary time or effort| For important things I pay attention to whether I need to devote more time or effort" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">对于重要的事情，我会注意是否需要投入更多的时间或精力</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_42_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_42_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_42_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_42_options" value="1" meta-options="In particularly difficult life situations I try to get help from doctors or counselors or other experts|
+In particularly difficult life situations I try to manage by myself" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">在特别困难的生活情况中，我会试图从医生、顾问或其他专家那里得到帮助</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_42_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_42_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_42_options" value="0" meta-options="In particularly difficult life situations I try to get help from doctors or counselors or other experts|
+In particularly difficult life situations I try to manage by myself" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">在特别困难的生活情况中，我会试图靠自己解决</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_43_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_43_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_43_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_43_options" value="1" meta-options="When things are not going so well I accept help from others|
+Even in difficult situations I do not burden others" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当事情进展不顺利时，我会接受其他人的帮助</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_43_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_43_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_43_options" value="0" meta-options="When things are not going so well I accept help from others|
+Even in difficult situations I do not burden others" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">即使在困难的情况下，我也不会给其他人造成负担</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_44_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_44_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_44_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_44_options" value="0" meta-options="When things do not work the way they used to I accept things the way they are| When things do not work the way they used to I look for other ways to achieve them" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当事情不像以前那样顺利时，我会接受现状</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_44_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_44_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_44_options" value="1" meta-options="When things do not work the way they used to I accept things the way they are| When things do not work the way they used to I look for other ways to achieve them" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当事情不像以前那样顺利时，我会寻找其他方法来实现它们</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_45_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_45_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_45_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_45_options" value="1" meta-options="When I cannot do something as well as before then I find out about other ways and means to achieve it|
+When I cannot do something as well as before then I accept it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法像以前那样好地做某件事时，我会找出其他方法和手段来实现它</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_45_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_45_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_45_options" value="0" meta-options="When I cannot do something as well as before then I find out about other ways and means to achieve it|
+When I cannot do something as well as before then I accept it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法像以前那样好地做某件事时，我会接受它</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_46_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_46_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_46_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_46_options" value="0" meta-options="When I cannot do something as well as I used to I accept the change| When I cannot do something as well as I used to then I ask someone else to do it for me" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法像以前那样好地做某件事时，我会接受这种变化</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_46_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_46_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_46_options" value="1" meta-options="When I cannot do something as well as I used to I accept the change| When I cannot do something as well as I used to then I ask someone else to do it for me" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我无法像以前那样好地做某件事时，我会请其他人为我做</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_47_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_47_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_47_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_47_options" value="1" meta-options="When I am afraid of losing something that I have achieved then I invest more time and effort in it|
+Just to prevent losing what I have achieved I am not willing to invest more time and effort in it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当我害怕失去我已经获得的东西时，我会在其上投入更多的时间和精力</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_47_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_47_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_47_options" value="0" meta-options="When I am afraid of losing something that I have achieved then I invest more time and effort in it|
+Just to prevent losing what I have achieved I am not willing to invest more time and effort in it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">仅仅为了防止失去我已经获得的东西，我不愿意投入更多的时间和精力</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_48_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_48_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_48_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_48_options" value="0" meta-options="When something does not work as well as usual I do not spend much time thinking about it| When something does not work as well as usual I look at how others do it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当某件事不像平常那样顺利时，我不会花太多时间思考它</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_48_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_48_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_48_options" value="1" meta-options="When something does not work as well as usual I do not spend much time thinking about it| When something does not work as well as usual I look at how others do it" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当某件事不像平常那样顺利时，我会看看其他人是怎么做的</span>
+</label><br><br><br><br>
+<p id="selection-optimization-compensation-survey_49_options">请选择以下两个陈述中哪个更符合您的情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_49_0">
+<input type="radio" id="option-selection-optimization-compensation-survey_49_0" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_49_options" value="0" meta-options="When something does not work as well as before I am the one who knows what is best for me| When something does not work as well as before I listen to advisory broadcasts and books as well" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当某件事不像以前那样顺利时，我知道什么对我最好</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-selection-optimization-compensation-survey_49_1">
+<input type="radio" id="option-selection-optimization-compensation-survey_49_1" class="mdl-radio__button required page6" name="selection-optimization-compensation-survey_49_options" value="1" meta-options="When something does not work as well as before I am the one who knows what is best for me| When something does not work as well as before I listen to advisory broadcasts and books as well" meta-text="请选择以下两个陈述中哪个更符合您的情况。">
+<span class="mdl-radio__label">当某件事不像以前那样顺利时，我也会听取建议广播和书籍</span>
+</label><br><br><br><br></div>
+<div class="step">
+<h3>恭喜您完成了这项调查！请点击<strong>完成</strong>继续。</h3><br><br><br><br></div>
+
+<div class="navigation">
+    <ul class="clearfix">
+        <li><button type="button" 
+                    name="backward" 
+                    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent backward">Previous</button></li>
+	<li><button type="button" 
+                    name="forward" 
+                    class="forward mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Next</button></li>
+        <li><button type="submit" 
+                    name="process" 
+                    class="submit mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Finish</button></li>
+    </ul>
+</div>
+
+<div class="pad">
+    <div id="progressbar"></div>
+</div>
+</form>
+</div>
+
+<script>
+$( document ).ready(function() {
+
+    expfactory_finished = false;
+
+    // Basic wizard with progress bar
+    $( "#progressbar" ).progressbar();
+    $( "#questions" ).wizard({
+        stepsWrapper: "#wrapped",
+	submit: ".submit",
+	beforeForward: function( event, state ) {
+
+            // Function to add message that answer is required
+            function is_required(elements){
+                var missing = false;
+                elements.each(function(index,element){
+                    var pid = "#" + $(element).attr("name")
+                    $(pid).css("color","red")
+                    missing = true;                   
+                });
+
+                if (missing == true){
+                   alert("Please answer all required questions in red.");
+                }
+            }
+
+             if ( state.stepIndex === 3 ) {
+ if (($.unique($(`.page3.required[type=number],.page3.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page3.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page3.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 4 ) {
+ if (($.unique($(`.page4.required[type=number],.page4.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page4.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page4.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 5 ) {
+ if (($.unique($(`.page5.required[type=number],.page5.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page5.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page5.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 6 ) {
+ if (($.unique($(`.page6.required[type=number],.page6.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page6.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page6.required:not(checked)`));
+return false;
+ } else {
+expfactory_finished=true;
+}}
+
+	    return !!$( this ).wizard( "form" ).valid();
+        },
+	afterSelect: function( event, state ) {
+	    $( "#progressbar" ).progressbar( "value", state.percentComplete );
+            if (expfactory_finished == true){
+                $(".submit").enable();
+            }
+        }
+
+    // Form submission
+    }).wizard( "form" ).submit(function( event ) {
+
+        event.preventDefault();
+        
+        var $inputs = $("input:checked");
+        var $text = $("input:text")
+        var $number = $("input[type = number]")
+        var $elements = $inputs.add($text).add($number)
+        
+        // Prepare data results
+        var results = []
+        $elements.each(function(index, element) {
+            var result = {}
+
+            if ($.inArray( $(element).attr("name"), [ "forward", "backward", "process"] ) == -1) {
+                result.name = $(element).attr("name");
+                if ($(element).attr("value") == undefined) {
+                    result.value = $(element).val();
+                } else {
+                    result.value = $(element).attr("value");
+                }
+                result.options = $(element).attr("meta-options");
+                result.text = $(element).attr("meta-text");
+                results.push(result);
+             }
+        })
+
+        
+        $.ajax({
+
+                type: 'POST',
+                url: '/save',
+                data: {'data': results},
+
+                success: function() {
+                    console.log('success');
+                    document.location = '/next'
+                 },
+
+                 // Endpoint not running, local save
+                 error: function(err) {
+
+                     if (err.status == 200) {
+                        document.location = '/next'
+                     }        
+        
+                     console.log("Error with POST" + err.status + ", downloading to local file.")
+                     // Save data to browser
+
+                     var data = "text/json;charset=utf-8," + JSON.stringify(results);
+                     var a = document.createElement('a');
+                     a.title = "Download"
+                     a.id = "download"
+                     a.type = "button"
+                     a.download = 'selection-optimization-compensation-survey_result.json';
+                     a.href = 'data:' + data;
+                     $(".submit").html("Download")
+                     $(".submit").click(function(){
+                         $("body").append(a)
+                         a.click()
+                     })
+
+                  }
+         });
+
+     // Validation
+     }).validate({
+	errorPlacement: function( error, element ) {
+	    if ( element.is( ":radio" ) || element.is( ":checkbox" ) ) {
+		error.insertBefore( element.next() );
+            } else {
+	        error.insertAfter( element );
+	 }
+      }
+  });
+});
+</script>
+</body>
+</html>

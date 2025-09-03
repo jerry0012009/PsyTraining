@@ -1,0 +1,14 @@
+{
+    "name": "是否相等？(闪电模式)",
+    "template":"phaser",
+    "exp_id": "is-it-equal-lightning",
+    "contributors": [
+                     "Jonathan Nicholas",
+                     "Christian Battista",
+                     "Vanessa Sochat"
+                    ],
+    "time":10,
+    "instructions": "按照指示进行游戏。",
+    "description": "在时间用完之前判断数量是否相等。",
+    "url": "https://www.github.com/expfactory-experiments/is-it-equal-lightning"
+}

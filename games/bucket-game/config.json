@@ -1,0 +1,14 @@
+{
+    "name": "水桶游戏",
+    "template":"phaser",
+    "exp_id": "bucket-game",
+    "contributors": [
+                     "Jonathan Nicholas",
+                     "Christian Battista",
+                     "Vanessa Sochat"
+                    ],
+    "time":10,
+    "instructions": "请按照指示进行游戏。",
+    "description": "判断试管中的水量是否相等。",
+    "url": "https://www.github.com/expfactory-experiments/bucket-game"
+}

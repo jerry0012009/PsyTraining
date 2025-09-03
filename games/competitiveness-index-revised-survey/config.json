@@ -1,0 +1,16 @@
+{
+    "name": "竞争性指数修订版 (CI-R)",
+    "template":"survey",
+    "url": "https://github.com/expfactory-experiments/competitiveness-index-revised-survey",
+    "description": "竞争性指数修订版",
+    "instructions": "对于以下每个陈述，请表明您是否同意，以及同意或不同意的程度。",
+    "exp_id": "competitiveness-index-revised-survey",
+    "contributors": [
+                     "Juan (Dethea) Du",
+                     "Aryaki Sethi",
+                     "Junghyun (Andy) Kim"
+                    ], 
+    "time": 2,
+    "reference": ["Houston J, Harris P, McIntire S, Francis D. Revising the Competitiveness Index using factor analysis. Psychol Rep. 2002 Feb;90(1):31-4. doi: 10.2466/pr0.2002.90.1.31. PMID: 11899003."],
+    "deployment_variables":{"material_design": {"fullscreen": true}}
+}

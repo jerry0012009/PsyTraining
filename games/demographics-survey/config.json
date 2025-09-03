@@ -1,0 +1,17 @@
+{
+    "name": "人口统计调查",
+    "template":"survey",
+    "exp_id": "demographics-survey",
+    "url": "https://github.com/expfactory-experiments/demographics-survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":3,
+    "description": "实验工厂调查",
+    "instructions": "请尽您所能地回答以下问题"
+}

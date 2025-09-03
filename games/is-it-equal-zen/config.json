@@ -1,0 +1,14 @@
+{
+    "name": "算式相等吗？（禅意模式）",
+    "template":"phaser",
+    "exp_id": "is-it-equal-zen",
+    "contributors": [
+                     "Jonathan Nicholas",
+                     "Christian Battista",
+                     "Vanessa Sochat"
+                    ],
+    "time":10,
+    "instructions": "请按照指导进行游戏。",
+    "description": "一个测试问题解决技能的有趣游戏。",
+    "url": "https://www.github.com/expfactory-experiments/is-it-equal-zen"
+}

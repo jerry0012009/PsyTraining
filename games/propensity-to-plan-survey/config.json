@@ -1,0 +1,15 @@
+{
+    "name": "计划倾向性调查",
+    "exp_id": "propensity-to-plan-survey",
+    "description": "一项衡量个体计划倾向性差异的工具，可适用于不同领域，用于比较不同领域和时间跨度的计划能力。",
+    "instructions": "请指出您目前有多频繁或多不频繁地体验到每种情况。",
+    "url": "https://github.com/expfactory-experiments/propensity-to-plan-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Sofia Dallali",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 5,
+    "reference": ["Lynch Jr, J. G., Netemeyer, R. G., Spiller, S. A., & Zammit, A. (2010). A generalizable scale of propensity to plan: The long and the short of planning for time and for money. Journal of consumer research, 37(1), 108-128. https://doi.org/10.1086/649907"]
+}

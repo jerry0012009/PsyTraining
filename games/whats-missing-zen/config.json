@@ -1,0 +1,14 @@
+{
+    "name": "缺失数字游戏（禅模式）",
+    "template":"phaser",
+    "exp_id": "whats-missing-zen",
+    "contributors": [
+                     "Jonathan Nicholas",
+                     "Christian Battista",
+                     "Vanessa Sochat"
+                    ],
+    "time":10,
+    "instructions": "按照指引来玩游戏。",
+    "description": "一个测试问题解决技能的有趣游戏。",
+    "url": "https://www.github.com/expfactory-experiments/whats-missing-zen"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "认知反思任务调查",
+    "template":"survey",
+    "exp_id": "cognitive-reflection-survey",
+    "url": "https://github.com/expfactory-experiments/cognitive-reflection-survey",
+    "cognitive_atlas_task_id": "trm_56675359b663a",
+    "contributors": [
+             "Ian Eisenberg",
+             "Zeynep Enkavi",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time": 5,
+    "reference": ["http://www.tandfonline.com/doi/pdf/10.1080/13546783.2013.844729",
+                  "http://onlinelibrary.wiley.com/doi/10.1002/bdm.1883/epdf"],
+    "description": "实验工厂心理调查",
+    "instructions": "请根据您的能力尽力回答以下问题"
+}

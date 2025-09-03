@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "trm_5696bb7166121",
+    "instructions":"对屏幕上的刺激做出响应。",
+    "description":"实验工厂实验",
+    "url":"https://www.github.com/expfactory-experiments/hierarchical-rule",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "hierarchical-rule",
+    "name": "层次规则任务",
+    "publish": "True",
+    "reference": ["http://www.sciencedirect.com/science/article/pii/S0896627310001960"],
+    "template": "jspsych",
+    "time": 22
+}

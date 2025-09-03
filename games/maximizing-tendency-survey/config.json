@@ -1,0 +1,14 @@
+{
+    "name": "最大化倾向量表调查",
+    "exp_id": "maximizing-tendency-survey",
+    "description": "衡量选择最佳选项目标的量表。",
+    "instructions": "对于所有问题，请选择以下选项之一",
+    "url": "https://github.com/expfactory-experiments/maximizing-tendency-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Junghyun (Andy) Kim"                                    
+                    ], 
+    "time": 4,
+    "reference": ["Dalal, D., Diab, D., Zhu, X., & Hwang, T. (2015). Understanding the Construct of Maximizing Tendency: A Theoretical and Empirical Evaluation. Journal of Behavioral Decision Making, 28(5), 437–450. https://doi.org/10.1002/bdm.1859"]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "自我实现特征量表调查",
+    "exp_id": "characteristics-of-self-actualization-survey",
+    "description": "量表验证显示了马斯洛提出的自我实现者的10个特征",
+    "instructions": "对于所有问题，请选择以下选项之一",
+    "url": "https://github.com/expfactory-experiments/characteristics-of-self-actualization-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "Aryaki Sethi",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 5,
+    "reference": ["Kaufman, S. B. (2018). Self-Actualizing People in the 21st Century: Integration With Contemporary Theory and Research on Personality and Well-Being. Journal of Humanistic Psychology. https://doi.org/10.1177/0022167818809187"]
+}

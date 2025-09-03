@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_5696c3fa0061a",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"实验工厂实验",
+    "url":"https://www.github.com/expfactory-experiments/shift-task",
+    "contributors": [
+            "Ian Eisenberg",
+            "Zeynep Enkavi",
+            "Patrick Bissett",
+            "Vanessa Sochat",
+            "Russell Poldrack"
+    ],
+    "exp_id": "shift-task",
+    "name": "转换任务",
+    "reference": ["http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3264902/"],
+    "template": "jspsych",
+    "time": 22
+}

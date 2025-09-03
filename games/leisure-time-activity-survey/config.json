@@ -1,0 +1,18 @@
+{
+    "name": "L-Cat: 斯坦福休闲时间活动分类项目调查",
+    "template":"survey",
+    "exp_id": "leisure-time-activity-survey",
+    "url": "https://github.com/expfactory-experiments/leisure-time-activity-survey",
+    "cognitive_atlas_task_id": "trm_56aaa613f0c1a",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":1,
+    "reference": ["http://www.ncbi.nlm.nih.gov/pubmed/23588625"],
+    "description": "实验工厂调查问卷",
+    "instructions": "请尽您所能回答以下问题"
+}

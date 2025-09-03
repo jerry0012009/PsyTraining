@@ -1,0 +1,14 @@
+{
+    "name": "搭桥游戏",
+    "template":"phaser",
+    "exp_id": "bridge-game",
+    "contributors": [
+                     "Jonathan Nicholas",
+                     "Christian Battista",
+                     "Vanessa Sochat"
+                    ], 
+    "time": 10,
+    "instructions": "解决数学题来过桥。",
+    "description": "一个测试算术技能的趣味游戏，最适合触屏操作。",
+    "url": "https://www.github.com/expfactory-experiments/bridge-game"
+}

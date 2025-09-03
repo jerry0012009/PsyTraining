@@ -1,0 +1,14 @@
+{
+    "name": "数轴游戏",
+    "template":"phaser",
+    "exp_id": "number-line",
+    "contributors": [
+                     "Jonathan Nicholas",
+                     "Christian Battista",
+                     "Vanessa Sochat"
+                    ],
+    "time":10,
+    "instructions": "按照指示来玩游戏。",
+    "description": "一个测试解决问题技能的趣味游戏。",
+    "url": "https://www.github.com/expfactory-experiments/number-line"
+}

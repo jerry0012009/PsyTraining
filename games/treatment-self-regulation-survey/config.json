@@ -1,0 +1,17 @@
+{
+    "name": "治疗自我调节问卷调查",
+    "template":"survey",
+    "exp_id": "treatment-self-regulation-survey",
+    "url": "https://github.com/expfactory-experiments/treatment-self-regulation-survey",
+    "cognitive_atlas_task_id": "trm_56aa9833c4be2",
+    "contributors": [
+             "Ian Eisenberg",
+             "Zeynep Enkavi",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":5,
+    "description": "实验工厂调查问卷",
+    "instructions": "请根据您的实际情况尽力回答以下问题"
+}

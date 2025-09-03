@@ -1,0 +1,18 @@
+{
+    "name": "十项人格量表调查",
+    "template":"survey",
+    "exp_id": "ten-item-personality-survey",
+    "url": "https://github.com/expfactory-experiments/ten-item-personality-server",
+    "cognitive_atlas_task_id": "trm_56a919a478935",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":1,
+    "reference": ["http://www.sciencedirect.com/science/article/pii/S0092656603000461"],
+    "description": "实验工厂心理调查",
+    "instructions": "请尽您所能地回答以下问题"
+}

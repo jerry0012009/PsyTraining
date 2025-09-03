@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "tsk_4a57abb949e27",
+    "instructions":"对屏幕上的刺激进行反应。",
+    "description":"斯特鲁普效应实验 - 心理学认知实验",
+    "url":"https://www.github.com/expfactory-experiments/stroop",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "stroop",
+    "name": "斯特鲁普效应测试",
+    "reference": ["Conditions refers to congruency on each trial",
+                  "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0057410"],
+    "template": "jspsych",
+    "time": 8
+}

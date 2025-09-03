@@ -1,0 +1,14 @@
+{
+    "name": "主观数字能力量表调查",
+    "exp_id": "subjective-numeracy-survey",
+    "description": "一种自我报告的测量工具，用于评估感知到的数学任务执行能力和对使用数值信息与文字信息的偏好。",
+    "instructions": "对于以下每个问题，请勾选最能反映您在以下事项上能力水平的选项：",
+    "url": "https://github.com/expfactory-experiments/subjective-numeracy-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 2,
+    "reference": ["Fagerlin, A., Zikmund-Fisher, B.J., Ubel, P.A., Jankovic, A., Derry, H.A., & Smith, D.M. Measuring numeracy without a math test: Development of the Subjective Numeracy Scale (SNS). Medical Decision Making, 2007: 27: 672-680."]
+}

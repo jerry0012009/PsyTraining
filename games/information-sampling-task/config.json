@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "trm_50f73d557c967",
+    "instructions":"根据屏幕上的刺激做出反应。",
+    "description":"信息采样任务实验",
+    "url":"https://www.github.com/expfactory-experiments/information-sampling-task",
+    "contributors": [
+        "Jamie Li",
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "information-sampling-task",
+    "name": "信息采样任务",
+    "reference": ["http://www.sciencedirect.com/science/article/pii/S0006322305013971"],
+    "template": "jspsych",
+    "time": 12
+}

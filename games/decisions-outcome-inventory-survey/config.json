@@ -1,0 +1,15 @@
+{
+    "name": "决策结果清单调查",
+    "exp_id": "decisions-outcome-inventory-survey",
+    "description": "一个旨在评估个体是否达到满意结果的清单，特别是评估他们是否避免了负面决策结果。",
+    "instructions": "以下问题询问过去10年中是否发生过不同的事件。请对每一项选择"是"或"否"。",
+    "url": "https://github.com/expfactory-experiments/decisions-outcome-inventory-survey",
+    "template": "survey",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "Sofia Dallali",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 6,
+    "reference": ["Bruine de Bruin, W., Parker, A. M., & Fischhoff, B. (2007). Individual differences in adult decision-making competence. Journal of Personality and Social Psychology, 92(5), 938-956. doi: 10.1037/0022-3514.92.5.938"]
+}

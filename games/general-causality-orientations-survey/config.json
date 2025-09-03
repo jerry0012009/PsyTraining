@@ -1,0 +1,16 @@
+{
+    "name": "一般因果取向量表调查",
+    "exp_id": "general-causality-orientations-survey",
+    "description": "因果取向被概念化为人们相对持久的方面，其特征在于行为启动和调节的来源，以及由此产生的自我决定程度。",
+    "instructions": "这些项目涉及一系列假设情景。每个情景描述一个事件并列出三种应对方式。请阅读每个情景，想象自己处于那种情况下，然后考虑每一种可能的反应。从你可能做出这种反应的概率角度来考虑每个选项。我们每个人都会以各种方式回应不同的情况，可能大多数或所有反应对你来说都至少有一点可能性。",
+    "url": "https://github.com/expfactory-experiments/general-causality-orientations-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Aryaki Sethi",
+                     "Juan (Dethea) Du",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 3,
+    "reference": ["Deci, E. L., & Ryan, R. M. (1985). The general causality orientations scale: Self-determination in personality. Journal of Research in Personality, 19(2), 109–134. https://doi.org/10.1016/0092-6566(85)90023-6"]
+}

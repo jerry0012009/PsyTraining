@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>知情同意</title>
+    <script src="js/jsPsych-6.0.4/jspsych.js"></script>
+    <script src="js/jsPsych-6.0.4/plugins/jspsych-external-html.js"></script>
+    <script src='js/jquery.min.js'></script>
+    <script src="js/util.js"></script>
+    <script src='js/jsPsych-6.0.4/poldrack_plugins/poldrack_utils.js'></script>
+    <link href="js/jsPsych-6.0.4/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <link href="consent.css" rel="stylesheet" type="text/css"></link>
+  </head>
+  <body></body>
+  <script>
+    // check if participant has given consent to participate.
+    var check_consent = function(elem) {
+      if ($('#consent_checkbox').is(':checked')) {
+        return true;
+      }
+      else {
+        alert("您必须勾选下方的复选框才能继续。");
+        return false;
+      }
+      return false;
+    };
+
+    var timeline = [];
+    var url = $.QueryString.url;
+    url = url ? url : "study_info.html";
+
+    // consent block
+    var trial = {
+      type:'external-html',
+      url: url,
+      cont_btn: "start",
+      check_fn: check_consent
+    };
+    timeline.push(trial);
+
+    /* start the experiment */
+    $(document).ready(function() {
+      jsPsych.init({
+               timeline: timeline,
+               on_trial_finish: function(data) {
+                 addID('consent-task')
+               },
+               on_finish: function(data) {
+                   // serialize the data
+                   var promise = new Promise(function(resolve, reject) {
+                       var data = jsPsych.data.get().json();
+                       resolve(data);
+                   })
+                   promise.then(function(data) {
+                       $.ajax({
+                           type: "POST",
+                           url: '/save',
+                           data: { "data": data },
+                           success: function(){ document.location = "/next" },
+                           dataType: "application/json",
+                           error: function(err) {
+                               if (err.status == 200) {          // endpoint not running
+                                  document.location = "/next"
+                               } else {                          // local save
+                                   jsPsych.data.get().localSave('json','consent-task_results.json');
+                              }
+                           }
+                       });
+                   })
+               }
+        });
+    });
+  </script>
+  </html>

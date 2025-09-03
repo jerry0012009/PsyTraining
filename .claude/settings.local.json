@@ -58,7 +58,9 @@
       "Bash(else echo \"✗ 缺少 save.md\")",
       "Bash(then echo \"✓ save.md created successfully\")",
       "Bash(git rm:*)",
-      "Bash(git submodule:*)"
+      "Bash(git submodule:*)",
+      "Bash(chmod:*)",
+      "Bash(./remove_submodules.sh)"
     ],
     "deny": [],
     "ask": []

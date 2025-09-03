@@ -1,0 +1,13 @@
+{
+    "name": "Psychomotor Vigilance Test",
+    "exp_id": "psychomotor-vigilance-test",
+    "description": "A signal response test for 5 minutes.",
+    "instructions": "Respond upon a colour change.",
+    "url": "https://github.com/JuneOh710/psychomotor-vigilance-test",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "June Oh"
+                    ], 
+    "time":6,
+    "reference": ["https://pubmed.ncbi.nlm.nih.gov/17190720/#:~:text=In%20addition%2C%20performance%20on%20the,than%2010%20min%20is%20required"]
+}

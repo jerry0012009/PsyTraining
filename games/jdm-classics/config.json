@@ -1,0 +1,14 @@
+{
+    "name": "JDM 经典实验",
+    "exp_id": "jdm-classics",
+    "description": "一系列简短的问题，用于测试参与者的判断和决策能力。",
+    "instructions": "选择最佳选项。",
+    "url": "https://github.com/JuneOh710/jdm-classics",
+    "template":"jspsych",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "June Oh"
+                    ], 
+    "time":7,
+    "reference": ["https://sjdm.org/journal/19/190326c/supp.pdf"]
+}

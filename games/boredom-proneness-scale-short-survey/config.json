@@ -1,0 +1,17 @@
+{
+    "name": "无聊倾向量表（简版）",
+    "template":"survey",
+    "exp_id": "boredom-proneness-scale-short-survey",
+    "url": "https://github.com/expfactory-experiments/boredom-proneness-scale-short-survey",
+    "contributors": [
+                     "Daniel Wilson",
+                     "Aryaki Sethi",
+                     "Junghyun (Andy) Kim"
+                    ], 
+    "time":2,
+
+    "reference": ["Struk, A. A., Carriere, J. S., Cheyne, J. A., & Danckert, J. (2017). A short boredom proneness scale: Development and psychometric properties. Assessment, 24(3), 346-359."],
+    "description": "实验工厂调查问卷",
+    "instructions": "请尽您所能回答以下问题",
+    "deployment_variables":{"material_design": {"fullscreen": true}}
+}

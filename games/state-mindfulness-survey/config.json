@@ -1,0 +1,13 @@
+{
+    "name": "正念状态量表调查",
+    "template":"survey",
+    "url":"https://www.github.com/expfactory-experiments/state-mindfulness-survey",
+    "exp_id": "state-mindfulness-survey",
+    "contributors": [ "Paul Sharpe",
+                      "Vanessa Sochat" ],
+    "time": 3,
+    "reference": ["https://pdfs.semanticscholar.org/2ab3/c250e2779711cfd52b3ebe2de0fe1087ed29.pdf"],
+    "description": "正念状态测量量表",
+    "instructions": "请尽您所能如实回答问题。"
+}
+

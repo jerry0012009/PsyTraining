@@ -1,0 +1,17 @@
+{
+    "cognitive_atlas_task_id": "trm_4c8a85c5c75eb",
+    "instructions":"Respond to the stimuli on the screen.",
+    "description":"Expfactory experiment",
+    "url":"https://www.github.com/expfactory-experiments/writing-task",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "writing-task",
+    "name": "Writing Task",
+    "template": "jspsych",
+    "time": 5
+}

@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "tsk_4a57abb949e1a",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"停止信号实验",
+    "url":"https://www.github.com/expfactory-experiments/stop-signal",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "stop-signal",
+    "name": "停止信号实验",
+    "reference": ["Condition refers to whether the trial is practice or high_freq/low_freq (the two test conditions) as well as whether it was a go or SS trial",
+                  "http://psycnet.apa.org/journals/xlm/37/2/392/"],
+    "template": "jspsych",
+    "time": 30
+}

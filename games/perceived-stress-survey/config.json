@@ -1,0 +1,16 @@
+{
+    "name": "感知压力量表调查",
+    "exp_id": "perceived-stress-survey-zh",
+    "description": "用于测量压力感知的最广泛使用的心理学工具。",
+    "instructions": "请对每一项内容，表明在过去一个月中，您有多频繁地有某种感觉或想法",
+    "url": "https://github.com/expfactory-experiments/perceived-stress-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "Sofia Dallali",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 2,
+    "reference": ["Cohen, S., Kamarck, T., & Mermelstein, R. (1994). Perceived stress scale. Measuring stress: A guide for health and social scientists, 10, 1-2."]
+}

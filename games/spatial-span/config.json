@@ -1,0 +1,18 @@
+{
+    "name": "空间广度测试",
+    "exp_id": "spatial-span",
+    "url": "https://www.github.com/expfactory-experiments/spatial-span",
+    "description":"空间记忆和推理能力的测试。",
+    "instructions": "阅读指导并对屏幕上的刺激做出反应。",
+    "template":"jspsych",
+    "cognitive_atlas_task_id": "trm_4da86b539924c",
+    "contributors": [
+                     "Ian Eisenberg",
+                     "Zeynep Enkavi",
+                     "Patrick Bissett",
+                     "Vanessa Sochat",
+                     "Russell Poldrack"
+                    ], 
+    "time":7,
+    "reference": ["http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2978794/"]
+}

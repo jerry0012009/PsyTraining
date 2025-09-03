@@ -1,0 +1,19 @@
+{
+    "name": "BIS/BAS (行为激活/抑制系统) 量表",
+    "template":"survey",
+    "exp_id": "bis-bas-survey",
+    "url": "https://github.com/expfactory-experiments/bis-bas-survey",
+    "cognitive_atlas_task_id": "trm_56a9137d9dce1",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":3,
+    "reference": ["http://www.psy.miami.edu/faculty/ccarver/sclBISBAS.html"],
+    "description": "BIS/BAS行为系统调查问卷",
+    "instructions": "请尽您所能回答以下问题"
+
+}

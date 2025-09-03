@@ -1,0 +1,18 @@
+{
+    "name": "GRIT-S: Duckworth's Short Grit Scale Survey",
+    "template":"survey",
+    "exp_id": "grit-scale-survey",
+    "url": "https://github.com/expfactory-experiments/grit-scale-survey",
+    "cognitive_atlas_task_id": "trm_56a9166421494",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":3,
+    "reference": ["http://www.tandfonline.com/doi/full/10.1080/00223890802634290"],
+    "description": "Experiment Factory survey",
+    "instructions": "Please answer the following questions to the best of your ability"
+}

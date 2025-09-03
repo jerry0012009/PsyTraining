@@ -1,0 +1,15 @@
+{
+    "name": "意愿接近统计学不太可能追求目标调查",
+    "exp_id": "willingly-approached-set-of-statistically-unlikely-pursuits-survey",
+    "description": "衡量设定不合理高目标倾向的量表。",
+    "instructions": "对于此页面上的每一项，从下方的选择中选择最能反映你为自己设定该目标可能性的答案。请将答案填写在答题卡上。",
+    "url": "https://github.com/expfactory-experiments/willingly-approached-set-of-statistically-unlikely-pursuits-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Juan (Dethea) Du",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 8,
+    "reference": ["Carver, C. S., & Johnson, S. L. . (2013) . Willingly Approached Set of Statistically Unlikely Pursuits (WASSUP) . Measurement Instrument Database for the Social Science. Retrieved from www.midss.ie"]
+}

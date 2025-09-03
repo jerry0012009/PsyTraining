@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "trm_5696b316c220a",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"实验工厂实验",
+    "url":"https://www.github.com/expfactory-experiments/plus-minus",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "plus-minus",
+    "name": "加减法任务",
+    "reference": ["Condition indicates block task (add, subtract, alternate)",
+                  "http://www.sciencedirect.com/science/article/pii/S001002859990734X"],
+    "template": "jspsych",
+    "time": 5
+}

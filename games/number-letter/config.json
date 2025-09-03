@@ -1,0 +1,19 @@
+{
+    "cognitive_atlas_task_id": "trm_4c3e0a9576c3b",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"实验工厂心理学实验",
+    "url":"https://www.github.com/expfactory-experiments/number-letter",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "number-letter",
+    "name": "Number-Letter",
+    "reference": ["condition indicates block (which task, or rotateswitch block) and trial_id indicates stimulus position",
+                  "http://www.sciencedirect.com/science/article/pii/S001002859990734X"],
+    "template": "jspsych",
+    "time": 5
+}

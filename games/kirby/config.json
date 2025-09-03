@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "tsk_4a57abb949e98",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"延迟折扣任务实验，用于评估个体的时间偏好和冲动性",
+    "url":"https://www.github.com/expfactory-experiments/kirby",
+    "contributors": [
+        "Zeynep Enkavi",
+        "Ian Eisenberg",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "kirby",
+    "name": "Kirby延迟折扣任务",
+    "reference": ["http://link.springer.com/article/10.3758/BF03210748"],
+    "template": "jspsych",
+    "time": 5
+}

@@ -1,0 +1,473 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <title>实验工厂：调查问卷</title>
+    
+    <link rel='stylesheet' type='text/css' href='css/material.blue-red.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/surveys.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui-1.10.4.custom.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+
+    <script src='js/jquery-2.1.1.min.js'></script>
+    <script src='js/material.min.js'></script>
+    <script src='js/jquery-ui-1.10.4.custom.min.js'></script>
+    <script src='js/jquery.wizard.js'></script>
+    <script src='js/jquery.form-3.50.js'></script>
+    <script src='js/jquery.validate-1.12.0.min.js'></script>
+
+<div class="experiment-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+<div class="experiment-ribbon"></div>
+<main class="experiment-main mdl-layout__content">
+<div class="experiment-container mdl-grid">
+<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+</div>
+<div class="experiment-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+<div id="questions">
+
+<form name="questions" action="#", method="POST">
+<div class="step">
+<h3>欢迎参加本次调查。点击<strong>下一步</strong>开始。</h3><br><br><br><br></div>
+<div class="step">
+<h3>请表明您对以下每个陈述的同意程度。</h3><br><br><br><br></div>
+<div class="step">
+<p id="erq-survey_2_options">当我想感受到更多<i>积极</i>情绪时（如快乐或愉悦），我会<i>改变思考的内容</i>。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_2_0">
+<input type="radio" id="option-erq-survey_2_0" class="mdl-radio__button required page3" name="erq-survey_2_options" value="1" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion (such as joy or amusement), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">非常不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_2_1">
+<input type="radio" id="option-erq-survey_2_1" class="mdl-radio__button required page3" name="erq-survey_2_options" value="2" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion (such as joy or amusement), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">大部分不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_2_2">
+<input type="radio" id="option-erq-survey_2_2" class="mdl-radio__button required page3" name="erq-survey_2_options" value="3" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion (such as joy or amusement), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">有些不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_2_3">
+<input type="radio" id="option-erq-survey_2_3" class="mdl-radio__button required page3" name="erq-survey_2_options" value="4" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion (such as joy or amusement), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">既不同意也不反对</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_2_4">
+<input type="radio" id="option-erq-survey_2_4" class="mdl-radio__button required page3" name="erq-survey_2_options" value="5" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion (such as joy or amusement), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">有些同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_2_5">
+<input type="radio" id="option-erq-survey_2_5" class="mdl-radio__button required page3" name="erq-survey_2_options" value="6" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion (such as joy or amusement), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">大部分同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_2_6">
+<input type="radio" id="option-erq-survey_2_6" class="mdl-radio__button required page3" name="erq-survey_2_options" value="7" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion (such as joy or amusement), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">非常同意</span>
+</label><br><br><br><br>
+<p id="erq-survey_3_options">我会把情绪保留给自己。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_3_0">
+<input type="radio" id="option-erq-survey_3_0" class="mdl-radio__button required page3" name="erq-survey_3_options" value="1" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I keep my emotions to myself.">
+<span class="mdl-radio__label">非常不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_3_1">
+<input type="radio" id="option-erq-survey_3_1" class="mdl-radio__button required page3" name="erq-survey_3_options" value="2" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I keep my emotions to myself.">
+<span class="mdl-radio__label">大部分不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_3_2">
+<input type="radio" id="option-erq-survey_3_2" class="mdl-radio__button required page3" name="erq-survey_3_options" value="3" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I keep my emotions to myself.">
+<span class="mdl-radio__label">有些不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_3_3">
+<input type="radio" id="option-erq-survey_3_3" class="mdl-radio__button required page3" name="erq-survey_3_options" value="4" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I keep my emotions to myself.">
+<span class="mdl-radio__label">既不同意也不反对</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_3_4">
+<input type="radio" id="option-erq-survey_3_4" class="mdl-radio__button required page3" name="erq-survey_3_options" value="5" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I keep my emotions to myself.">
+<span class="mdl-radio__label">有些同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_3_5">
+<input type="radio" id="option-erq-survey_3_5" class="mdl-radio__button required page3" name="erq-survey_3_options" value="6" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I keep my emotions to myself.">
+<span class="mdl-radio__label">大部分同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_3_6">
+<input type="radio" id="option-erq-survey_3_6" class="mdl-radio__button required page3" name="erq-survey_3_options" value="7" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I keep my emotions to myself.">
+<span class="mdl-radio__label">非常同意</span>
+</label><br><br><br><br>
+<p id="erq-survey_4_options">当我想减少<i>消极</i>情绪时（如悲伤或愤怒），我会<i>改变思考的内容</i>。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_4_0">
+<input type="radio" id="option-erq-survey_4_0" class="mdl-radio__button required page3" name="erq-survey_4_options" value="1" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion (such as sadness or anger), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">非常不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_4_1">
+<input type="radio" id="option-erq-survey_4_1" class="mdl-radio__button required page3" name="erq-survey_4_options" value="2" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion (such as sadness or anger), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">大部分不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_4_2">
+<input type="radio" id="option-erq-survey_4_2" class="mdl-radio__button required page3" name="erq-survey_4_options" value="3" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion (such as sadness or anger), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">有些不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_4_3">
+<input type="radio" id="option-erq-survey_4_3" class="mdl-radio__button required page3" name="erq-survey_4_options" value="4" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion (such as sadness or anger), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">既不同意也不反对</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_4_4">
+<input type="radio" id="option-erq-survey_4_4" class="mdl-radio__button required page3" name="erq-survey_4_options" value="5" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion (such as sadness or anger), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">有些同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_4_5">
+<input type="radio" id="option-erq-survey_4_5" class="mdl-radio__button required page3" name="erq-survey_4_options" value="6" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion (such as sadness or anger), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">大部分同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_4_6">
+<input type="radio" id="option-erq-survey_4_6" class="mdl-radio__button required page3" name="erq-survey_4_options" value="7" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion (such as sadness or anger), I <i>change what I am thinking about.</i>">
+<span class="mdl-radio__label">非常同意</span>
+</label><br><br><br><br>
+<p id="erq-survey_5_options">当我感到<i>积极</i>情绪时，我会小心不表现出来。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_5_0">
+<input type="radio" id="option-erq-survey_5_0" class="mdl-radio__button required page3" name="erq-survey_5_options" value="1" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>positive</i> emotions, I am careful not to express them.">
+<span class="mdl-radio__label">非常不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_5_1">
+<input type="radio" id="option-erq-survey_5_1" class="mdl-radio__button required page3" name="erq-survey_5_options" value="2" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>positive</i> emotions, I am careful not to express them.">
+<span class="mdl-radio__label">大部分不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_5_2">
+<input type="radio" id="option-erq-survey_5_2" class="mdl-radio__button required page3" name="erq-survey_5_options" value="3" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>positive</i> emotions, I am careful not to express them.">
+<span class="mdl-radio__label">有些不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_5_3">
+<input type="radio" id="option-erq-survey_5_3" class="mdl-radio__button required page3" name="erq-survey_5_options" value="4" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>positive</i> emotions, I am careful not to express them.">
+<span class="mdl-radio__label">既不同意也不反对</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_5_4">
+<input type="radio" id="option-erq-survey_5_4" class="mdl-radio__button required page3" name="erq-survey_5_options" value="5" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>positive</i> emotions, I am careful not to express them.">
+<span class="mdl-radio__label">有些同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_5_5">
+<input type="radio" id="option-erq-survey_5_5" class="mdl-radio__button required page3" name="erq-survey_5_options" value="6" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>positive</i> emotions, I am careful not to express them.">
+<span class="mdl-radio__label">大部分同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_5_6">
+<input type="radio" id="option-erq-survey_5_6" class="mdl-radio__button required page3" name="erq-survey_5_options" value="7" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>positive</i> emotions, I am careful not to express them.">
+<span class="mdl-radio__label">非常同意</span>
+</label><br><br><br><br>
+<p id="erq-survey_6_options">当我面对压力情境时，我会让自己<i>用一种方式去思考</i>，帮助自己保持冷静。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_6_0">
+<input type="radio" id="option-erq-survey_6_0" class="mdl-radio__button required page3" name="erq-survey_6_options" value="1" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am faced with a stressful situation, I make myself <i>think about it</i> in a way that helps me stay calm.">
+<span class="mdl-radio__label">非常不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_6_1">
+<input type="radio" id="option-erq-survey_6_1" class="mdl-radio__button required page3" name="erq-survey_6_options" value="2" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am faced with a stressful situation, I make myself <i>think about it</i> in a way that helps me stay calm.">
+<span class="mdl-radio__label">大部分不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_6_2">
+<input type="radio" id="option-erq-survey_6_2" class="mdl-radio__button required page3" name="erq-survey_6_options" value="3" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am faced with a stressful situation, I make myself <i>think about it</i> in a way that helps me stay calm.">
+<span class="mdl-radio__label">有些不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_6_3">
+<input type="radio" id="option-erq-survey_6_3" class="mdl-radio__button required page3" name="erq-survey_6_options" value="4" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am faced with a stressful situation, I make myself <i>think about it</i> in a way that helps me stay calm.">
+<span class="mdl-radio__label">既不同意也不反对</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_6_4">
+<input type="radio" id="option-erq-survey_6_4" class="mdl-radio__button required page3" name="erq-survey_6_options" value="5" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am faced with a stressful situation, I make myself <i>think about it</i> in a way that helps me stay calm.">
+<span class="mdl-radio__label">有些同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_6_5">
+<input type="radio" id="option-erq-survey_6_5" class="mdl-radio__button required page3" name="erq-survey_6_options" value="6" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am faced with a stressful situation, I make myself <i>think about it</i> in a way that helps me stay calm.">
+<span class="mdl-radio__label">大部分同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_6_6">
+<input type="radio" id="option-erq-survey_6_6" class="mdl-radio__button required page3" name="erq-survey_6_options" value="7" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am faced with a stressful situation, I make myself <i>think about it</i> in a way that helps me stay calm.">
+<span class="mdl-radio__label">非常同意</span>
+</label><br><br><br><br>
+<p id="erq-survey_7_options">我通过不表现情绪来控制它们。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_7_0">
+<input type="radio" id="option-erq-survey_7_0" class="mdl-radio__button required page3" name="erq-survey_7_options" value="1" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by not expressing them.">
+<span class="mdl-radio__label">非常不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_7_1">
+<input type="radio" id="option-erq-survey_7_1" class="mdl-radio__button required page3" name="erq-survey_7_options" value="2" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by not expressing them.">
+<span class="mdl-radio__label">大部分不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_7_2">
+<input type="radio" id="option-erq-survey_7_2" class="mdl-radio__button required page3" name="erq-survey_7_options" value="3" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by not expressing them.">
+<span class="mdl-radio__label">有些不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_7_3">
+<input type="radio" id="option-erq-survey_7_3" class="mdl-radio__button required page3" name="erq-survey_7_options" value="4" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by not expressing them.">
+<span class="mdl-radio__label">既不同意也不反对</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_7_4">
+<input type="radio" id="option-erq-survey_7_4" class="mdl-radio__button required page3" name="erq-survey_7_options" value="5" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by not expressing them.">
+<span class="mdl-radio__label">有些同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_7_5">
+<input type="radio" id="option-erq-survey_7_5" class="mdl-radio__button required page3" name="erq-survey_7_options" value="6" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by not expressing them.">
+<span class="mdl-radio__label">大部分同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_7_6">
+<input type="radio" id="option-erq-survey_7_6" class="mdl-radio__button required page3" name="erq-survey_7_options" value="7" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by not expressing them.">
+<span class="mdl-radio__label">非常同意</span>
+</label><br><br><br><br>
+<p id="erq-survey_8_options">当我想感受到更多<i>积极</i>情绪时，我会<i>改变思考问题的方式</i>。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_8_0">
+<input type="radio" id="option-erq-survey_8_0" class="mdl-radio__button required page3" name="erq-survey_8_options" value="1" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">非常不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_8_1">
+<input type="radio" id="option-erq-survey_8_1" class="mdl-radio__button required page3" name="erq-survey_8_options" value="2" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">大部分不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_8_2">
+<input type="radio" id="option-erq-survey_8_2" class="mdl-radio__button required page3" name="erq-survey_8_options" value="3" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">有些不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_8_3">
+<input type="radio" id="option-erq-survey_8_3" class="mdl-radio__button required page3" name="erq-survey_8_options" value="4" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">既不同意也不反对</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_8_4">
+<input type="radio" id="option-erq-survey_8_4" class="mdl-radio__button required page3" name="erq-survey_8_options" value="5" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">有些同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_8_5">
+<input type="radio" id="option-erq-survey_8_5" class="mdl-radio__button required page3" name="erq-survey_8_options" value="6" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">大部分同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_8_6">
+<input type="radio" id="option-erq-survey_8_6" class="mdl-radio__button required page3" name="erq-survey_8_options" value="7" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel more <i>positive</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">非常同意</span>
+</label><br><br><br><br>
+<p id="erq-survey_9_options">我通过<i>改变思考方式</i>来控制我对所处情境的情绪。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_9_0">
+<input type="radio" id="option-erq-survey_9_0" class="mdl-radio__button required page3" name="erq-survey_9_options" value="1" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by <i>changing the way</i> I think about the situation I am in.">
+<span class="mdl-radio__label">非常不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_9_1">
+<input type="radio" id="option-erq-survey_9_1" class="mdl-radio__button required page3" name="erq-survey_9_options" value="2" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by <i>changing the way</i> I think about the situation I am in.">
+<span class="mdl-radio__label">大部分不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_9_2">
+<input type="radio" id="option-erq-survey_9_2" class="mdl-radio__button required page3" name="erq-survey_9_options" value="3" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by <i>changing the way</i> I think about the situation I am in.">
+<span class="mdl-radio__label">有些不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_9_3">
+<input type="radio" id="option-erq-survey_9_3" class="mdl-radio__button required page3" name="erq-survey_9_options" value="4" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by <i>changing the way</i> I think about the situation I am in.">
+<span class="mdl-radio__label">既不同意也不反对</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_9_4">
+<input type="radio" id="option-erq-survey_9_4" class="mdl-radio__button required page3" name="erq-survey_9_options" value="5" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by <i>changing the way</i> I think about the situation I am in.">
+<span class="mdl-radio__label">有些同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_9_5">
+<input type="radio" id="option-erq-survey_9_5" class="mdl-radio__button required page3" name="erq-survey_9_options" value="6" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by <i>changing the way</i> I think about the situation I am in.">
+<span class="mdl-radio__label">大部分同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_9_6">
+<input type="radio" id="option-erq-survey_9_6" class="mdl-radio__button required page3" name="erq-survey_9_options" value="7" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="I control my emotions by <i>changing the way</i> I think about the situation I am in.">
+<span class="mdl-radio__label">非常同意</span>
+</label><br><br><br><br>
+<p id="erq-survey_10_options">当我感到<i>消极</i>情绪时，我会确保不表现出来。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_10_0">
+<input type="radio" id="option-erq-survey_10_0" class="mdl-radio__button required page3" name="erq-survey_10_options" value="1" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>negative</i> emotions, I make sure not to express them.">
+<span class="mdl-radio__label">非常不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_10_1">
+<input type="radio" id="option-erq-survey_10_1" class="mdl-radio__button required page3" name="erq-survey_10_options" value="2" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>negative</i> emotions, I make sure not to express them.">
+<span class="mdl-radio__label">大部分不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_10_2">
+<input type="radio" id="option-erq-survey_10_2" class="mdl-radio__button required page3" name="erq-survey_10_options" value="3" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>negative</i> emotions, I make sure not to express them.">
+<span class="mdl-radio__label">有些不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_10_3">
+<input type="radio" id="option-erq-survey_10_3" class="mdl-radio__button required page3" name="erq-survey_10_options" value="4" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>negative</i> emotions, I make sure not to express them.">
+<span class="mdl-radio__label">既不同意也不反对</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_10_4">
+<input type="radio" id="option-erq-survey_10_4" class="mdl-radio__button required page3" name="erq-survey_10_options" value="5" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>negative</i> emotions, I make sure not to express them.">
+<span class="mdl-radio__label">有些同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_10_5">
+<input type="radio" id="option-erq-survey_10_5" class="mdl-radio__button required page3" name="erq-survey_10_options" value="6" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>negative</i> emotions, I make sure not to express them.">
+<span class="mdl-radio__label">大部分同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_10_6">
+<input type="radio" id="option-erq-survey_10_6" class="mdl-radio__button required page3" name="erq-survey_10_options" value="7" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I am feeling <i>negative</i> emotions, I make sure not to express them.">
+<span class="mdl-radio__label">非常同意</span>
+</label><br><br><br><br>
+<p id="erq-survey_11_options">当我想减少<i>消极</i>情绪时，我会<i>改变思考方式</i>来看待该情境。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_11_0">
+<input type="radio" id="option-erq-survey_11_0" class="mdl-radio__button required page3" name="erq-survey_11_options" value="1" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">非常不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_11_1">
+<input type="radio" id="option-erq-survey_11_1" class="mdl-radio__button required page3" name="erq-survey_11_options" value="2" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">大部分不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_11_2">
+<input type="radio" id="option-erq-survey_11_2" class="mdl-radio__button required page3" name="erq-survey_11_options" value="3" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">有些不同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_11_3">
+<input type="radio" id="option-erq-survey_11_3" class="mdl-radio__button required page3" name="erq-survey_11_options" value="4" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">既不同意也不反对</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_11_4">
+<input type="radio" id="option-erq-survey_11_4" class="mdl-radio__button required page3" name="erq-survey_11_options" value="5" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">有些同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_11_5">
+<input type="radio" id="option-erq-survey_11_5" class="mdl-radio__button required page3" name="erq-survey_11_options" value="6" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">大部分同意</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-erq-survey_11_6">
+<input type="radio" id="option-erq-survey_11_6" class="mdl-radio__button required page3" name="erq-survey_11_options" value="7" meta-options="非常不同意|大部分不同意|有些不同意|既不同意也不反对|有些同意|大部分同意|非常同意" meta-text="When I want to feel less <i>negative</i> emotion, I <i>change the way I am thinking</i> about the situation.">
+<span class="mdl-radio__label">非常同意</span>
+</label><br><br><br><br></div>
+<div class="step">
+<h3>恭喜您完成了本次调查！点击<strong>完成</strong>继续。</h3><br><br><br><br></div>
+
+<div class="navigation">
+    <ul class="clearfix">
+        <li><button type="button" 
+                    name="backward" 
+                    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent backward">上一步</button></li>
+	<li><button type="button" 
+                    name="forward" 
+                    class="forward mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">下一步</button></li>
+        <li><button type="submit" 
+                    name="process" 
+                    class="submit mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">完成</button></li>
+    </ul>
+</div>
+
+<div class="pad">
+    <div id="progressbar"></div>
+</div>
+</form>
+</div>
+
+<script>
+$( document ).ready(function() {
+
+    expfactory_finished = false;
+
+    // Basic wizard with progress bar
+    $( "#progressbar" ).progressbar();
+    $( "#questions" ).wizard({
+        stepsWrapper: "#wrapped",
+	submit: ".submit",
+	beforeForward: function( event, state ) {
+
+            // Function to add message that answer is required
+            function is_required(elements){
+                var missing = false;
+                elements.each(function(index,element){
+                    var pid = "#" + $(element).attr("name")
+                    $(pid).css("color","red")
+                    missing = true;                   
+                });
+
+                if (missing == true){
+                   alert("请回答所有红色标记的必答题。");
+                }
+            }
+
+             if ( state.stepIndex === 3 ) {
+ if (($.unique($(`.page3.required[type=number],.page3.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page3.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page3.required:not(checked)`));
+return false;
+ } else {
+expfactory_finished=true;
+}}
+
+	    return !!$( this ).wizard( "form" ).valid();
+        },
+	afterSelect: function( event, state ) {
+	    $( "#progressbar" ).progressbar( "value", state.percentComplete );
+            if (expfactory_finished == true){
+                $(".submit").enable();
+            }
+        }
+
+    // Form submission
+    }).wizard( "form" ).submit(function( event ) {
+
+        event.preventDefault();
+        
+        var $inputs = $("input:checked");
+        var $text = $("input:text")
+        var $number = $("input[type = number]")
+        var $elements = $inputs.add($text).add($number)
+        
+        // Prepare data results
+        var results = []
+        $elements.each(function(index, element) {
+            var result = {}
+
+            if ($.inArray( $(element).attr("name"), [ "forward", "backward", "process"] ) == -1) {
+                result.name = $(element).attr("name");
+                if ($(element).attr("value") == undefined) {
+                    result.value = $(element).val();
+                } else {
+                    result.value = $(element).attr("value");
+                }
+                result.options = $(element).attr("meta-options");
+                result.text = $(element).attr("meta-text");
+                results.push(result);
+             }
+        })
+
+        
+        $.ajax({
+
+                type: 'POST',
+                url: '/save',
+                data: {'data': results},
+
+                success: function() {
+                    console.log('success');
+                    document.location = '/next'
+                 },
+
+                 // Endpoint not running, local save
+                 error: function(err) {
+
+                     if (err.status == 200) {
+                        document.location = '/next'
+                     }        
+        
+                     console.log("Error with POST" + err.status + ", downloading to local file.")
+                     // Save data to browser
+
+                     var data = "text/json;charset=utf-8," + JSON.stringify(results);
+                     var a = document.createElement('a');
+                     a.title = "下载"
+                     a.id = "download"
+                     a.type = "button"
+                     a.download = 'erq-survey_结果.json';
+                     a.href = 'data:' + data;
+                     $(".submit").html("下载")
+                     $(".submit").click(function(){
+                         $("body").append(a)
+                         a.click()
+                     })
+
+                  }
+         });
+
+     // Validation
+     }).validate({
+	errorPlacement: function( error, element ) {
+	    if ( element.is( ":radio" ) || element.is( ":checkbox" ) ) {
+		error.insertBefore( element.next() );
+            } else {
+	        error.insertAfter( element );
+	 }
+      }
+  });
+});
+</script>
+</body>
+</html>

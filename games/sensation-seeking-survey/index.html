@@ -1,0 +1,543 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <title>实验工厂：调查问卷</title>
+    
+    <link rel='stylesheet' type='text/css' href='css/material.blue-red.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/surveys.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui-1.10.4.custom.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+
+    <script src='js/jquery-2.1.1.min.js'></script>
+    <script src='js/material.min.js'></script>
+    <script src='js/jquery-ui-1.10.4.custom.min.js'></script>
+    <script src='js/jquery.wizard.js'></script>
+    <script src='js/jquery.form-3.50.js'></script>
+    <script src='js/jquery.validate-1.12.0.min.js'></script>
+
+<div class="experiment-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+<div class="experiment-ribbon"></div>
+<main class="experiment-main mdl-layout__content">
+<div class="experiment-container mdl-grid">
+<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+</div>
+<div class="experiment-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+<div id="questions">
+
+<form name="questions" action="#", method="POST">
+<div class="step">
+<h3>欢迎参加此调查。请点击<strong>下一步</strong>开始。</h3><br><br><br><br></div>
+<div class="step">
+<h3>请指出您更喜欢以下哪种情况。</h3><br><br><br><br></div>
+<div class="step">
+<p id="sensation-seeking-survey_2_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_2_0">
+<input type="radio" id="option-sensation-seeking-survey_2_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_2_options" value="1" meta-options="I like 'wild' uninhibited parties| I prefer quiet parties with good conversation" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我喜欢“狂野”放纵的聚会</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_2_1">
+<input type="radio" id="option-sensation-seeking-survey_2_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_2_options" value="0" meta-options="I like 'wild' uninhibited parties| I prefer quiet parties with good conversation" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我更喜欢有好的谈话的安静聚会</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_3_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_3_0">
+<input type="radio" id="option-sensation-seeking-survey_3_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_3_options" value="0" meta-options="There are some movies I enjoy seeing a second or even a third time| I can't stand watching a movie that I've seen before" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">有些电影我喜欢看第二次甚至第三次</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_3_1">
+<input type="radio" id="option-sensation-seeking-survey_3_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_3_options" value="1" meta-options="There are some movies I enjoy seeing a second or even a third time| I can't stand watching a movie that I've seen before" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我受不了看一部以前看过的电影</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_4_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_4_0">
+<input type="radio" id="option-sensation-seeking-survey_4_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_4_options" value="1" meta-options="I often wish I could be a mountain climber| I can't understand people who risk their necks climbing mountains" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我经常希望我能成为一名登山者</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_4_1">
+<input type="radio" id="option-sensation-seeking-survey_4_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_4_options" value="0" meta-options="I often wish I could be a mountain climber| I can't understand people who risk their necks climbing mountains" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我不能理解那些冒着生命危险去登山的人</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_5_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_5_0">
+<input type="radio" id="option-sensation-seeking-survey_5_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_5_options" value="0" meta-options="I dislike all body odors|I like some of the earthy body smells" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我不喜欢所有的体味</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_5_1">
+<input type="radio" id="option-sensation-seeking-survey_5_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_5_options" value="1" meta-options="I dislike all body odors|I like some of the earthy body smells" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我喜欢一些的土腥体味</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_6_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_6_0">
+<input type="radio" id="option-sensation-seeking-survey_6_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_6_options" value="1" meta-options="I get bored seeing the same old faces|I like the comfortable familiarity of everyday friends" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我看到同样的老面孔会觉得无聊</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_6_1">
+<input type="radio" id="option-sensation-seeking-survey_6_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_6_options" value="0" meta-options="I get bored seeing the same old faces|I like the comfortable familiarity of everyday friends" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我喜欢日常朋友的舒适熟悉感</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_7_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_7_0">
+<input type="radio" id="option-sensation-seeking-survey_7_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_7_options" value="1" meta-options="I like to explore a strange city or section of town by myself even if it means getting lost|I prefer a guide when I am in a place I do not know well" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我喜欢独自探索一个陌生的城市或市区，即使这意味着会迷路</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_7_1">
+<input type="radio" id="option-sensation-seeking-survey_7_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_7_options" value="0" meta-options="I like to explore a strange city or section of town by myself even if it means getting lost|I prefer a guide when I am in a place I do not know well" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">当我在一个不熟悉的地方时，我更喜欢有中导游</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_8_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_8_0">
+<input type="radio" id="option-sensation-seeking-survey_8_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_8_options" value="0" meta-options="I dislike people who do or say things just to shock or upset others| When you can predict almost everything a person will do and say he or she must be a bore" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我不喜欢那些为了震惊或伤害他人而做事或说话的人</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_8_1">
+<input type="radio" id="option-sensation-seeking-survey_8_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_8_options" value="1" meta-options="I dislike people who do or say things just to shock or upset others| When you can predict almost everything a person will do and say he or she must be a bore" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 当你能预测一个人几乎所有的事和言论时，他或她一定很无聊</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_9_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_9_0">
+<input type="radio" id="option-sensation-seeking-survey_9_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_9_options" value="1" meta-options="I usually don't enjoy a movie or play where I can predict what will happen in advance| I don't mind watching a movie or a play where I can predict what will happen in advance" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我通常不喜欢可以提前预测发生什么的电影或戏剧</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_9_1">
+<input type="radio" id="option-sensation-seeking-survey_9_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_9_options" value="0" meta-options="I usually don't enjoy a movie or play where I can predict what will happen in advance| I don't mind watching a movie or a play where I can predict what will happen in advance" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我不介意看一部可以提前预测发生什么的电影或戏剧</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_10_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_10_0">
+<input type="radio" id="option-sensation-seeking-survey_10_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_10_options" value="1" meta-options="I have tried marijuana or would like to| I would never smoke marijuana." meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我尝试过大麻或想要尝试</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_10_1">
+<input type="radio" id="option-sensation-seeking-survey_10_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_10_options" value="0" meta-options="I have tried marijuana or would like to|  I would never smoke marijuana." meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我绝不会吸大麻。</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_11_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_11_0">
+<input type="radio" id="option-sensation-seeking-survey_11_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_11_options" value="0" meta-options="I would not like to try any drug which might produce strange and dangerous effects on me| I would never smoke marijuana." meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我不想尝试任何可能对我产生奇怪和危险影响的药物</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_11_1">
+<input type="radio" id="option-sensation-seeking-survey_11_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_11_options" value="1" meta-options="I would not like to try any drug which might produce strange and dangerous effects on me|I would  I would never smoke marijuana." meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我想要尝试一些产生幻觉的新药物</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_12_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_12_0">
+<input type="radio" id="option-sensation-seeking-survey_12_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_12_options" value="0" meta-options="A sensible person avoids activities that are dangerous| I sometimes like to do things that are a little frightening" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">明智的人会避免危险的活动</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_12_1">
+<input type="radio" id="option-sensation-seeking-survey_12_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_12_options" value="1" meta-options="A sensible person avoids activities that are dangerous| I sometimes like to do things that are a little frightening" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我有时喜欢做一些有点可怕的事情</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_13_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_13_0">
+<input type="radio" id="option-sensation-seeking-survey_13_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_13_options" value="0" meta-options="I dislike 'swingers' (people who are uninhibited and free about sex)| I enjoy the company of real 'swingers'" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我不喜欢“摆动人”（指在性方面放纵和自由的人）</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_13_1">
+<input type="radio" id="option-sensation-seeking-survey_13_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_13_options" value="1" meta-options="I dislike 'swingers' (people who are uninhibited and free about sex)| I enjoy the company of real 'swingers'" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我喜欢与真正的“摆动人”作伴</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_14_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_14_0">
+<input type="radio" id="option-sensation-seeking-survey_14_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_14_options" value="0" meta-options="I find that stimulants make me uncomfortable| I often like to get high (drinking liquor or smoking marijuana)" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我发现兴奋剂让我不舒服</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_14_1">
+<input type="radio" id="option-sensation-seeking-survey_14_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_14_options" value="1" meta-options="I find that stimulants make me uncomfortable| I often like to get high (drinking liquor or smoking marijuana)" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我经常喜欢兴奋（喂酒或吸大麻）</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_15_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_15_0">
+<input type="radio" id="option-sensation-seeking-survey_15_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_15_options" value="1" meta-options="I like to try new foods that I have never tasted before| I order the dishes with which I am familiar so as to avoid disappointment and unpleasantness" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我喜欢尝试以前从未品尝过的新食物</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_15_1">
+<input type="radio" id="option-sensation-seeking-survey_15_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_15_options" value="0" meta-options="I like to try new foods that I have never tasted before| I order the dishes with which I am familiar so as to avoid disappointment and unpleasantness" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我点熟悉的菜肴以避免失望和不快</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_16_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_16_0">
+<input type="radio" id="option-sensation-seeking-survey_16_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_16_options" value="0" meta-options="I enjoy looking at home movies or travel slides| Looking at someone's home movies or travel slides bores me tremendously" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我喜欢看家庭电影或旅行幻灯片</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_16_1">
+<input type="radio" id="option-sensation-seeking-survey_16_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_16_options" value="1" meta-options="I enjoy looking at home movies or travel slides| Looking at someone's home movies or travel slides bores me tremendously" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 看别人的家庭电影或旅行幻灯片让我非常无聊</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_17_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_17_0">
+<input type="radio" id="option-sensation-seeking-survey_17_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_17_options" value="1" meta-options="I would like to take up the sport of water skiing| I would not like to take up water skiing" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我想要从事滑水运动</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_17_1">
+<input type="radio" id="option-sensation-seeking-survey_17_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_17_options" value="0" meta-options="I would like to take up the sport of water skiing| I would not like to take up water skiing" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我不想从事滑水运动</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_18_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_18_0">
+<input type="radio" id="option-sensation-seeking-survey_18_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_18_options" value="1" meta-options="I would like to try surf boarding| I would not like to try surf boarding" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我想要尝试冲浪</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_18_1">
+<input type="radio" id="option-sensation-seeking-survey_18_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_18_options" value="0" meta-options="I would like to try surf boarding| I would not like to try surf boarding" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我不想尝试冲浪</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_19_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_19_0">
+<input type="radio" id="option-sensation-seeking-survey_19_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_19_options" value="1" meta-options="I would like to take off on a trip with no preplanned or definite routes or timetable| When I go on a trip I like to plan my route and timetable fairly carefully" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我想要进行一次没有预先计划或确定路线或时间表的旅行</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_19_1">
+<input type="radio" id="option-sensation-seeking-survey_19_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_19_options" value="0" meta-options="I would like to take off on a trip with no preplanned or definite routes or timetable| When I go on a trip I like to plan my route and timetable fairly carefully" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 当我去旅行时，我喜欢相当仔细地规划我的路线和时间表</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_20_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_20_0">
+<input type="radio" id="option-sensation-seeking-survey_20_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_20_options" value="0" meta-options="I prefer the 'down to earth' kinds of people as friends| I would like to make friends in some of the 'far out' groups like artists or 'punks'" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我更喜欢“脚踏实地”类型的人做朋友</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_20_1">
+<input type="radio" id="option-sensation-seeking-survey_20_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_20_options" value="1" meta-options="I prefer the 'down to earth' kinds of people as friends| I would like to make friends in some of the 'far out' groups like artists or 'punks'" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我想要在一些“激进”的群体中交朋友，比如艺术家或“朋克”</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_21_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_21_0">
+<input type="radio" id="option-sensation-seeking-survey_21_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_21_options" value="0" meta-options="I would not like to learn to fly an airplane| I would like to learn to fly an airplane" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我不想学习驾驶飞机</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_21_1">
+<input type="radio" id="option-sensation-seeking-survey_21_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_21_options" value="1" meta-options="I would not like to learn to fly an airplane| I would like to learn to fly an airplane" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我想要学习驾驶飞机</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_22_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_22_0">
+<input type="radio" id="option-sensation-seeking-survey_22_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_22_options" value="0" meta-options="I prefer the surface of the water to the depths| I would like to go scuba diving" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我更喜欢水面而不是深处</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_22_1">
+<input type="radio" id="option-sensation-seeking-survey_22_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_22_options" value="1" meta-options="I prefer the surface of the water to the depths| I would like to go scuba diving" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我想要去潜水</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_23_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_23_0">
+<input type="radio" id="option-sensation-seeking-survey_23_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_23_options" value="1" meta-options="I would like to meet some persons who are homosexual (men or women)| I stay away from anyone I suspect of being 'gay or lesbian'" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我想要认识一些同性恋者（男性或女性）</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_23_1">
+<input type="radio" id="option-sensation-seeking-survey_23_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_23_options" value="0" meta-options="I would like to meet some persons who are homosexual (men or women)| I stay away from anyone I suspect of being 'gay or lesbian'" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我远离任何我怀疑是“同性恋者”的人</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_24_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_24_0">
+<input type="radio" id="option-sensation-seeking-survey_24_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_24_options" value="1" meta-options="I would like to try parachute jumping|I would never want to try jumping out of a plane - with or without a parachute" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我想要尝试跳伞</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_24_1">
+<input type="radio" id="option-sensation-seeking-survey_24_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_24_options" value="0" meta-options="I would like to try parachute jumping|I would never want to try jumping out of a plane - with or without a parachute" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我绝不想尝试从飞机上跳下 - 无论有没有降落伞</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_25_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_25_0">
+<input type="radio" id="option-sensation-seeking-survey_25_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_25_options" value="1" meta-options="I prefer friends who are excitingly unpredictable| I prefer friends who are reliable and predictable" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我更喜欢令人兴奋地不可预测的朋友</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_25_1">
+<input type="radio" id="option-sensation-seeking-survey_25_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_25_options" value="0" meta-options="I prefer friends who are excitingly unpredictable| I prefer friends who are reliable and predictable" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我更喜欢可靠和可预测的朋友</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_26_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_26_0">
+<input type="radio" id="option-sensation-seeking-survey_26_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_26_options" value="0" meta-options="I am not interested in experience for its own sake| I like to have new and exciting experiences and sensations even if they are a little frightening / unconventional or illegal" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我对经历本身不感兴趣</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_26_1">
+<input type="radio" id="option-sensation-seeking-survey_26_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_26_options" value="1" meta-options="I am not interested in experience for its own sake| I like to have new and exciting experiences and sensations even if they are a little frightening / unconventional or illegal" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我喜欢有新的和令人兴奋的经历和感受，即使它们有点可怕/非传统或非法</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_27_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_27_0">
+<input type="radio" id="option-sensation-seeking-survey_27_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_27_options" value="0" meta-options="The essence of good art is in its clarity / symmetry of form and harmony of colors|I often find beauty in the clashing colors and irregular forms of modern paintings" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">好艺术的精髓在于其清晰性/形式的对称性和颜色的和谐</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_27_1">
+<input type="radio" id="option-sensation-seeking-survey_27_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_27_options" value="1" meta-options="The essence of good art is in its clarity / symmetry of form and harmony of colors|I often find beauty in the clashing colors and irregular forms of modern paintings" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我经常在现代绘画的冲突色彩和不规则形式中发现美</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_28_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_28_0">
+<input type="radio" id="option-sensation-seeking-survey_28_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_28_options" value="0" meta-options="I enjoy spending time in the familiar surroundings of home| I get very restless if I have to stay around home for any length of time" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我喜欢在家中熟悉的环境中度过时间</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_28_1">
+<input type="radio" id="option-sensation-seeking-survey_28_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_28_options" value="1" meta-options="I enjoy spending time in the familiar surroundings of home| I get very restless if I have to stay around home for any length of time" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 如果我必须在家中待上一段时间，我会变得非常不安</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_29_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_29_0">
+<input type="radio" id="option-sensation-seeking-survey_29_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_29_options" value="1" meta-options="I like to dive off the high board| I don't like the feeling I get standing on the high board (or I don't go near it at all)" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我喜欢从高台跳水</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_29_1">
+<input type="radio" id="option-sensation-seeking-survey_29_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_29_options" value="0" meta-options="I like to dive off the high board| I don't like the feeling I get standing on the high board (or I don't go near it at all)" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我不喜欢站在高台上的感觉（或者我根本不靠近它）</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_30_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_30_0">
+<input type="radio" id="option-sensation-seeking-survey_30_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_30_options" value="1" meta-options="I like to date members of the opposite sex who are physically exciting| I like to date members of the opposite sex who share my values" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我喜欢与身体上令人兴奋的异性约会</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_30_1">
+<input type="radio" id="option-sensation-seeking-survey_30_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_30_options" value="0" meta-options="I like to date members of the opposite sex who are physically exciting| I like to date members of the opposite sex who share my values" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我喜欢与与我分享价值观的异性约会</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_31_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_31_0">
+<input type="radio" id="option-sensation-seeking-survey_31_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_31_options" value="0" meta-options="Heavy drinking usually ruins a party because some people get loud and boisterous| Keeping the drinks full is the key to a good party" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">酷饮通常会破坏派对，因为一些人变得大声和喜闹</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_31_1">
+<input type="radio" id="option-sensation-seeking-survey_31_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_31_options" value="1" meta-options="Heavy drinking usually ruins a party because some people get loud and boisterous| Keeping the drinks full is the key to a good party" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 保持饮料充足是一个好派对的关键</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_32_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_32_0">
+<input type="radio" id="option-sensation-seeking-survey_32_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_32_options" value="0" meta-options="The worst social sin is to be rude| The worst social sin is to be a bore" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">最糟糕的社交罪过是粗鲁</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_32_1">
+<input type="radio" id="option-sensation-seeking-survey_32_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_32_options" value="1" meta-options="The worst social sin is to be rude| The worst social sin is to be a bore" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 最糟糕的社交罪过是无聊</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_33_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_33_0">
+<input type="radio" id="option-sensation-seeking-survey_33_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_33_options" value="1" meta-options="A person should have considerable sexual experience before marriage| It's better if two married persons begin their sexual experience with each other" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">一个人在结婚前应该有相当多的性经验</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_33_1">
+<input type="radio" id="option-sensation-seeking-survey_33_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_33_options" value="0" meta-options="A person should have considerable sexual experience before marriage| It's better if two married persons begin their sexual experience with each other" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 如果两个已婚人开始彼此的性经验会更好</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_34_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_34_0">
+<input type="radio" id="option-sensation-seeking-survey_34_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_34_options" value="0" meta-options="Even if I had the money I would not care to associate with flight rich persons like those in the 'jet set'| I could conceive of myself seeking pleasures around the world with the 'jet set'" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">即使我有钱，我也不愿意与“喷气式飞机集团”中的富人交往</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_34_1">
+<input type="radio" id="option-sensation-seeking-survey_34_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_34_options" value="1" meta-options="Even if I had the money I would not care to associate with flight rich persons like those in the 'jet set'| I could conceive of myself seeking pleasures around the world with the 'jet set'" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我可以设想自己与“喷气式飞机集团”在世界各地寻找乐趣</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_35_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_35_0">
+<input type="radio" id="option-sensation-seeking-survey_35_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_35_options" value="1" meta-options="I like people who are sharp and witty even if they do sometimes insult others| I dislike people who have their fun at the expensive of hurting the feelings of others" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我喜欢敏锐和机智的人，即使他们有时会侮辱他人</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_35_1">
+<input type="radio" id="option-sensation-seeking-survey_35_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_35_options" value="0" meta-options="I like people who are sharp and witty even if they do sometimes insult others| I dislike people who have their fun at the expensive of hurting the feelings of others" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我不喜欢那些以伤害他人情感为代价寻找乐趣的人</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_36_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_36_0">
+<input type="radio" id="option-sensation-seeking-survey_36_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_36_options" value="0" meta-options="There is altogether too much portrayal of sex in movies| I enjoy watching many of the 'sexy' scenes in movies" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">电影中的性描绘太多了</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_36_1">
+<input type="radio" id="option-sensation-seeking-survey_36_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_36_options" value="1" meta-options="There is altogether too much portrayal of sex in movies| I enjoy watching many of the 'sexy' scenes in movies" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我喜欢看电影中许多“性感”场面</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_37_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_37_0">
+<input type="radio" id="option-sensation-seeking-survey_37_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_37_options" value="1" meta-options="I feel best after taking a couple of drinks| Something is wrong with people who need liquor to feel good" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">喝了几杯酒后我感觉最好</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_37_1">
+<input type="radio" id="option-sensation-seeking-survey_37_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_37_options" value="0" meta-options="I feel best after taking a couple of drinks| Something is wrong with people who need liquor to feel good" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 需要酒精才能感觉好的人有问题</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_38_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_38_0">
+<input type="radio" id="option-sensation-seeking-survey_38_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_38_options" value="0" meta-options="People should dress according to some standard of taste / neatness and style| People should dress in individual ways even if the effects are sometimes strange" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">人们应该按照某些品味/整洁和风格标准穿衣</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_38_1">
+<input type="radio" id="option-sensation-seeking-survey_38_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_38_options" value="1" meta-options="People should dress according to some standard of taste / neatness and style| People should dress in individual ways even if the effects are sometimes strange" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 人们应该以个人方式穿衣，即使效果有时很奇怪</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_39_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_39_0">
+<input type="radio" id="option-sensation-seeking-survey_39_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_39_options" value="0" meta-options="Sailing long distances in small sailing crafts is foolhardy| I would like to sail a long distance in a small but seaworthy sailing craft" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">驾驶小型帆船进行长距离航行是鲁莽的</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_39_1">
+<input type="radio" id="option-sensation-seeking-survey_39_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_39_options" value="1" meta-options="Sailing long distances in small sailing crafts is foolhardy| I would like to sail a long distance in a small but seaworthy sailing craft" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我想要驾驶一艘小但适合海上航行的帆船进行长距离航行</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_40_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_40_0">
+<input type="radio" id="option-sensation-seeking-survey_40_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_40_options" value="1" meta-options="I have no patience with dull or boring persons| I find something interesting in almost every person I talk to" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">我对无聊或乏味的人没有耐心</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_40_1">
+<input type="radio" id="option-sensation-seeking-survey_40_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_40_options" value="0" meta-options="I have no patience with dull or boring persons| I find something interesting in almost every person I talk to" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我在与每个人的交谈中几乎都能发现有趣的东西</span>
+</label><br><br><br><br>
+<p id="sensation-seeking-survey_41_options">请指出您更喜欢以下哪种情况。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_41_0">
+<input type="radio" id="option-sensation-seeking-survey_41_0" class="mdl-radio__button required page3" name="sensation-seeking-survey_41_options" value="0" meta-options="Skiing down a high mountain slope is a good way to end up on crutches| I think I would enjoy the sensations of skiing very fast down a high mountain slope" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label">从高山斜坡滑雪是一个使人拄拐杖的好方法</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-sensation-seeking-survey_41_1">
+<input type="radio" id="option-sensation-seeking-survey_41_1" class="mdl-radio__button required page3" name="sensation-seeking-survey_41_options" value="1" meta-options="Skiing down a high mountain slope is a good way to end up on crutches| I think I would enjoy the sensations of skiing very fast down a high mountain slope" meta-text="请指出您更喜欢以下哪种情况。">
+<span class="mdl-radio__label"> 我认为我会喜欢在高山斜坡上非常快速滑雪的感觉</span>
+</label><br><br><br><br></div>
+<div class="step">
+<h3>恭喜您完成了这项调查！请点击<strong>完成</strong>继续。</h3><br><br><br><br></div>
+
+<div class="navigation">
+    <ul class="clearfix">
+        <li><button type="button" 
+                    name="backward" 
+                    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent backward">上一步</button></li>
+	<li><button type="button" 
+                    name="forward" 
+                    class="forward mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">下一步</button></li>
+        <li><button type="submit" 
+                    name="process" 
+                    class="submit mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">完成</button></li>
+    </ul>
+</div>
+
+<div class="pad">
+    <div id="progressbar"></div>
+</div>
+</form>
+</div>
+
+<script>
+$( document ).ready(function() {
+
+    expfactory_finished = false;
+
+    // Basic wizard with progress bar
+    $( "#progressbar" ).progressbar();
+    $( "#questions" ).wizard({
+        stepsWrapper: "#wrapped",
+	submit: ".submit",
+	beforeForward: function( event, state ) {
+
+            // Function to add message that answer is required
+            function is_required(elements){
+                var missing = false;
+                elements.each(function(index,element){
+                    var pid = "#" + $(element).attr("name")
+                    $(pid).css("color","red")
+                    missing = true;                   
+                });
+
+                if (missing == true){
+                   alert("Please answer all required questions in red.");
+                }
+            }
+
+             if ( state.stepIndex === 3 ) {
+ if (($.unique($(`.page3.required[type=number],.page3.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page3.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page3.required:not(checked)`));
+return false;
+ } else {
+expfactory_finished=true;
+}}
+
+	    return !!$( this ).wizard( "form" ).valid();
+        },
+	afterSelect: function( event, state ) {
+	    $( "#progressbar" ).progressbar( "value", state.percentComplete );
+            if (expfactory_finished == true){
+                $(".submit").enable();
+            }
+        }
+
+    // Form submission
+    }).wizard( "form" ).submit(function( event ) {
+
+        event.preventDefault();
+        
+        var $inputs = $("input:checked");
+        var $text = $("input:text")
+        var $number = $("input[type = number]")
+        var $elements = $inputs.add($text).add($number)
+        
+        // Prepare data results
+        var results = []
+        $elements.each(function(index, element) {
+            var result = {}
+
+            if ($.inArray( $(element).attr("name"), [ "forward", "backward", "process"] ) == -1) {
+                result.name = $(element).attr("name");
+                if ($(element).attr("value") == undefined) {
+                    result.value = $(element).val();
+                } else {
+                    result.value = $(element).attr("value");
+                }
+                result.options = $(element).attr("meta-options");
+                result.text = $(element).attr("meta-text");
+                results.push(result);
+             }
+        })
+
+        
+        $.ajax({
+
+                type: 'POST',
+                url: '/save',
+                data: {'data': results},
+
+                success: function() {
+                    console.log('success');
+                    document.location = '/next'
+                 },
+
+                 // Endpoint not running, local save
+                 error: function(err) {
+
+                     if (err.status == 200) {
+                        document.location = '/next'
+                     }        
+        
+                     console.log("Error with POST" + err.status + ", downloading to local file.")
+                     // Save data to browser
+
+                     var data = "text/json;charset=utf-8," + JSON.stringify(results);
+                     var a = document.createElement('a');
+                     a.title = "Download"
+                     a.id = "download"
+                     a.type = "button"
+                     a.download = 'sensation-seeking-survey_result.json';
+                     a.href = 'data:' + data;
+                     $(".submit").html("Download")
+                     $(".submit").click(function(){
+                         $("body").append(a)
+                         a.click()
+                     })
+
+                  }
+         });
+
+     // Validation
+     }).validate({
+	errorPlacement: function( error, element ) {
+	    if ( element.is( ":radio" ) || element.is( ":checkbox" ) ) {
+		error.insertBefore( element.next() );
+            } else {
+	        error.insertAfter( element );
+	 }
+      }
+  });
+});
+</script>
+</body>
+</html>

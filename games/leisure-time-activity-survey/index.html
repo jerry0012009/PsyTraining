@@ -1,0 +1,208 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <title>实验工厂：调查问卷</title>
+    
+    <link rel='stylesheet' type='text/css' href='css/material.blue-red.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/surveys.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui-1.10.4.custom.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+
+    <script src='js/jquery-2.1.1.min.js'></script>
+    <script src='js/material.min.js'></script>
+    <script src='js/jquery-ui-1.10.4.custom.min.js'></script>
+    <script src='js/jquery.wizard.js'></script>
+    <script src='js/jquery.form-3.50.js'></script>
+    <script src='js/jquery.validate-1.12.0.min.js'></script>
+
+<div class="experiment-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+<div class="experiment-ribbon"></div>
+<main class="experiment-main mdl-layout__content">
+<div class="experiment-container mdl-grid">
+<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+</div>
+<div class="experiment-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+<div id="questions">
+
+<form name="questions" action="#", method="POST">
+<div class="step">
+<h3>欢迎参加本次调查。请点击<strong>下一步</strong>开始。</h3><br><br><br><br></div>
+<div class="step">
+<h3>请回答以下有关您身体活动水平的问题。</h3><br><br><br><br></div>
+<div class="step">
+<p id="leisure-time-activity-survey_2_options">在过去一个月中，哪个陈述最能描述您通常进行的身体活动类型？不包括您在工作中花费的时间。请在选择之前阅读所有六个陈述。</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-leisure-time-activity-survey_2_0">
+<input type="radio" id="option-leisure-time-activity-survey_2_0" class="mdl-radio__button required page3" name="leisure-time-activity-survey_2_options" value="1" meta-options="我没有进行太多身体活动。我主要做一些如看电视、阅读、打牌或玩电脑游戏之类的事情。只是偶尔，每月不超过一两次，我才会做一些更活跃的事情，如散步或打网球。|每周一到两次，我会进行轻度活动，如周末外出轻松散步或漫步。或者每周一到两次，我会做家务，如扫地或吸尘。|每周大约三次，我会进行中等强度活动，如快走、游泳或骑自行车，每次约15-20分钟。或者每周大约一次，我会做中等难度的家务，如耙地或修剪草坪45-60分钟。或者每周大约一次，我会参加体育运动，如垒球、篮球或足球，持续45-60分钟。|几乎每天——即每周五次或更多——我会进行中等强度活动，如快走、游泳或骑自行车，每次30分钟或更长时间。或者每周大约一次，我会做中等难度的家务或参加体育运动2小时或更长时间。|每周大约三次，我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。|几乎每天——即每周五次或更多——我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。" meta-text="在过去一个月中，哪个陈述最能描述您通常进行的身体活动类型？不包括您在工作中花费的时间。请在选择之前阅读所有六个陈述。">
+<span class="mdl-radio__label">我没有进行太多身体活动。我主要做一些如看电视、阅读、打牌或玩电脑游戏之类的事情。只是偶尔，每月不超过一两次，我才会做一些更活跃的事情，如散步或打网球。</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-leisure-time-activity-survey_2_1">
+<input type="radio" id="option-leisure-time-activity-survey_2_1" class="mdl-radio__button required page3" name="leisure-time-activity-survey_2_options" value="2" meta-options="我没有进行太多身体活动。我主要做一些如看电视、阅读、打牌或玩电脑游戏之类的事情。只是偶尔，每月不超过一两次，我才会做一些更活跃的事情，如散步或打网球。|每周一到两次，我会进行轻度活动，如周末外出轻松散步或漫步。或者每周一到两次，我会做家务，如扫地或吸尘。|每周大约三次，我会进行中等强度活动，如快走、游泳或骑自行车，每次约15-20分钟。或者每周大约一次，我会做中等难度的家务，如耙地或修剪草坪45-60分钟。或者每周大约一次，我会参加体育运动，如垒球、篮球或足球，持续45-60分钟。|几乎每天——即每周五次或更多——我会进行中等强度活动，如快走、游泳或骑自行车，每次30分钟或更长时间。或者每周大约一次，我会做中等难度的家务或参加体育运动2小时或更长时间。|每周大约三次，我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。|几乎每天——即每周五次或更多——我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。" meta-text="在过去一个月中，哪个陈述最能描述您通常进行的身体活动类型？不包括您在工作中花费的时间。请在选择之前阅读所有六个陈述。">
+<span class="mdl-radio__label">每周一到两次，我会进行轻度活动，如周末外出轻松散步或漫步。或者每周一到两次，我会做家务，如扫地或吸尘。</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-leisure-time-activity-survey_2_2">
+<input type="radio" id="option-leisure-time-activity-survey_2_2" class="mdl-radio__button required page3" name="leisure-time-activity-survey_2_options" value="3" meta-options="我没有进行太多身体活动。我主要做一些如看电视、阅读、打牌或玩电脑游戏之类的事情。只是偶尔，每月不超过一两次，我才会做一些更活跃的事情，如散步或打网球。|每周一到两次，我会进行轻度活动，如周末外出轻松散步或漫步。或者每周一到两次，我会做家务，如扫地或吸尘。|每周大约三次，我会进行中等强度活动，如快走、游泳或骑自行车，每次约15-20分钟。或者每周大约一次，我会做中等难度的家务，如耙地或修剪草坪45-60分钟。或者每周大约一次，我会参加体育运动，如垒球、篮球或足球，持续45-60分钟。|几乎每天——即每周五次或更多——我会进行中等强度活动，如快走、游泳或骑自行车，每次30分钟或更长时间。或者每周大约一次，我会做中等难度的家务或参加体育运动2小时或更长时间。|每周大约三次，我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。|几乎每天——即每周五次或更多——我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。" meta-text="在过去一个月中，哪个陈述最能描述您通常进行的身体活动类型？不包括您在工作中花费的时间。请在选择之前阅读所有六个陈述。">
+<span class="mdl-radio__label">每周大约三次，我会进行中等强度活动，如快走、游泳或骑自行车，每次约15-20分钟。或者每周大约一次，我会做中等难度的家务，如耙地或修剪草坪45-60分钟。或者每周大约一次，我会参加体育运动，如垒球、篮球或足球，持续45-60分钟。</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-leisure-time-activity-survey_2_3">
+<input type="radio" id="option-leisure-time-activity-survey_2_3" class="mdl-radio__button required page3" name="leisure-time-activity-survey_2_options" value="4" meta-options="我没有进行太多身体活动。我主要做一些如看电视、阅读、打牌或玩电脑游戏之类的事情。只是偶尔，每月不超过一两次，我才会做一些更活跃的事情，如散步或打网球。|每周一到两次，我会进行轻度活动，如周末外出轻松散步或漫步。或者每周一到两次，我会做家务，如扫地或吸尘。|每周大约三次，我会进行中等强度活动，如快走、游泳或骑自行车，每次约15-20分钟。或者每周大约一次，我会做中等难度的家务，如耙地或修剪草坪45-60分钟。或者每周大约一次，我会参加体育运动，如垒球、篮球或足球，持续45-60分钟。|几乎每天——即每周五次或更多——我会进行中等强度活动，如快走、游泳或骑自行车，每次30分钟或更长时间。或者每周大约一次，我会做中等难度的家务或参加体育运动2小时或更长时间。|每周大约三次，我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。|几乎每天——即每周五次或更多——我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。" meta-text="在过去一个月中，哪个陈述最能描述您通常进行的身体活动类型？不包括您在工作中花费的时间。请在选择之前阅读所有六个陈述。">
+<span class="mdl-radio__label">几乎每天——即每周五次或更多——我会进行中等强度活动，如快走、游泳或骑自行车，每次30分钟或更长时间。或者每周大约一次，我会做中等难度的家务或参加体育运动2小时或更长时间。</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-leisure-time-activity-survey_2_4">
+<input type="radio" id="option-leisure-time-activity-survey_2_4" class="mdl-radio__button required page3" name="leisure-time-activity-survey_2_options" value="5" meta-options="我没有进行太多身体活动。我主要做一些如看电视、阅读、打牌或玩电脑游戏之类的事情。只是偶尔，每月不超过一两次，我才会做一些更活跃的事情，如散步或打网球。|每周一到两次，我会进行轻度活动，如周末外出轻松散步或漫步。或者每周一到两次，我会做家务，如扫地或吸尘。|每周大约三次，我会进行中等强度活动，如快走、游泳或骑自行车，每次约15-20分钟。或者每周大约一次，我会做中等难度的家务，如耙地或修剪草坪45-60分钟。或者每周大约一次，我会参加体育运动，如垒球、篮球或足球，持续45-60分钟。|几乎每天——即每周五次或更多——我会进行中等强度活动，如快走、游泳或骑自行车，每次30分钟或更长时间。或者每周大约一次，我会做中等难度的家务或参加体育运动2小时或更长时间。|每周大约三次，我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。|几乎每天——即每周五次或更多——我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。" meta-text="在过去一个月中，哪个陈述最能描述您通常进行的身体活动类型？不包括您在工作中花费的时间。请在选择之前阅读所有六个陈述。">
+<span class="mdl-radio__label">每周大约三次，我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-leisure-time-activity-survey_2_5">
+<input type="radio" id="option-leisure-time-activity-survey_2_5" class="mdl-radio__button required page3" name="leisure-time-activity-survey_2_options" value="6" meta-options="我没有进行太多身体活动。我主要做一些如看电视、阅读、打牌或玩电脑游戏之类的事情。只是偶尔，每月不超过一两次，我才会做一些更活跃的事情，如散步或打网球。|每周一到两次，我会进行轻度活动，如周末外出轻松散步或漫步。或者每周一到两次，我会做家务，如扫地或吸尘。|每周大约三次，我会进行中等强度活动，如快走、游泳或骑自行车，每次约15-20分钟。或者每周大约一次，我会做中等难度的家务，如耙地或修剪草坪45-60分钟。或者每周大约一次，我会参加体育运动，如垒球、篮球或足球，持续45-60分钟。|几乎每天——即每周五次或更多——我会进行中等强度活动，如快走、游泳或骑自行车，每次30分钟或更长时间。或者每周大约一次，我会做中等难度的家务或参加体育运动2小时或更长时间。|每周大约三次，我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。|几乎每天——即每周五次或更多——我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。" meta-text="在过去一个月中，哪个陈述最能描述您通常进行的身体活动类型？不包括您在工作中花费的时间。请在选择之前阅读所有六个陈述。">
+<span class="mdl-radio__label">几乎每天——即每周五次或更多——我会进行剧烈运动，如跑步或用力骑自行车，每次30分钟或更长时间。</span>
+</label><br><br><br><br></div>
+<div class="step">
+<h3>恭喜您完成本次调查！点击<strong>完成</strong>继续。</h3><br><br><br><br></div>
+
+<div class="navigation">
+    <ul class="clearfix">
+        <li><button type="button" 
+                    name="backward" 
+                    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent backward">上一步</button></li>
+	<li><button type="button" 
+                    name="forward" 
+                    class="forward mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">下一步</button></li>
+        <li><button type="submit" 
+                    name="process" 
+                    class="submit mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">完成</button></li>
+    </ul>
+</div>
+
+<div class="pad">
+    <div id="progressbar"></div>
+</div>
+</form>
+</div>
+
+<script>
+$( document ).ready(function() {
+
+    expfactory_finished = false;
+
+    // Basic wizard with progress bar
+    $( "#progressbar" ).progressbar();
+    $( "#questions" ).wizard({
+        stepsWrapper: "#wrapped",
+	submit: ".submit",
+	beforeForward: function( event, state ) {
+
+            // Function to add message that answer is required
+            function is_required(elements){
+                var missing = false;
+                elements.each(function(index,element){
+                    var pid = "#" + $(element).attr("name")
+                    $(pid).css("color","red")
+                    missing = true;                   
+                });
+
+                if (missing == true){
+                   alert("请回答所有用红色标出的必填问题。");
+                }
+            }
+
+             if ( state.stepIndex === 3 ) {
+ if (($.unique($(`.page3.required[type=number],.page3.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page3.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page3.required:not(checked)`));
+return false;
+ } else {
+expfactory_finished=true;
+}}
+
+	    return !!$( this ).wizard( "form" ).valid();
+        },
+	afterSelect: function( event, state ) {
+	    $( "#progressbar" ).progressbar( "value", state.percentComplete );
+            if (expfactory_finished == true){
+                $(".submit").enable();
+            }
+        }
+
+    // Form submission
+    }).wizard( "form" ).submit(function( event ) {
+
+        event.preventDefault();
+        
+        var $inputs = $("input:checked");
+        var $text = $("input:text")
+        var $number = $("input[type = number]")
+        var $elements = $inputs.add($text).add($number)
+        
+        // Prepare data results
+        var results = []
+        $elements.each(function(index, element) {
+            var result = {}
+
+            if ($.inArray( $(element).attr("name"), [ "forward", "backward", "process"] ) == -1) {
+                result.name = $(element).attr("name");
+                if ($(element).attr("value") == undefined) {
+                    result.value = $(element).val();
+                } else {
+                    result.value = $(element).attr("value");
+                }
+                result.options = $(element).attr("meta-options");
+                result.text = $(element).attr("meta-text");
+                results.push(result);
+             }
+        })
+
+        
+        $.ajax({
+
+                type: 'POST',
+                url: '/save',
+                data: {'data': results},
+
+                success: function() {
+                    console.log('success');
+                    document.location = '/next'
+                 },
+
+                 // Endpoint not running, local save
+                 error: function(err) {
+
+                     if (err.status == 200) {
+                        document.location = '/next'
+                     }        
+        
+                     console.log("Error with POST" + err.status + ", downloading to local file.")
+                     // Save data to browser
+
+                     var data = "text/json;charset=utf-8," + JSON.stringify(results);
+                     var a = document.createElement('a');
+                     a.title = "Download"
+                     a.id = "download"
+                     a.type = "button"
+                     a.download = 'leisure-time-activity-survey_result.json';
+                     a.href = 'data:' + data;
+                     $(".submit").html("Download")
+                     $(".submit").click(function(){
+                         $("body").append(a)
+                         a.click()
+                     })
+
+                  }
+         });
+
+     // Validation
+     }).validate({
+	errorPlacement: function( error, element ) {
+	    if ( element.is( ":radio" ) || element.is( ":checkbox" ) ) {
+		error.insertBefore( element.next() );
+            } else {
+	        error.insertAfter( element );
+	 }
+      }
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "name": "K6+ 心理健康调查",
+    "template":"survey",
+    "description": "心理健康调查问卷",
+    "url": "https://github.com/expfactory-experiments/k6-survey",
+    "instructions": "请根据您的实际情况尽可能准确地回答以下问题",
+    "exp_id": "k6-survey",
+    "contributors": [
+             "Ian Eisenberg",
+             "Zeynep Enkavi",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":3
+}
+

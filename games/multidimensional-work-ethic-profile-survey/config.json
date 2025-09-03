@@ -1,0 +1,16 @@
+{
+    "name": "多维工作伦理档案调查",
+    "exp_id": "multidimensional-work-ethic-profile-survey",
+    "description": "本专著简要回顾了工作伦理构念的历史和概念，提出了工作伦理的一般概念定义，并报告了一系列实证研究以构建和评估新的多维工作伦理测量方法。",
+    "instructions": "请选择最能代表您对每个项目意见的选项。",
+    "url": "https://github.com/expfactory-experiments/multidimensional-work-ethic-profile-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Daniel J Wilson",
+                     "Sofia Dallali",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 6,
+    "reference": ["Miller, M. J., Woehr, D. J., & Hudspeth, N. (2002). The meaning and measurement of work ethic: Construction and initial validation of a multidimensional inventory. Journal of Vocational Behavior, 60(3), 451-489."]
+}

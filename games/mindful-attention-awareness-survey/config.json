@@ -1,0 +1,18 @@
+{
+    "name": "MAAS: 正念注意力觉知量表调查",
+    "template":"survey",
+    "url": "https://github.com/expfactory-experiments/mindful-attention-awareness-survey",
+    "exp_id": "mindful-attention-awareness-survey",
+    "cognitive_atlas_task_id": "trm_56abcba3df89b",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":3,
+    "reference": ["http://psycnet.apa.org/journals/psp/84/4/822.pdf"],
+    "description": "实验工厂调查问卷",
+    "instructions": "请尽您所能回答以下问题"
+}

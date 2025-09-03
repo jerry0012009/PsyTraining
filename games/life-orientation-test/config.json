@@ -1,0 +1,15 @@
+{
+    "name": "生活定向测试修订版乐观主义量表问卷",
+    "exp_id": "life-orientation-test-revised-optimism-survey-zh",
+    "description": "由10个项目组成的量表，用于测量人们对未来的乐观或悲观程度。",
+    "instructions": "请根据您的真实感受，表明您对以下陈述的同意程度。请尽量避免让您对某一陈述的回应影响对其他陈述的回应。",
+    "url": "https://github.com/expfactory-experiments/life-orientation-test-revised-optimism-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Sofia Dallali",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 2,
+    "reference": ["Scheier, M. F., Carver, C. S., & Bridges, M. W. (1994). Distinguishing optimism from neuroticism (and trait anxiety, self-mastery, and self-esteem): a reevaluation of the Life Orientation Test. Journal of personality and social psychology, 67(6), 1063. https://doi.org/10.1037/0022-3514.67.6.1063"]
+}

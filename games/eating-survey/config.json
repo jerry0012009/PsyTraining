@@ -1,0 +1,18 @@
+{
+    "name": "R18: 三因子饮食问卷调查",
+    "template":"survey",
+    "exp_id": "eating-survey",
+    "url": "https://github.com/expfactory-experiments/eating-survey",
+    "cognitive_atlas_task_id": "trm_56aac5f6e4702",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":1,
+    "reference": ["http://jn.nutrition.org/content/134/9/2372.long#sec-18"],
+    "description": "实验工厂调查问卷",
+    "instructions": "请根据您的实际情况尽力回答以下问题"
+}

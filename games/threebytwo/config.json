@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_566745bbf272a",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"实验工厂实验",
+    "url":"https://www.github.com/expfactory-experiments/threebytwo",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "threebytwo",
+    "name": "三乘二任务",
+    "reference": ["http://www.ncbi.nlm.nih.gov/pubmed/21299334"],
+    "template": "jspsych",
+    "time": 24
+}

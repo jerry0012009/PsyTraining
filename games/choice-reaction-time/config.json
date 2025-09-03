@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "tsk_4a57abb949934",
+    "instructions":"对屏幕上的刺激做出响应。",
+    "description":"选择反应时实验",
+    "url":"https://www.github.com/expfactory-experiments/choice-reaction-time",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "choice-reaction-time",
+    "name": "选择反应时",
+    "reference": ["http://www.sciencedirect.com/science/article/pii/0001691869900651"],
+    "template": "jspsych",
+    "time": 8
+}

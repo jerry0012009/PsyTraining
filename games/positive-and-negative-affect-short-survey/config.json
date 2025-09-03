@@ -1,0 +1,15 @@
+{
+    "name": "正性与负性情绪量表-简化版调查",
+    "exp_id": "positive-and-negative-affect-short-survey",
+    "description": "一个简化版量表，用于评估正性情绪(PA)和负性情绪(NA)作为独立构念。",
+    "instructions": "请思考您自己通常的感受状态，您一般在多大程度上感到：",
+    "url": "https://github.com/expfactory-experiments/positive-and-negative-affect-schedule-short-form-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Juan (Dethea) Du",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 1,
+    "reference": ["Thompson, E. R. (2007). Development and Validation of an Internationally Reliable Short-Form of the Positive and Negative Affect Schedule (PANAS). Journal of Cross-Cultural Psychology, 38(2), 227–242. https://doi.org/10.1177/0022022106297301"]
+}

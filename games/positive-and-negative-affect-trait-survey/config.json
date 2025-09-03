@@ -1,0 +1,15 @@
+{
+    "name": "积极消极情感特质量表（PANAS-T）",
+    "exp_id": "positive-and-negative-affect-trait-survey",
+    "description": "一个用于评估积极情感（PA）和消极情感（NA）作为独立构建的量表。",
+    "instructions": "此量表包含一系列描述不同感受和情绪的词汇。请阅读每个项目，然后在该词汇旁边选择合适的答案。",
+    "url": "https://github.com/expfactory-experiments/positive-and-negative-affect-trait-survey",
+    "template": "survey",
+    "cognitive_atlas_task_id": "tsk_4a57abb949d09",
+    "contributors": [
+                     "Aryaki Sethi",
+                     "Junghyun (Andy) Kim"                
+                    ], 
+    "time": 2,
+    "reference": ["Watson, D., Clark, L. A., & Tellegen, A. (1988). Development and Validation of Brief Measures of Positive and Negative Affect: The PANAS Scales. Journal of Personality and Social Psychology, 54(6), 1063–1070. https://doi.org/10.1037/0022-3514.54.6.1063"]
+}

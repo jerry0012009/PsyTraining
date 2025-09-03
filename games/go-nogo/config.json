@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "tsk_4a57abb949a93",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "go-nogo",
+    "name": "Go-NoGo反应抑制任务",
+    "reference": ["http://www.sciencedirect.com/science/article/pii/0001691869900651"],
+    "template": "jspsych",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"认知心理学实验",
+    "url":"https://www.github.com/expfactory-experiments/go-nogo",
+    "time": 10
+ }

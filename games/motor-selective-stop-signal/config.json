@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_4cacf3fbc503b",
+    "instructions":"对屏幕上的刺激做出反应。",
+    "description":"实验工厂实验",
+    "url":"https://www.github.com/expfactory-experiments/motor-selective-stop-signal",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "motor-selective-stop-signal",
+    "name": "Motor-Selective-Stop-Signal",
+    "reference": ["http://www.jneurosci.org/content/27/14/3743.short"],
+    "template": "jspsych",
+    "time": 22
+}

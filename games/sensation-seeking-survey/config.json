@@ -1,0 +1,20 @@
+{
+    "name": "祖克曼感觉寻求量表调查Vb",
+    "exp_id": "sensation-seeking-survey",
+    "url": "https://github.com/expfactory-experiments/sensation-seeking-survey",
+    "template":"survey",
+    "cognitive_atlas_task_id": "trm_56abebfe9aaa3",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":1,
+    "reference": ["http://psycnet.apa.org/journals/ccp/46/1/139.pdf", 
+                  "http://wsm.wsu.edu/s/we.php?id=200"],
+    "description": "实验工厂调查问卷",
+    "instructions": "请尽您所能回答以下问题"
+}
+

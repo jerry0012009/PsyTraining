@@ -1,0 +1,18 @@
+{
+    "cognitive_atlas_task_id": "trm_4f2417d4a63ae",
+    "instructions":"对屏幕上的刺激进行反应。",
+    "description":"实验工厂实验",
+    "url":"https://www.github.com/expfactory-experiments/random-number-generation",
+    "contributors": [
+        "Ian Eisenberg",
+        "Zeynep Enkavi",
+        "Patrick Bissett",
+        "Vanessa Sochat",
+        "Russell Poldrack"
+    ],
+    "exp_id": "random-number-generation",
+    "name": "随机数字生成",
+    "reference": ["http://www.sciencedirect.com/science/article/pii/S1053811905001424"],
+    "template": "jspsych",
+    "time": 3
+}

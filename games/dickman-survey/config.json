@@ -1,0 +1,18 @@
+{
+    "name": "迪克曼：迪克曼功能性与功能失调性冲动量表",
+    "template":"survey",
+    "exp_id": "dickman-survey",
+    "url": "https://github.com/expfactory-experiments/dickman-survey",
+    "cognitive_atlas_task_id": "trm_55a6a95f66508",
+    "contributors": [
+             "Zeynep Enkavi",
+             "Ian Eisenberg",
+             "Patrick Bissett",
+             "Vanessa Sochat",
+             "Russell Poldrack"
+            ], 
+    "time":2,
+    "reference": ["http://psycnet.apa.org/journals/psp/58/1/95.pdf"],
+    "description": "实验工厂调查问卷",
+    "instructions": "请根据您的实际情况回答以下问题"
+}

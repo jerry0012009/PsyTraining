@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <title>实验工厂：快速序列视觉呈现（RSVP）任务</title>
+    
+<link rel='stylesheet' type='text/css' href='jspsych.css'>
+<link rel='stylesheet' type='text/css' href='default_style.css'>
+<link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body>
+<script src='js/jquery.min.js'></script>
+<script src='js/math.min.js'></script>
+<script src='js/jsPsych-6.0.1/jspsych.js'></script>
+<script src="js/jsPsych-6.0.1/plugins/jspsych-html-keyboard-response.js"></script>
+<script src="js/jsPsych-6.0.1/plugins/jspsych-fullscreen.js"></script>
+<script src='js/jsPsych-6.0.1/poldrack_plugins/poldrack_utils.js'></script>
+<script src='experiment.js'></script>
+
+<script>
+$( document ).ready(function() {
+    jsPsych.init({
+             timeline: rsvp_task,
+             on_trial_finish: function(data) {
+               addID('rsvp-task')
+             },
+             on_finish: function(data) {
+                 // serialize the data
+                 var promise = new Promise(function(resolve, reject) {
+                     var data = jsPsych.data.get().json();
+                     resolve(data);
+                 })
+                 promise.then(function(data) {
+                     $.ajax({
+                         type: "POST",
+                         url: '/save',
+                         data: { "data": data },
+                         success: function(){ document.location = "/next" },
+                         dataType: "application/json",
+                         // FIXME: https://github.com/expfactory/expfactory/issues/76
+                         error: function(err) {
+                             if (err.status == 200) {          // endpoint not running
+                                document.location = "/next"
+                             } else {                          // local save
+                                 jsPsych.data.get().localSave('json','rsvp-task_results.json');
+                            }
+                         }
+                     });
+                 })
+             }
+      });
+});
+</script>
+</body>
+</html>

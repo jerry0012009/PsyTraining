@@ -1,0 +1,18 @@
+{
+    "name": "五维度正念问卷调查",
+    "template":"survey",
+    "exp_id": "five-facet-mindfulness-survey",
+    "url":"https://www.github.com/expfactory-experiments/five-facet-mindfulness-survey",
+    "cognitive_atlas_task_id": "trm_56ab12e0f1a61",
+    "contributors": [
+                     "Zeynep Enkavi",
+                     "Ian Eisenberg",
+                     "Patrick Bissett",
+                     "Vanessa Sochat",
+                     "Russell Poldrack"
+                    ], 
+    "time":3,
+    "description": "关于正念的调查问卷",
+    "instructions": "请尽您所能地回答问题。",
+    "reference": ["http://asm.sagepub.com/content/13/1/27.short"]
+}
